@@ -1,21 +1,21 @@
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/117586521-891b8b00-b0cd-11eb-8a12-cf0b042755d5.png">
   <br />
- Linux Guide
+ Guia Linux 
 </h1>
 
-<a href="https://github.com/mikeroyal?tab=followers">
-         <img alt="followers" title="Follow for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 
+<a href="https://github.com/VanitasuShieda?tab=followers">
+         <img alt="followers" title="Follow for Updates" src="https://custom-icon-badges.demolab.com/github/followers/VanitasuShieda?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 
 
-![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)
-![Last-Commit](https://img.shields.io/github/last-commit/mikeroyal/linux-guide?style=for-the-badge)
 
-#### A guide covering Linux including it's multiple Desktop enviroments, Window managers, Tools, and Applications that will make you a better and more efficient Linux user.
+#### Una guía traducida sobre Linux que incluye sus múltiples entornos de escritorio, gestores de ventanas, herramientas y aplicaciones que te convertirán en un usuario de Linux mejor y más eficiente.
 
- **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+Fuente Original: https://github.com/mikeroyal/Linux-Guide
+
+ **Nota: Puedes convertir fácilmente este archivo tipo Markdown a PDF en [VSCode](https://code.visualstudio.com/) utilizando esta práctica extensión [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
  
- # Table of Contents
+ # Tabla de Contenidos
  
 1. [Linux Learning Resources](https://github.com/mikeroyal/Linux-Guide#linux-learning-resources)
      * [Linux Software Repositories & Package Managers](https://github.com/mikeroyal/Linux-Guide#linux-software-repositories--package-managers)
