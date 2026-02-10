@@ -10,70 +10,70 @@
 
 #### Una guía traducida sobre Linux que incluye sus múltiples entornos de escritorio, gestores de ventanas, herramientas y aplicaciones que te convertirán en un usuario de Linux mejor y más eficiente.
 
-Fuente Original: https://github.com/mikeroyal/Linux-Guide
+Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
 
  **Nota: Puedes convertir fácilmente este archivo tipo Markdown a PDF en [VSCode](https://code.visualstudio.com/) utilizando esta práctica extensión [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
  
  # Tabla de Contenidos
  
-1. [Linux Learning Resources](https://github.com/mikeroyal/Linux-Guide#linux-learning-resources)
-     * [Linux Software Repositories & Package Managers](https://github.com/mikeroyal/Linux-Guide#linux-software-repositories--package-managers)
+1. [Recursos para aprender Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Recursos-para-aprender-Linux)
+     * [Linux Software Repositories & Package Managers](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-software-repositories--package-managers)
      * [Linux kernel](#Linux-Kernel)
-     * [Systemd](https://github.com/mikeroyal/Linux-Guide#systemd)
-     * [Linux YouTube Channels](https://github.com/mikeroyal/Linux-Guide#linux-youtube-channels)
-     * [Linux Podcasts](https://github.com/mikeroyal/Linux-Guide#linux-podcasts)
+     * [Systemd](https://github.com/VanitasuShieda/Linux-Guide-Spanish#systemd)
+     * [Linux YouTube Channels](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-youtube-channels)
+     * [Linux Podcasts](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-podcasts)
 
-2. [Linux Destop Environments](https://github.com/mikeroyal/Linux-Guide#linux-desktop-environments)
+2. [Linux Destop Environments](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-desktop-environments)
 
-3. [Linux Window Managers](https://github.com/mikeroyal/Linux-Guide#linux-window-managers)
+3. [Linux Window Managers](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-window-managers)
 
-4. [Linux Companies](https://github.com/mikeroyal/Linux-Guide#linux-companies)
+4. [Linux Companies](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-companies)
 
-5. [Linux Hardware Vendors](https://github.com/mikeroyal/Linux-Guide#linux-hardware-vendors)
+5. [Linux Hardware Vendors](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-hardware-vendors)
 
-6. [Linux in the Cloud](https://github.com/mikeroyal/Linux-Guide#linux-in-the-cloud)
+6. [Linux in the Cloud](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-in-the-cloud)
  
-7. [Getting Software](https://github.com/mikeroyal/Linux-Guide#getting-software)
+7. [Getting Software](https://github.com/VanitasuShieda/Linux-Guide-Spanish#getting-software)
 
-    * [Microsoft Office Alternatives](https://github.com/mikeroyal/Linux-Guide#microsoft-office-alternatives)
+    * [Microsoft Office Alternatives](https://github.com/VanitasuShieda/Linux-Guide-Spanish#microsoft-office-alternatives)
 
-    * [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Linux-Guide#secure--privacy-focused-web-browsers)
-        * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Linux-Guide#privacy--security-focused-browser-extensions)
-        * [Privacy-focused Search Engines](https://github.com/mikeroyal/Linux-Guide#privacy-focused-search-engines)
+    * [Secure & Privacy-focused Web Browsers](https://github.com/VanitasuShieda/Linux-Guide-Spanish#secure--privacy-focused-web-browsers)
+        * [Privacy & Security Focused Browser extensions](https://github.com/VanitasuShieda/Linux-Guide-Spanish#privacy--security-focused-browser-extensions)
+        * [Privacy-focused Search Engines](https://github.com/VanitasuShieda/Linux-Guide-Spanish#privacy-focused-search-engines)
                  
-    * [Backups](https://github.com/mikeroyal/Linux-Guide#Backups)
+    * [Backups](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Backups)
  
-    * [Storage Health](https://github.com/mikeroyal/Linux-Guide#storage-disk-health)
+    * [Storage Health](https://github.com/VanitasuShieda/Linux-Guide-Spanish#storage-disk-health)
          
-    * [Improving Battery Life](https://github.com/mikeroyal/Linux-Guide#improving-battery-life)
+    * [Improving Battery Life](https://github.com/VanitasuShieda/Linux-Guide-Spanish#improving-battery-life)
 
-    * [Copy/Transfer files to your Linux System](https://github.com/mikeroyal/Linux-Guide#copytransfer-files-to-your-linux-system)
+    * [Copy/Transfer files to your Linux System](https://github.com/VanitasuShieda/Linux-Guide-Spanish#copytransfer-files-to-your-linux-system)
      
-    * [Running Android Apps on your Linux system](https://github.com/mikeroyal/Linux-Guide#running-android-apps-on-your-linux-system)   
+    * [Running Android Apps on your Linux system](https://github.com/VanitasuShieda/Linux-Guide-Spanish#running-android-apps-on-your-linux-system)   
  
-    * [Running Windows Apps on your Linux system](https://github.com/mikeroyal/Linux-Guide#running-windows-apps-on-your-linux-system)  
+    * [Running Windows Apps on your Linux system](https://github.com/VanitasuShieda/Linux-Guide-Spanish#running-windows-apps-on-your-linux-system)  
     
-    * [Professional Audio/Video Editing](https://github.com/mikeroyal/Linux-Guide#professional-audio--video-editing)
+    * [Professional Audio/Video Editing](https://github.com/VanitasuShieda/Linux-Guide-Spanish#professional-audio--video-editing)
     
-    * [Setting up OBS Studio](https://github.com/mikeroyal/Linux-Guide#Setting-up-OBS-Studio)
-      * [Useful OBS Studio 3rd party Plugins & Themes](https://github.com/mikeroyal/Linux-Guide#useful-obs-studio-3rd-party-plugins-and-themes)
+    * [Setting up OBS Studio](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Setting-up-OBS-Studio)
+      * [Useful OBS Studio 3rd party Plugins & Themes](https://github.com/VanitasuShieda/Linux-Guide-Spanish#useful-obs-studio-3rd-party-plugins-and-themes)
     
-8. [Gaming](https://github.com/mikeroyal/Linux-Guide#gaming)  
+8. [Gaming](https://github.com/VanitasuShieda/Linux-Guide-Spanish#gaming)  
      - [Linux Gaming Resources & Tweak Tools](#Linux-Gaming-Resources--Tweak-Tools)
      - [Game Controllers](#game-controllers)
-     - [Steam](https://github.com/mikeroyal/Linux-Guide#steam)
-     - [ProtonDB](https://github.com/mikeroyal/Linux-Guide#protondb)
-     - [Lutris](https://github.com/mikeroyal/Linux-Guide#lutris)
-        * [Epic Games Store integration](https://github.com/mikeroyal/Linux-Guide#Epic-Games-Store-integration)
-        * [Blizzard Battle.net integration](https://github.com/mikeroyal/Linux-Guide#Blizzard-Battlenet-integration)
-        * [EA Play integration](https://github.com/mikeroyal/Linux-Guide#EA-Play-integration)
-        * [Origin integration](https://github.com/mikeroyal/Linux-Guide#Origin-integration)
-        * [Ubisoft Connect integration](https://github.com/mikeroyal/Linux-Guide#Ubisoft-Connect-integration)
-        * [GOG Galaxy integration](https://github.com/mikeroyal/Linux-Guide#GOG-Galaxy-integration)
+     - [Steam](https://github.com/VanitasuShieda/Linux-Guide-Spanish#steam)
+     - [ProtonDB](https://github.com/VanitasuShieda/Linux-Guide-Spanish#protondb)
+     - [Lutris](https://github.com/VanitasuShieda/Linux-Guide-Spanish#lutris)
+        * [Epic Games Store integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Epic-Games-Store-integration)
+        * [Blizzard Battle.net integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Blizzard-Battlenet-integration)
+        * [EA Play integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#EA-Play-integration)
+        * [Origin integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Origin-integration)
+        * [Ubisoft Connect integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Ubisoft-Connect-integration)
+        * [GOG Galaxy integration](https://github.com/VanitasuShieda/Linux-Guide-Spanish#GOG-Galaxy-integration)
      - [Playnite](#playnite)
-     - [GameHub](https://github.com/mikeroyal/Linux-Guide#gamehub)
-     - [Epic Games Store](https://github.com/mikeroyal/Linux-Guide#epic-games-store)
+     - [GameHub](https://github.com/VanitasuShieda/Linux-Guide-Spanish#gamehub)
+     - [Epic Games Store](https://github.com/VanitasuShieda/Linux-Guide-Spanish#epic-games-store)
      - [Game Streaming](#Game-streaming)
        * [Cloud Game Streaming](#Cloud-Game-Streaming)
        * [Local Game Streaming](#Local-Game-Streaming)
@@ -96,49 +96,49 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide
        * [PlayStation 3](#PlayStation-3)
        * [Xbox](#Xbox)
        * [MAME](#MAME)
-     - [Hardware Performance(CPU, GPU, Gaming Peripherals)](https://github.com/mikeroyal/Linux-Guide#hardware-performancecpu-gpu-gaming-peripherals)
-         * [NVIDIA](https://github.com/mikeroyal/Linux-Guide#NVIDIA)
-         * [AMD](https://github.com/mikeroyal/Linux-Guide#AMD)
-         * [Intel ARC](https://github.com/mikeroyal/Linux-Guide#Intel-Arc)
-         * [Gaming Peripherals](https://github.com/mikeroyal/Linux-Guide#Gaming-Peripherals)
-     - [Performance Benchmarks](https://github.com/mikeroyal/Linux-Guide#performance-benchmarks)
-     - [WINE](https://github.com/mikeroyal/Linux-Guide#wine)
+     - [Hardware Performance(CPU, GPU, Gaming Peripherals)](https://github.com/VanitasuShieda/Linux-Guide-Spanish#hardware-performancecpu-gpu-gaming-peripherals)
+         * [NVIDIA](https://github.com/VanitasuShieda/Linux-Guide-Spanish#NVIDIA)
+         * [AMD](https://github.com/VanitasuShieda/Linux-Guide-Spanish#AMD)
+         * [Intel ARC](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Intel-Arc)
+         * [Gaming Peripherals](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Gaming-Peripherals)
+     - [Performance Benchmarks](https://github.com/VanitasuShieda/Linux-Guide-Spanish#performance-benchmarks)
+     - [WINE](https://github.com/VanitasuShieda/Linux-Guide-Spanish#wine)
      
-9. [WireGuard](https://github.com/mikeroyal/Linux-Guide#wireguard)
+9. [WireGuard](https://github.com/VanitasuShieda/Linux-Guide-Spanish#wireguard)
     
-10. [Linux Security Hardening](https://github.com/mikeroyal/Linux-Guide#Linux-Security-Hardening)   
+10. [Linux Security Hardening](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Linux-Security-Hardening)   
  
-   - [Security Standards, Frameworks and Benchmarks](https://github.com/mikeroyal/Linux-Guide#Security-Standards-Frameworks-and-Benchmarks)
-   - [Security Tools](https://github.com/mikeroyal/Linux-Guide#security-tools)
+   - [Security Standards, Frameworks and Benchmarks](https://github.com/VanitasuShieda/Linux-Guide-Spanish#Security-Standards-Frameworks-and-Benchmarks)
+   - [Security Tools](https://github.com/VanitasuShieda/Linux-Guide-Spanish#security-tools)
  
-11. [File systems](https://github.com/mikeroyal/Linux-Guide#file-systems) 
+11. [File systems](https://github.com/VanitasuShieda/Linux-Guide-Spanish#file-systems) 
 
-12. [Debian](https://github.com/mikeroyal/Linux-Guide#debian)
+12. [Debian](https://github.com/VanitasuShieda/Linux-Guide-Spanish#debian)
 
-13. [Ubuntu](https://github.com/mikeroyal/Linux-Guide#ubuntu)
+13. [Ubuntu](https://github.com/VanitasuShieda/Linux-Guide-Spanish#ubuntu)
 
-14. [Pop!_OS](https://github.com/mikeroyal/Linux-Guide#pop_os)
+14. [Pop!_OS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#pop_os)
 
-15. [Linux Mint](https://github.com/mikeroyal/Linux-Guide#linux-mint)
+15. [Linux Mint](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-mint)
 
-16. [Fedora/CentOS Stream/Red Hat Enterprise Linux](https://github.com/mikeroyal/Linux-Guide#fedoracentos-streamrhel)
+16. [Fedora/CentOS Stream/Red Hat Enterprise Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#fedoracentos-streamrhel)
 
-17. [SUSE/openSUSE](https://github.com/mikeroyal/Linux-Guide#suseopensuse)
+17. [SUSE/openSUSE](https://github.com/VanitasuShieda/Linux-Guide-Spanish#suseopensuse)
 
-18. [Arch Linux](https://github.com/mikeroyal/Linux-Guide#arch-linux)
+18. [Arch Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#arch-linux)
 
-19. [NixOS](https://github.com/mikeroyal/Linux-Guide#nixos)
+19. [NixOS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#nixos)
 
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/117586523-8a4cb800-b0cd-11eb-95e7-68b97bd43c00.png">
-  <br />
+  <br /> 
 </p>
 
  
-## Linux Learning Resources
+## Recursos para aprender Linux
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Volver al Inicio](https://github.com/VanitasuShieda/Linux-Guide-Spanish#tabla-de-contenidos)
 
  * [A Brief History of Linux](https://www.digitalocean.com/community/tutorials/brief-history-of-linux)
 
@@ -146,7 +146,7 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide
 
  * [The Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs)
 
- * [My Windows Subsystem for Linux(WSL) Guide](https://github.com/mikeroyal/WSL-Guide)
+ * [MikeRoyal Windows Subsystem for Linux(WSL) Guide](https://github.com/mikeroyal/WSL-Guide)
 
  * [SUSE Training and Certification Program](https://training.suse.com/)
  
@@ -154,42 +154,47 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide
 
  * [Linux Foundation Training and Certification Program](https://training.linuxfoundation.org/certification/)
 
-[Linux Professional Institute(LPI)](https://www.lpi.org) is a non profit organization. Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 175,000 certification holders, it's the world's first and largest vendor-neutral Linux and open source certification body.
+NOTA: Link a sitio web oficial en ingles.
 
-[Linux Foundation](https://www.linuxfoundation.org/) is home to Linux, Node.js and other mission critical projects that form the backbone of modern internet services, including Pinterest. Joining The Linux Foundation is a great way for established companies like ours to support those communities. 
+[Linux Professional Institute(LPI)](https://www.lpi.org) es una organización sin fines de lucro. Linux Professional Institute (LPI) es el estándar global de certificación y la organización de apoyo profesional para profesionales del código abierto. Con más de 175,000 personas certificadas, es el primer y mayor organismo de certificación neutro respecto a proveedores para Linux y software de código abierto en el mundo.
 
-[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) hosts critical components of the global technology infrastructure. CNCF brings together the world's top developers, end users, and vendors and runs the largest open source developer conferences. CNCF is part of the nonprofit Linux Foundation.
+[Linux Foundation](https://www.linuxfoundation.org/)  alberga a Linux, Node.js y otros proyectos críticos que forman la columna vertebral de los servicios de internet modernos, incluido Pinterest. Unirse a The Linux Foundation es una excelente manera para que empresas consolidadas como la nuestra apoyen a esas comunidades.
 
-[RISC-V Foundation](https://riscv.org/) is a non-profit corporation controlled by its members to drive forward the adoption and implementation of the free and open RISC-V instruction set architecture (ISA).
+[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) alberga componentes críticos de la infraestructura tecnológica global. CNCF reúne a los principales desarrolladores, usuarios finales y proveedores del mundo y organiza las conferencias de desarrolladores de código abierto más grandes. CNCF forma parte de la organización sin fines de lucro Linux Foundation.
 
-[Open Source Security Foundation (OpenSSF)](https://openssf.org/) is a cross-industry collaboration that brings together leaders to improve the security of open source software by building a broader community, targeted initiatives, and best practices. The OpenSSF brings together open source security initiatives under one foundation to accelerate work through cross-industry support. Along with the Core Infrastructure Initiative and the Open Source Security Coalition, and will include new working groups that address vulnerability disclosures, security tooling and more.
+[RISC-V Foundation](https://riscv.org/) es una corporación sin fines de lucro controlada por sus miembros para promover la adopción e implementación de la arquitectura de conjunto de instrucciones (ISA) RISC-V, libre y abierta.
 
-[Free Software Foundation (FSF)](https://www.fsf.org/) is a nonprofit with a worldwide mission to promote computer user freedom.
+[Open Source Security Foundation (OpenSSF)](https://openssf.org/) es una colaboración intersectorial que reúne a líderes para mejorar la seguridad del software de código abierto mediante la construcción de una comunidad más amplia, iniciativas específicas y buenas prácticas. OpenSSF agrupa iniciativas de seguridad de código abierto bajo una misma fundación para acelerar el trabajo con el apoyo de múltiples industrias. Junto con la Core Infrastructure Initiative y la Open Source Security Coalition, incluirá nuevos grupos de trabajo que aborden la divulgación de vulnerabilidades, las herramientas de seguridad y más.
+
+[Free Software Foundation (FSF)](https://www.fsf.org/) es una organización sin fines de lucro con la misión mundial de promover la libertad de los usuarios de computadoras.
+
 
 ### Linux Software Repositories & Package Managers
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
-[dpkg(Debian Package)](https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux) is the package management system in Debian and its OS derivatives. 
 
-[DEB](https://www.debian.org/distrib/packages) is a Debian Software Package file used on Debian-based Linux systems such Debian, Ubuntu, Linux Mint, and Pop!_OS.
+[dpkg(Debian Package)](https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux) es el sistema de gestión de paquetes en Debian y sus derivados del sistema operativo.
 
-[APT (Advanced Package Tool)](https://en.wikipedia.org/wiki/APT_(software)) is a higher-level package management systemtool, that is more commonly used than dpkg as it can fetch packages from remote locations.
+[DEB](https://www.debian.org/distrib/packages) es un archivo de paquete de software de Debian usado en sistemas Linux Debian-base como Debian, Ubuntu, Linux Mint y Pop!_OS.
 
-[Nala](https://gitlab.com/volian/nala) is a commandline frontend for the APT package manager. 
+[APT (Advanced Package Tool)](https://en.wikipedia.org/wiki/APT_(software)) es un sistema de gestión de paquetes de nivel superior, que se utiliza más comúnmente que dpkg ya que puede obtener paquetes desde ubicaciones remotas.
 
-[Synaptic Package Manager](https://en.wikipedia.org/wiki/Synaptic_%28software%29) is a graphical package management tool based on APT. 
 
-[PPA(Personal Package Archive)](https://help.launchpad.net/Packaging/PPA) is a set of software repositories that can distribute software and updates directly to Ubuntu users. Create your source package, upload it and Launchpad will build binaries and then host them in your own apt repository.
+[Nala](https://gitlab.com/volian/nala) es una interfaz de línea de comandos para el gestor de paquetes APT.
 
-[PackageKit](https://www.freedesktop.org/software/PackageKit/) is a suite of software applications designed to provide a consistent and high-level front end for a number of different package management systems on Linux. 
+[Synaptic Package Manager](https://en.wikipedia.org/wiki/Synaptic_%28software%29) es una interfaz de línea de comandos para el gestor de paquetes APT.
 
-[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) is an free and open source community-based repository project from the Fedora team which provides 100% high-quality add-on software packages for Linux distribution including RHEL (Red Hat Enterprise Linux) and CentOS Stream.
+[PPA(Personal Package Archive)](https://help.launchpad.net/Packaging/PPA) es un conjunto de repositorios de software que pueden distribuir software y actualizaciones directamente a los usuarios de Ubuntu. Crea tu paquete fuente, súbelo y Launchpad compilará los binarios y luego los alojará en tu propio repositorio apt.
 
-[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) is a software package manager that installs, updates, and removes packages on Fedora and is the successor to YUM (Yellow-Dog Updater Modified). DNF makes it easy to maintain packages by automatically checking for dependencies and determines the actions required to install packages.
+[PackageKit](https://www.freedesktop.org/software/PackageKit/) es un conjunto de aplicaciones de software diseñado para proporcionar una interfaz coherente y de alto nivel para varios sistemas de gestión de paquetes en Linux.
 
-[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf) is a lightweight C implementation of DNF, designed to be used for doing simple packaging actions when you don't need full-blown DNF and you want the tiniest useful environments possible. Checkout the [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
+[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) es un proyecto de repositorio de la comunidad, gratuito y de código abierto, del equipo de Fedora que proporciona paquetes adicionales de software de alta calidad para distribuciones Linux como RHEL (Red Hat Enterprise Linux) y CentOS Stream.
 
-[Fedora Updates System](https://bodhi.fedoraproject.org/) is a place to create, test, and publish package updates for Fedora.
+[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)  es un gestor de paquetes que instala, actualiza y elimina paquetes en Fedora y es el sucesor de YUM (Yellow-Dog Updater Modified). DNF facilita el mantenimiento de paquetes comprobando automáticamente las dependencias y determinando las acciones necesarias para instalar paquetes.
+
+[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf)es una implementación ligera en C de DNF, diseñada para realizar acciones de empaquetado simples cuando no necesitas DNF completo y deseas los entornos más pequeños posibles. Consulta [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
+
+[Fedora Updates System](https://bodhi.fedoraproject.org/) es un lugar para crear, probar y publicar actualizaciones de paquetes para Fedora.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168177134-85efb869-c2d5-4d7a-9a53-a3f61a2d74e2.png">
@@ -197,25 +202,25 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide
 Fedora Updates System
 </p>
 
-[RPM Package Manager (RPM)](https://rpm.org/) is a powerful package management system capable of building computer software from source into easily distributable packages installing, updating and uninstalling packaged software querying detailed information about the packaged software, whether installed or not.
+[RPM Package Manager (RPM)](https://rpm.org/) es un potente sistema de gestión de paquetes capaz de compilar software desde el código fuente en paquetes fácilmente distribuibles, instalar, actualizar y desinstalar software empaquetado, y consultar información detallada sobre el software empaquetado, esté o no instalado.
 
-[YUM (Yellowdog Updater, Modified)](https://www.digitalocean.com/community/tutorials/what-is-yum) is a software package-management utility for Linux operating system using the RPM Package Manager.
+[YUM (Yellowdog Updater, Modified)](https://www.digitalocean.com/community/tutorials/what-is-yum) es una utilidad de gestión de paquetes para sistemas Linux que utiliza el gestor de paquetes RPM.
 
-[RPM Fusion](https://rpmfusion.org/) is a software repository provides software that the Fedora Project or Red Hat doesn't want to ship. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
+[RPM Fusion](https://rpmfusion.org/) es un repositorio de software que proporciona software que el Proyecto Fedora o Red Hat no quieren incluir. Ese software se ofrece como RPMs precompilados para todas las versiones actuales de Fedora y versiones actuales de Red Hat Enterprise Linux o sus clones; puedes usar los repositorios de RPM Fusion con herramientas como yum y PackageKit.
 
-[ROM OSTree](https://ostreedev.github.io/ostree/) is a hybrid image/package system. It combines libostree as a base image format, and accepts RPM on both the client and server side, sharing code with the dnf project; specifically libdnf. Thus bringing many of the benefits of both projects together.
+[ROM OSTree](https://ostreedev.github.io/ostree/) es un sistema híbrido de imagen/paquete. Combina libostree como formato base de imagen y acepta RPM tanto en el lado cliente como en el servidor, compartiendo código con el proyecto dnf; específicamente libdnf. De este modo reúne muchos de los beneficios de ambos proyectos.
 
-[YaST](https://yast.opensuse.org/) is a installation and configuration tool for openSUSE and the SUSE Linux Enterprise distributions. It features an easy-to-use interface and powerful configuration capabilities.
+[YaST](https://yast.opensuse.org/) es una herramienta de instalación y configuración para openSUSE y las distribuciones SUSE Linux Enterprise. Presenta una interfaz fácil de usar y potentes capacidades de configuración.
 
-[Zypper](https://software.opensuse.org/package/zypper) is a command line package manager which makes use of libzypp. It provides functions like repository access, dependency solving, package installation, etc. Zypper repositories are similar to the ones used in YaST, which also makes use of libzypp.
+[Zypper](https://software.opensuse.org/package/zypper) es un gestor de paquetes en línea de comandos que usa libzypp. Proporciona funciones como acceso a repositorios, resolución de dependencias, instalación de paquetes, etc. Los repositorios de Zypper son similares a los que utiliza YaST, que también hace uso de libzypp.
 
-[Pacman](https://archlinux.org/pacman/) is a utility which manages software packages in Arch Linux. It uses simple compressed files as a package format, and maintains a text-based package database (more of a hierarchy), just in case some hand tweaking is necessary. 
+[Pacman](https://archlinux.org/pacman/) es una utilidad que gestiona paquetes de software en Arch Linux. Usa archivos comprimidos simples como formato de paquete y mantiene una base de datos de paquetes basada en texto (más bien una jerarquía), por si acaso es necesario realizar algún ajuste manual.
 
-[Arch Linux User Repository (AUR)](https://aur.archlinux.org/) is a software repository that contains thousands build scripts, for compiling nearly 68,000 installable packages from source using the Arch Linux makepkg application.
+[Arch Linux User Repository (AUR)](https://aur.archlinux.org/) es un repositorio de software que contiene miles de scripts de compilación, para compilar casi 68,000 paquetes instalables desde el código fuente usando la aplicación makepkg de Arch Linux.
 
-### Linux Kernel
+###  Kernel de Linux
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 The Linux kernel is the main component of a Linux operating system (OS) and is the core interface between a computer’s hardware and its processes. It communicates between the 2, managing resources as efficiently as possible.
 
@@ -247,7 +252,7 @@ Linux kernel layout
 |4.14 |Greg Kroah-Hartman & Sasha Levin |2017-11-12 |Jan, 2024|
 
 ### Systemd
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [systemd](https://systemd.io/) is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. It provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for [SysVinit](https://wiki.archlinux.org/title/SysVinit).
 
@@ -267,7 +272,23 @@ Linux Boot Process
 
 ### Linux YouTube Channels
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
+
+// Spanish 
+
+
+  * [Linux Inmutable](https://www.youtube.com/@linuxinmutable)
+
+  * [Ezku](https://www.youtube.com/@ezku100)
+
+  * [Kimu x64](https://www.youtube.com/@kimu_x64)
+
+  * [xeyt](https://www.youtube.com/@xeyt3976)
+
+Nota Personal: estos son algunos de los creadores de contenido que me gustan por su contenido y acostumbro ver.
+
+
+// English 
 
  * [Jeff Geerling](https://www.youtube.com/c/JeffGeerling)
 
@@ -305,7 +326,7 @@ Linux Boot Process
  
  ### Linux Podcasts
  
- [Back to the Top](#table-of-contents)
+ [Volver al Inicio](#tabla-de-conenidos)
  
  * [Jupiter Broadcasting](https://www.youtube.com/c/JupiterBroadcasting)
  
@@ -317,7 +338,7 @@ Linux Boot Process
 
 # Linux Desktop Environments
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/189545533-4621b1a6-15c2-406a-9b89-b3ed43e47762.png">
@@ -423,7 +444,7 @@ Linux Boot Process
 
 # Linux Window Managers
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/189545533-4621b1a6-15c2-406a-9b89-b3ed43e47762.png">
@@ -502,7 +523,7 @@ Linux Boot Process
 
 # Linux Companies
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
  * [Red Hat](https://www.redhat.com/en) makers of Red Hat Enterprise Linux and sponsors to the [Fedora Project](https://getfedora.org/).
 
@@ -516,7 +537,7 @@ Linux Boot Process
 
 # Linux Hardware Vendors
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
  * [Valve](https://www.valvesoftware.com/) makers of the [Steam Deck](http://www.steamdeck.com/).
 
@@ -542,7 +563,7 @@ Linux Boot Process
 
 # Linux in the Cloud
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/) a next generation of Amazon Linux, a Linux server operating system from Amazon Web Services (AWS). It provides a secure, stable, and high performance execution environment to develop and run cloud and enterprise applications. With Amazon Linux 2, you get an application environment that offers long term support with access to the latest innovations in the Linux ecosystem.
 
@@ -586,7 +607,7 @@ Linux Boot Process
 
 # Getting Software
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 ## GNOME Software Center
 
@@ -612,7 +633,7 @@ Linux Boot Process
 
 [FlatHub Forum](https://discourse.flathub.org/)
 
- <img src="https://github.com/mikeroyal/Linux-Guide/assets/45159366/e19925b2-4fcf-406d-81eb-85b8dcd84889">
+ <img src="https://github.com/VanitasuShieda/Linux-Guide-Spanish/assets/45159366/e19925b2-4fcf-406d-81eb-85b8dcd84889">
  
  ## Snaps
 
@@ -634,7 +655,7 @@ Linux Boot Process
  <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
 
 ## Microsoft Office Alternatives
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats  for Windows, Mac and Linux.
 
@@ -662,7 +683,7 @@ Linux Boot Process
          
          
 ## Secure & Privacy Focused Web Browsers
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
 
@@ -714,7 +735,7 @@ Linux Boot Process
 
 ### Privacy & Security Focused Browser extensions
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
 
@@ -777,7 +798,7 @@ Linux Boot Process
 
 ### Privacy-focused Search Engines
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
  * [Brave Search](https://brave.com/search/)
 
@@ -853,7 +874,7 @@ Linux Boot Process
 
 ## Backups
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [TimeShift](https://github.com/linuxmint/timeshift) is a system restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. 
 
@@ -863,7 +884,7 @@ Linux Boot Process
 
 ## Storage Disk Health 
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
 
@@ -878,7 +899,7 @@ Scrutiny UI
 </p>
 
 ## Improving Battery Life
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 * [Laptop Power Management tutorial by Chris Titus Tech](https://christitus.com/laptop-power-management/)
 
@@ -896,7 +917,7 @@ TLPUI
 
  
 ## Tools to Copy/Transfer files to your Linux System
- [Back to the Top](#table-of-contents)
+ [Volver al Inicio](#tabla-de-conenidos)
  
 [KDE Connect](https://kdeconnect.kde.org/) is a tool that lets you easily link up your phone to your computer, your computer to your tablet; or your computer to your Steam Deck device. It can be used to share files across devices, read and send SMS directly from your laptop, and lock up your computer remotely.
 
@@ -917,7 +938,7 @@ TLPUI
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. [Usermode FTP Server on FlatHub](https://flathub.org/apps/details/eu.ithz.umftpd)
 
 ## Running Android Apps on your Linux System
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. Make sure to checkout the [Waydroid Arch wiki page](https://wiki.archlinux.org/title/Waydroid). 
 
@@ -930,7 +951,7 @@ TLPUI
 
 
 ## Running Windows Apps on your Linux System
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Bottles](https://usebottles.com/) is a software tool that let's you run Windows software on Linux. It's built-in dependency installation system grants automatic software compatibility access. The download manager can download the official components such as: the runner (Wine, Proton), DXVK, dependencies, etc. Available on [FlatHub](https://flathub.org/apps/details/com.usebottles.bottles) or throught [KDE Discover](https://apps.kde.org/discover/) store.
 
@@ -940,7 +961,7 @@ TLPUI
  
 ## Professional Audio & Video Editing
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/108773208-dba7cb00-7512-11eb-8fd0-2d009dbfc729.png">
@@ -1001,7 +1022,7 @@ TLPUI
  
  ## Setting up OBS Studio
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/185703842-0926e10a-467a-471c-b5f6-b74df4e460d9.png">
@@ -1064,7 +1085,7 @@ TLPUI
   * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
   
 # Gaming
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189517086-1d91abff-4a1b-4f7f-bd02-ffaf09178f5c.gif">
@@ -1156,7 +1177,7 @@ TLPUI
 </p>
   
 ## Steam
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam) available on FlatHub.
 
@@ -1213,7 +1234,7 @@ TLPUI
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
 
 ## ProtonDB
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [ProtonDB](https://www.protondb.com) is a collection of over 100,000 gaming reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.
 
@@ -1226,48 +1247,48 @@ TLPUI
 </p>
 
 ## Lutris
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
 ### Epic Games Store integration
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Add Epic Games Store](https://lutris.net/games/epic-games-store/)
 
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
  
  ### Blizzard Battle.net intgeration
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Blizzard Battle.net](https://lutris.net/games/battlenet/) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
 
 ### EA Play integration
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [EA Play](https://lutris.net/games/ea-desktop/) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
 
 ### Origin integration
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
  
 [Origin](https://lutris.net/games/origin/) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
 
 <img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
 
 ### Ubisoft Connect integration
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Ubisoft Connect](https://lutris.net/games/ubisoft-connect/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
 ### GOG Galaxy integration
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [GOG GALAXY](https://lutris.net/games/gog-galaxy/) is a fully optional client to install, play and update your games.
 
@@ -1275,7 +1296,7 @@ TLPUI
 
 ### Playnite
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Playnite](https://playnite.link/) is an open source video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net and Ubisoft Connect. Includes game emulation support, providing one unified interface for your games.
 
@@ -1284,7 +1305,7 @@ TLPUI
 </p>
 
 ## GameHub
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [GameHub](https://github.com/tkashkin/GameHub) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
 
@@ -1310,7 +1331,7 @@ TLPUI
 
 
 ## Epic Games Store
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Heroic](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and macOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. [Flatpak for Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl)
 
@@ -1321,11 +1342,11 @@ TLPUI
 </p>
 
 ## Game Streaming
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 ### Cloud Game Streaming
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)** subscription.
 
@@ -1349,7 +1370,7 @@ TLPUI
 
 ### Local Game Streaming
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
 
@@ -1378,7 +1399,7 @@ TLPUI
 </p>
 
 ## Game Emulators
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
   
@@ -1545,10 +1566,10 @@ Nintendo 3DS
 
 
 ## Hardware Performance(CPU, GPU, Gaming Peripherals)
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 ### NVIDIA
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189858113-0d681062-8bd5-4db9-b92b-71bec318f2f5.png">
@@ -1562,7 +1583,7 @@ Nintendo 3DS
  <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
  
  ### AMD 
- [Back to the Top](#table-of-contents)
+ [Volver al Inicio](#tabla-de-conenidos)
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190588167-4fd0bd50-cd43-47f1-b28f-16f70a243549.png">
@@ -1603,7 +1624,7 @@ Nintendo 3DS
 </p>
 
 ### Intel ARC
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190093904-20680f0b-a387-4a48-9c43-de8d5f0b5d2e.png">
@@ -1639,7 +1660,7 @@ Nintendo 3DS
 Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
 
 ### Gaming Peripherals
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [OpenRazer](https://openrazer.github.io/) is a collection of Linux drivers for Razer devices - providing kernel drivers, DBus services and Python bindings to interact with the DBus interface.
 
@@ -1695,7 +1716,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [GOverlay](https://github.com/benjamimgois/goverlay) is an open source project aimed to create a Graphical UI to manage Vulkan/OpenGL overlays. It is still in early development.
 
 ## Performance Benchmarks
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
 
@@ -1706,7 +1727,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 <img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
 
 ## Wine
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
 
@@ -1715,7 +1736,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Winetricks](https://github.com/Winetricks/winetricks) is an easy way to work around problems in Wine. 
   
 # WireGuard
-[Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Self-Hosting-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/147891038-00f57362-e843-4bfb-be31-606c954d4e6c.png">
@@ -1764,7 +1785,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
 
 # Linux Security Hardening
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189516372-57bd1f95-6fde-448f-98bb-45e116338b4a.png">
@@ -1783,9 +1804,9 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
  * [CIS Top 18 Critical Security Controls](https://www.cisecurity.org/controls/cis-controls-list)
 
- * [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/mikeroyal/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
+ * [OSSTMM (Open Source Security Testing Methodology Manual) PDF](https://github.com/VanitasuShieda/Open-Source-Security-Guide/files/8834704/osstmm.en.2.1.pdf)
 
- * [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/mikeroyal/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
+ * [NIST Technical Guide to Information Security Testing and Assessment (PDF)](https://github.com/VanitasuShieda/Open-Source-Security-Guide/files/8834705/nistspecialpublication800-115.pdf)
 
  * [NIST - Current FIPS](https://www.nist.gov/itl/current-fips)
 
@@ -1924,7 +1945,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 ## File systems
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 [GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
 
@@ -1968,7 +1989,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
 
 #  Debian
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439772-7225c680-6ae7-11eb-90ae-05908496c8d1.png">
@@ -1999,7 +2020,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 # Ubuntu
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/106686312-ef4cbb00-657e-11eb-92d5-93d7d39b4cf6.png">
@@ -2067,7 +2088,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 [Ubuntu on Azure](https://ubuntu.com/azure)
 
-[Active Directory Integration on Ubuntu](https://github.com/mikeroyal/Perfect-Ubuntu-Guide/files/6064814/Active_Directory_Integration_Ubuntu_Desktop_Final.pdf)
+[Active Directory Integration on Ubuntu](https://github.com/VanitasuShieda/Perfect-Ubuntu-Guide/files/6064814/Active_Directory_Integration_Ubuntu_Desktop_Final.pdf)
 
 ## Removing Snap and adding Flatpak support
 
@@ -2127,7 +2148,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 
 # Pop!_OS
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107091607-eb0ae280-67b6-11eb-91af-c052daa76876.png">
@@ -2185,7 +2206,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 
 # Linux Mint
 
-[Back to the Top](#table-of-contents)
+[Volver al Inicio](#tabla-de-conenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107585812-b8485c00-6bb3-11eb-9007-c99eb2c8aa8e.png">
@@ -2194,7 +2215,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 </p>
 
 ### Getting Started with Linux Mint
-[Back to the Top](https://github.com/mikeroyal/Linux-Mint-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Mint-Guide#table-of-contents)
 
 [Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similiar to Windows 7.
 
@@ -2272,7 +2293,7 @@ sudo systemctl start ufw
 
 # Fedora/CentOS Stream/RHEL
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/145488517-79284af2-ec1d-40a5-a7b8-ddb2cb343da2.png">
@@ -2391,7 +2412,7 @@ Red Hat Enterprise Linux Desktop
  <img src="https://user-images.githubusercontent.com/45159366/107158836-7ca65b80-6941-11eb-95dd-5166023597a7.png">
  
 # SUSE/openSUSE
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439812-836ed300-6ae7-11eb-9c6c-2f8b2cbaab86.png">
@@ -2449,7 +2470,7 @@ Red Hat Enterprise Linux Desktop
  
  
 # Arch Linux
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439842-91bcef00-6ae7-11eb-9e8b-bafe48a25bd7.png">
@@ -2514,7 +2535,7 @@ ArcoLinux Desktop
 </h3>
 
 # NixOS
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645103-795eebbd-f853-47cc-8087-916dfd98347b.png">
@@ -2543,7 +2564,7 @@ ArcoLinux Desktop
 </p>
 
 ## NixOS Developer Resources
-[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/NixOS-Guide#table-of-contents)
 
  - [NixOS Wiki](https://nixos.wiki/)
 
@@ -2586,7 +2607,7 @@ ArcoLinux Desktop
  - [Consider Donating to the NixoS Project](https://nixos.org/donate.html)
 
 ## NixOS Tools and Modules
-[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/NixOS-Guide#table-of-contents)
 
  - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
 
@@ -2733,7 +2754,7 @@ ArcoLinux Desktop
  - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
 
 ## NixOS Desktop
-[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/NixOS-Guide#table-of-contents)
 
  - [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
@@ -2756,11 +2777,13 @@ ArcoLinux Desktop
 
 ## Contribute
 
-- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Linux-Guide/pulls).
+- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/VanitasuShieda/Linux-Guide-Spanish/pulls).
 
 
 ## License
 
-[Back to the Top](https://github.com/mikeroyal/Linux-Guide#table-of-contents)
+[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
+
+Post Original: mikeroyal - [Linux Guide](https://github.com/mikeroyal/Linux-Guide)
