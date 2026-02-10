@@ -161,7 +161,7 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
  
 ## Recursos para aprender Linux
 
-[Volver al Inicio](https://github.com/VanitasuShieda/Linux-Guide-Spanish#tabla-de-contenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
  * [A Brief History of Linux](https://www.digitalocean.com/community/tutorials/brief-history-of-linux)
 
@@ -193,7 +193,8 @@ NOTA: Link a sitio web oficial en ingles.
 
 
 ### Linux Software Repositories & Package Managers
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
+
 
 
 [dpkg(Debian Package)](https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux) es el sistema de gestión de paquetes en Debian y sus derivados del sistema operativo.
@@ -243,7 +244,7 @@ Fedora Updates System
 
 ###  Kernel de Linux
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 The Linux kernel is the main component of a Linux operating system (OS) and is the core interface between a computer’s hardware and its processes. It communicates between the 2, managing resources as efficiently as possible.
 
@@ -275,7 +276,7 @@ Linux kernel layout
 |4.14 |Greg Kroah-Hartman & Sasha Levin |2017-11-12 |Jan, 2024|
 
 ### Systemd
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [systemd](https://systemd.io/) is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. It provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for [SysVinit](https://wiki.archlinux.org/title/SysVinit).
 
@@ -295,7 +296,7 @@ Linux Boot Process
 
 ### Linux YouTube Channels
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 // Spanish 
 
@@ -349,7 +350,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  
  ### Linux Podcasts
  
- [Volver al Inicio](#tabla-de-conenidos)
+ [Volver al Inicio](#tabla-de-contenidos)
  
  * [Jupiter Broadcasting](https://www.youtube.com/c/JupiterBroadcasting)
  
@@ -560,7 +561,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 # Linux Hardware Vendors
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
  * [Valve](https://www.valvesoftware.com/) makers of the [Steam Deck](http://www.steamdeck.com/).
 
@@ -678,7 +679,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
 
 ## Microsoft Office Alternatives
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats  for Windows, Mac and Linux.
 
@@ -706,7 +707,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
          
          
 ## Secure & Privacy Focused Web Browsers
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
 
@@ -758,7 +759,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 ### Privacy & Security Focused Browser extensions
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
 
@@ -821,7 +822,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 ### Privacy-focused Search Engines
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
  * [Brave Search](https://brave.com/search/)
 
@@ -897,7 +898,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 ## Backups
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [TimeShift](https://github.com/linuxmint/timeshift) is a system restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. 
 
@@ -907,7 +908,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 ## Storage Disk Health 
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
 
@@ -922,7 +923,7 @@ Scrutiny UI
 </p>
 
 ## Improving Battery Life
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 * [Laptop Power Management tutorial by Chris Titus Tech](https://christitus.com/laptop-power-management/)
 
@@ -940,7 +941,7 @@ TLPUI
 
  
 ## Tools to Copy/Transfer files to your Linux System
- [Volver al Inicio](#tabla-de-conenidos)
+ [Volver al Inicio](#tabla-de-contenidos)
  
 [KDE Connect](https://kdeconnect.kde.org/) is a tool that lets you easily link up your phone to your computer, your computer to your tablet; or your computer to your Steam Deck device. It can be used to share files across devices, read and send SMS directly from your laptop, and lock up your computer remotely.
 
@@ -961,7 +962,7 @@ TLPUI
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. [Usermode FTP Server on FlatHub](https://flathub.org/apps/details/eu.ithz.umftpd)
 
 ## Running Android Apps on your Linux System
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. Make sure to checkout the [Waydroid Arch wiki page](https://wiki.archlinux.org/title/Waydroid). 
 
@@ -974,7 +975,7 @@ TLPUI
 
 
 ## Running Windows Apps on your Linux System
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Bottles](https://usebottles.com/) is a software tool that let's you run Windows software on Linux. It's built-in dependency installation system grants automatic software compatibility access. The download manager can download the official components such as: the runner (Wine, Proton), DXVK, dependencies, etc. Available on [FlatHub](https://flathub.org/apps/details/com.usebottles.bottles) or throught [KDE Discover](https://apps.kde.org/discover/) store.
 
@@ -984,7 +985,7 @@ TLPUI
  
 ## Professional Audio & Video Editing
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/108773208-dba7cb00-7512-11eb-8fd0-2d009dbfc729.png">
@@ -1045,7 +1046,7 @@ TLPUI
  
  ## Setting up OBS Studio
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/185703842-0926e10a-467a-471c-b5f6-b74df4e460d9.png">
@@ -1108,7 +1109,7 @@ TLPUI
   * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
   
 # Gaming
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189517086-1d91abff-4a1b-4f7f-bd02-ffaf09178f5c.gif">
@@ -1200,7 +1201,7 @@ TLPUI
 </p>
   
 ## Steam
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam) available on FlatHub.
 
@@ -1257,7 +1258,7 @@ TLPUI
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
 
 ## ProtonDB
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [ProtonDB](https://www.protondb.com) is a collection of over 100,000 gaming reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.
 
@@ -1270,48 +1271,48 @@ TLPUI
 </p>
 
 ## Lutris
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
 ### Epic Games Store integration
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Add Epic Games Store](https://lutris.net/games/epic-games-store/)
 
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
  
  ### Blizzard Battle.net intgeration
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Blizzard Battle.net](https://lutris.net/games/battlenet/) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
 
 ### EA Play integration
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [EA Play](https://lutris.net/games/ea-desktop/) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
 
 ### Origin integration
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
  
 [Origin](https://lutris.net/games/origin/) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
 
 <img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
 
 ### Ubisoft Connect integration
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Ubisoft Connect](https://lutris.net/games/ubisoft-connect/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
 ### GOG Galaxy integration
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [GOG GALAXY](https://lutris.net/games/gog-galaxy/) is a fully optional client to install, play and update your games.
 
@@ -1319,7 +1320,7 @@ TLPUI
 
 ### Playnite
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Playnite](https://playnite.link/) is an open source video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net and Ubisoft Connect. Includes game emulation support, providing one unified interface for your games.
 
@@ -1328,7 +1329,7 @@ TLPUI
 </p>
 
 ## GameHub
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [GameHub](https://github.com/tkashkin/GameHub) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
 
@@ -1354,7 +1355,7 @@ TLPUI
 
 
 ## Epic Games Store
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Heroic](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and macOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. [Flatpak for Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl)
 
@@ -1365,11 +1366,11 @@ TLPUI
 </p>
 
 ## Game Streaming
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 ### Cloud Game Streaming
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)** subscription.
 
@@ -1393,7 +1394,7 @@ TLPUI
 
 ### Local Game Streaming
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
 
@@ -1422,7 +1423,7 @@ TLPUI
 </p>
 
 ## Game Emulators
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
   
@@ -1589,10 +1590,10 @@ Nintendo 3DS
 
 
 ## Hardware Performance(CPU, GPU, Gaming Peripherals)
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 ### NVIDIA
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189858113-0d681062-8bd5-4db9-b92b-71bec318f2f5.png">
@@ -1606,7 +1607,7 @@ Nintendo 3DS
  <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
  
  ### AMD 
- [Volver al Inicio](#tabla-de-conenidos)
+ [Volver al Inicio](#tabla-de-contenidos)
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190588167-4fd0bd50-cd43-47f1-b28f-16f70a243549.png">
@@ -1647,7 +1648,7 @@ Nintendo 3DS
 </p>
 
 ### Intel ARC
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190093904-20680f0b-a387-4a48-9c43-de8d5f0b5d2e.png">
@@ -1683,7 +1684,7 @@ Nintendo 3DS
 Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
 
 ### Gaming Peripherals
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [OpenRazer](https://openrazer.github.io/) is a collection of Linux drivers for Razer devices - providing kernel drivers, DBus services and Python bindings to interact with the DBus interface.
 
@@ -1739,7 +1740,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [GOverlay](https://github.com/benjamimgois/goverlay) is an open source project aimed to create a Graphical UI to manage Vulkan/OpenGL overlays. It is still in early development.
 
 ## Performance Benchmarks
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
 
@@ -1750,7 +1751,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 <img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
 
 ## Wine
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
 
@@ -1808,7 +1809,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
 
 # Linux Security Hardening
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189516372-57bd1f95-6fde-448f-98bb-45e116338b4a.png">
@@ -1968,7 +1969,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 ## File systems
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 [GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
 
@@ -2229,7 +2230,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 
 # Linux Mint
 
-[Volver al Inicio](#tabla-de-conenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107585812-b8485c00-6bb3-11eb-9007-c99eb2c8aa8e.png">
