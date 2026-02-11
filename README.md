@@ -49,11 +49,11 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
       - [3 - Compilar](#3---compilar)
       - [4 - Instalar](#4---instalar)
   - [Alternativas a Microsoft Office](#alternativas-a-microsoft-office)
-  - [Secure \& Privacy Focused Web Browsers](#secure--privacy-focused-web-browsers)
-    - [Privacy \& Security Focused Browser extensions](#privacy--security-focused-browser-extensions)
-    - [Privacy-focused Search Engines](#privacy-focused-search-engines)
+  - [Navegadores web seguros y centrados en la privacidad](#navegadores-web-seguros-y-centrados-en-la-privacidad)
+    - [Extensiones de navegador centradas en la privacidad y la seguridad](#extensiones-de-navegador-centradas-en-la-privacidad-y-la-seguridad)
+    - [Motores de búsqueda centrados en la privacidad](#motores-de-búsqueda-centrados-en-la-privacidad)
   - [Backups](#backups)
-  - [Storage Disk Health](#storage-disk-health)
+  - [Estado del disco de almacenamiento](#estado-del-disco-de-almacenamiento)
   - [Mejorar la duración de la batería](#mejorar-la-duración-de-la-batería)
   - [Herramientas para copiar/transferir archivos a tu sistema Linux](#herramientas-para-copiartransferir-archivos-a-tu-sistema-linux)
   - [Ejecutar aplicaciones Android en tu sistema Linux](#ejecutar-aplicaciones-android-en-tu-sistema-linux)
@@ -952,7 +952,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
 
          
          
-## Secure & Privacy Focused Web Browsers
+## Navegadores web seguros y centrados en la privacidad
 [Volver al Inicio](#tabla-de-contenidos)
 
 [Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
@@ -1003,7 +1003,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
   Ghostery Dawn
 </p>
 
-### Privacy & Security Focused Browser extensions
+### Extensiones de navegador centradas en la privacidad y la seguridad
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1066,7 +1066,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/onetab/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
 
-### Privacy-focused Search Engines
+### Motores de búsqueda centrados en la privacidad
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1152,7 +1152,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
 
 [Pika Backup](https://apps.gnome.org/app/org.gnome.World.PikaBackup/) es una herramienta de copia de seguridad diseñada para guardar tus datos personales y no admite la recuperación completa del sistema. Pika Backup funciona con el software BorgBackup, que ha sido probado exhaustivamente. [Disponible como Flatpak en Flathub](https://flathub.org/apps/details/org.gnome.World.PikaBackup)
 
-## Storage Disk Health 
+## Estado del disco de almacenamiento 
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1321,42 +1321,42 @@ TLPUI
 
 |  Tipo  | Nombre  | Descripcion |
 |------|------|-----|
-| Complemento  |**[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
-  | Complemento |**[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter) **| controla la panoramización estéreo de la fuente de audio. |
-  | Complemento |**[Browser](https://github.com/obsproject/obs-browser) **| complemento del navegador OBS Studio basado en CEF.|
-  | Complemento |**[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media) **| filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
-  | Complemento |**[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer) **| añade un muelle Downstream Keyer.|
-  | Complemento |**[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay) **| filtro para retrasar dinámicamente una fuente de vídeo.|
-  | Complemento |**[Freeze Filter](https://github.com/exeldro/obs-freeze-filter) **| congela una fuente utilizando un filtro.|
-  | Complemento |**[Gradient Source](https://github.com/exeldro/obs-gradient-source) **| añade degradados como fuente.|
-  | Complementos |**[GStreamer](https://github.com/fzwoch/obs-gstreamer) **| alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
-  | Complemento |**[Move Transition](https://github.com/exeldro/obs-move-transition) **| mueve la fuente a una nueva posición durante la transición de escena.|
-  | Complemento |**[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect) **| proporciona un efecto personalizado para renderizar múltiples fuentes.|
-  | Complemento |**[NDI](https://github.com/Palakis/obs-ndi) **| red A/V a través de NDI de NewTek.|
-  | Complemento |**[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc) **| captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
-  | Complemento |**[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture) **| captura el audio de la aplicación desde PulseAudio.|
-  | Complemento |**[Soundboard](https://github.com/cg2121/obs-soundboard) **| añade un panel de sonido.|
-  | Complemento |**[Source Copy](https://github.com/exeldro/obs-source-copy) **| añade opciones de copiar y pegar al menú de herramientas.|
-  | Complemento |**[Source Dock](https://github.com/exeldro/obs-source-dock) **| crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
-  | Complemento |**[Recursion Effect](https://github.com/exeldro/obs-recursion-effect) **| filtro de efecto de recursividad.|
-  | Complemento |**[Replay Source](https://github.com/exeldro/obs-replay-source) **| reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
-  | Complemento |**[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter) **| filtro sencillo para ajustar los niveles RGB.|
-  | Complemento |**[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/) **| codifica y publica en una transmisión RTSP.|
-  | Complemento |**[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound) **| añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
-  | Complemento |**[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager) **| filtra, realiza copias de seguridad y restaura colecciones de escenas.|
-  | Complemento |**[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock) **| crea un Dock para mostrar y editar notas de la escena activa actual.|
-  | Complemento |**[Source Record](https://github.com/exeldro/obs-source-record) **| permite grabar fuentes a través de un filtro.|
-  | Complemento |**[Source Switcher](https://github.com/exeldro/obs-source-switcher) **| para cambiar entre una lista de fuentes.|
-  | Complemento |**[Spectralizer](https://github.com/univrsal/spectralizer) **| visualización de audio mediante fftw.|
-  | Complemento |**[StreamFX](https://github.com/Xaymar/obs-StreamFX) **| colección de filtros y transiciones de efectos modernos.|
-  | Complemento |**[Teleport](https://github.com/fzwoch/obs-teleport) **| sustituto abierto similar a NDI.|
-  | Complemento |**[Text Pango](https://github.com/kkartaltepe/obs-text-pango) **| proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
-  | Complemento |**[Text PThread](https://github.com/norihiro/obs-text-pthread) **| complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
-  | Complemento |**[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan) **| filtro de escaneo con distorsión temporal.|
-  | Complemento |**[Transition Table](https://github.com/exeldro/obs-transition-table) **| personaliza las transiciones entre escenas.|
-  | Complemento |**[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter) **| permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
-  | Complemento |**[VNC Source](https://github.com/norihiro/obs-vnc) **| visor VNC que funciona como fuente.|
-  | Complemento |**[Websockets](https://github.com/Palakis/obs-websocket) **| controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
+| Complemento  | **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
+  | Complemento | **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter) ** | controla la panoramización estéreo de la fuente de audio. |
+  | Complemento | **[Browser](https://github.com/obsproject/obs-browser) ** | complemento del navegador OBS Studio basado en CEF.|
+  | Complemento | **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media) ** | filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
+  | Complemento | **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer) ** | añade un muelle Downstream Keyer.|
+  | Complemento | **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay) ** | filtro para retrasar dinámicamente una fuente de vídeo.|
+  | Complemento | **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter) ** | congela una fuente utilizando un filtro.|
+  | Complemento | **[Gradient Source](https://github.com/exeldro/obs-gradient-source) ** | añade degradados como fuente.|
+  | Complementos | **[GStreamer](https://github.com/fzwoch/obs-gstreamer) ** | alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
+  | Complemento | **[Move Transition](https://github.com/exeldro/obs-move-transition) ** | mueve la fuente a una nueva posición durante la transición de escena.|
+  | Complemento | **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect) ** | proporciona un efecto personalizado para renderizar múltiples fuentes.|
+  | Complemento | **[NDI](https://github.com/Palakis/obs-ndi) ** | red A/V a través de NDI de NewTek.|
+  | Complemento | **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc) ** | captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
+  | Complemento | **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture) ** | captura el audio de la aplicación desde PulseAudio.|
+  | Complemento | **[Soundboard](https://github.com/cg2121/obs-soundboard) ** | añade un panel de sonido.|
+  | Complemento | **[Source Copy](https://github.com/exeldro/obs-source-copy) ** | añade opciones de copiar y pegar al menú de herramientas.|
+  | Complemento | **[Source Dock](https://github.com/exeldro/obs-source-dock) ** | crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
+  | Complemento | **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect) ** | filtro de efecto de recursividad.|
+  | Complemento | **[Replay Source](https://github.com/exeldro/obs-replay-source) ** | reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
+  | Complemento | **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter) ** | filtro sencillo para ajustar los niveles RGB.|
+  | Complemento | **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/) ** | codifica y publica en una transmisión RTSP.|
+  | Complemento | **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound) ** | añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
+  | Complemento | **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager) ** | filtra, realiza copias de seguridad y restaura colecciones de escenas.|
+  | Complemento | **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock) ** | crea un Dock para mostrar y editar notas de la escena activa actual.|
+  | Complemento | **[Source Record](https://github.com/exeldro/obs-source-record) ** | permite grabar fuentes a través de un filtro.|
+  | Complemento | **[Source Switcher](https://github.com/exeldro/obs-source-switcher) ** | para cambiar entre una lista de fuentes.|
+  | Complemento | **[Spectralizer](https://github.com/univrsal/spectralizer) ** | visualización de audio mediante fftw.|
+  | Complemento | **[StreamFX](https://github.com/Xaymar/obs-StreamFX) ** | colección de filtros y transiciones de efectos modernos.|
+  | Complemento | **[Teleport](https://github.com/fzwoch/obs-teleport) ** | sustituto abierto similar a NDI.|
+  | Complemento | **[Text Pango](https://github.com/kkartaltepe/obs-text-pango) ** | proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
+  | Complemento | **[Text PThread](https://github.com/norihiro/obs-text-pthread) ** | complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
+  | Complemento | **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan) ** | filtro de escaneo con distorsión temporal.|
+  | Complemento | **[Transition Table](https://github.com/exeldro/obs-transition-table) ** | personaliza las transiciones entre escenas.|
+  | Complemento | **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter) ** | permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
+  | Complemento | **[VNC Source](https://github.com/norihiro/obs-vnc) ** | visor VNC que funciona como fuente.|
+  | Complemento | **[Websockets](https://github.com/Palakis/obs-websocket) ** | controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
   
 # Gaming
 [Volver al Inicio](#tabla-de-contenidos)
@@ -1365,6 +1365,23 @@ TLPUI
  <img src="https://user-images.githubusercontent.com/45159366/189517086-1d91abff-4a1b-4f7f-bd02-ffaf09178f5c.gif">
   <br />
 </p>
+
+Durante muchos años, los videojuegos fueron una de las principales limitaciones al usar Linux como sistema principal. Sin embargo, en la actualidad, el panorama ha cambiado significativamente.
+
+Gracias a tecnologías como **Proton**, **Wine**, **Vulkan** y al creciente soporte por parte de desarrolladores y plataformas como **Steam**, Linux se ha convertido en una opción viable para jugar una gran variedad de títulos, incluyendo muchos juegos originalmente diseñados para Windows.
+
+Existen múltiples herramientas y plataformas que permiten:
+
+- Ejecutar juegos nativos de Linux.
+- Jugar títulos de Windows mediante capas de compatibilidad.
+- Integrar bibliotecas de tiendas como Epic Games, Battle.net o Ubisoft.
+- Utilizar controladores modernos sin configuraciones complejas.
+- Hacer streaming de juegos desde la nube o desde otra máquina.
+- Emular consolas clásicas y sistemas antiguos.
+
+Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones, la compatibilidad general mejora constantemente.
+
+
 
 ### Linux Gaming Resources & Tweak Tools
  
@@ -1382,7 +1399,7 @@ TLPUI
 
 [Steam Contoller](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=steam+controller&_sacat=0)
 
- * **Note:** Steam Controllers were discontinued on November 26, 2019, though, you can still buy them on ebay.
+ * **Note:** Los mandos Steam Controller dejaron de fabricarse el 26 de noviembre de 2019, aunque todavía se pueden comprar en eBay.
 
  * [Steam Controller Setup](https://help.steampowered.com/en/faqs/view/41C5-7D8C-1671-411E)
  
@@ -1399,8 +1416,8 @@ TLPUI
 
 [Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
 
- * [XONE](https://github.com/medusalix/xone) is a Linux kernel driver for Xbox One and Xbox Series X|S accessories. It serves as a modern replacement for xpad, aiming to be compatible with Microsoft's Game Input Protocol (GIP).
- * [XPAD neo](https://github.com/atar-axis/xpadneo) is an Advanced Linux Driver for Xbox One Wireless Controller (shipped with Xbox One S).
+ * [XONE](https://github.com/medusalix/xone) Es un controlador del kernel de Linux para accesorios de Xbox One y Xbox Series X|S. Sirve como un sustituto moderno de xpad, con el objetivo de ser compatible con el Protocolo de Entrada de Juegos (GIP) de Microsoft.
+ * [XPAD neo](https://github.com/atar-axis/xpadneo) Es un controlador avanzado de Linux para el mando inalámbrico Xbox One (incluido con Xbox One S).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
@@ -1412,9 +1429,9 @@ TLPUI
 
 * [Update the wireless controller firmware](https://controller.dl.playstation.net/controller/lang/gb/fwupdater.html)
 
-* [DS4Windows](https://ds4-windows.com/) is an open-source gamepad input mapper and virtual emulator designed to use and connect your PlayStation controller (DualShock 3/4 and DualSense 5) to a Windows 10 & 11 PC. It also comes handy with emulating a Xbox controller and tricks the computer into thinking the DS4, is in fact, an Xbox game pad (virtual emulation occurs).
+* [DS4Windows](https://ds4-windows.com/) es un mapeador de entrada de mando de código abierto y un emulador virtual diseñado para utilizar y conectar tu mando de PlayStation (DualShock 3/4 y DualSense 5) a un PC con Windows 10 y 11. También resulta útil para emular un mando de Xbox y engañar al ordenador para que piense que el DS4 es, en realidad, un mando de Xbox (se produce una emulación virtual).
 
-**Note:** make sure to use [Bottles](https://usebottles.com/) to run this firmware update and DS4Windows.
+**Note:** Asegúrate de utilizar [Bottles](https://usebottles.com/) para ejecutar esta actualización de firmware y DS4Windows.
  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
@@ -1430,7 +1447,8 @@ TLPUI
     Nintendo Switch Pro Controller
 </p>
 
-[8Bitdo Ultimate Bluetooth Controller](https://www.8bitdo.com/ultimate-bluetooth-controller/) with Charging Dock, Wireless Pro Controller for Switch, Windows and Steam Deck.
+[8Bitdo Ultimate Bluetooth Controller](https://www.8bitdo.com/ultimate-bluetooth-controller/) Con base de carga, mando inalámbrico Pro para Switch, Windows y Steam Deck.
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/212845008-8d95f23a-a391-4370-9a93-e033ce5491c8.png">
@@ -1444,7 +1462,7 @@ TLPUI
 
 [Amazon Luna Controller](https://www.amazon.com/luna/getting-started)
 
-* **The Luna Controller** is made for Amazon's cloud gaming service. Powered by Cloud Direct technology Connect directly to Amazon's custom game servers when playing on Luna, reducing roundtrip latency by 17 to 30 milliseconds vs. a local Bluetooth connection among Windows PC, Mac, and Fire TV. 
+* **The Luna Controller** Está diseñado para el servicio de juegos en la nube de Amazon. Con tecnología Cloud Direct, se conecta directamente a los servidores de juegos personalizados de Amazon cuando se juega en Luna, lo que reduce la latencia de ida y vuelta entre 17 y 30 milisegundos en comparación con una conexión Bluetooth local entre PC con Windows, Mac y Fire TV. 
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/218290132-7a548dea-8c9b-4c96-8efb-24b9d8c7f74c.png">
@@ -1453,52 +1471,94 @@ TLPUI
 ## Steam
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam) available on FlatHub.
+[Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam) disponible en FlatHub.
 
-[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
+[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) es un servicio de Steam que te permite compartir tus juegos multijugador locales de Steam con amigos a través de Internet, de forma gratuita. Con Remote Play Together, un jugador es el propietario y ejecuta el juego, y luego pueden unirse hasta cuatro jugadores más.
 
-[Proton](https://github.com/ValveSoftware/Proton/) is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) Es una herramienta para usar con el cliente Steam que permite ejecutar juegos exclusivos de Windows en el sistema operativo Linux. Para ello, utiliza Wine.
 
-[Proton Next](https://github.com/ValveSoftware/Proton/wiki/Changelog) is an easier way to check out and test the upcoming stable releases of new Proton versions for Linux desktop and Steam Deck.
+[Proton Next](https://github.com/ValveSoftware/Proton/wiki/Changelog) Es una forma más sencilla de probar y evaluar las próximas versiones estables de las nuevas versiones de Proton para ordenadores de escritorio Linux y Steam Deck.
 
-  **The following games are now playable:**
-       - Rift
-       - Unravel 2
-       - Airborne Kingdom
-       - Nancy Drew: Legend of the Crystal Skull
-       - Re-Volt
-       - Aspire: Ina's Tale
-       - Battle Realms: Zen Edition
-       - Deathsmiles II
-       - Primal Carnage: Extinction
-       - Pico Park Classic Edition
-       - Six Ages: Ride Like the Wind
-       - Darkstar One
-       - Indiana Jones and the Emperor Tomb
-       - Bulletstorm: Full Clip Edition
-   * Fix Batman: Arkham City GOTY launching in the background on Steam Deck when set to fullscreen.
-   * Fix Marvel's Spider-Man Remastered displaying dialog about outdated drivers on AMD systems.
-   * Fix Final Fantasy IV (3D Remake) having no audio.
-   * Fix Return to Monkey Island not reacting to mouse clicks after a recent game update.
-   * Fix upsidedown videos in VRChat and many other games.
-   * Fix Call of Duty Black Ops II Zombies and Multiplayer hanging on exit.
-   * Fix Bail or Jail crashing when opening the Terms of Serivce.
-   * Improve GTA V situation with not loading textures.
-   * Fix Red Dead Redemption 2 crashing after a recent game update.
-   * Fix Final Fantasy XIV Online launcher functionality after game update.
-   * Fix cutscene stutter in Disgaea 5.
-   * Fix Thrustmaster HOTAS having non-functional dial in Elite Dangerous.
-   * Fix Planet Zoo randomly crashing.
-   * Fix SCP: Secret Labratory not being playable after a recent game update (again).
-   * Fix Tekken 7 crashing at launch.
-   * Fix Armello hanging on exit.
-   * Fix Sword Art Online: Hollow Realization freezing after the tutorial.
-   * Fix Space Engineers intro video not playing correctly.
-   * Fix Dragon's Dogma: Dark Arisen videos not playing correctly.
-   * Implement network video support for VRChat.
-   * Update dxvk to v1.10.3-28-ge3daa699.
+ ** Proton 10.0-4 **
+* Now playable (previously worked with Proton Experimental):
+* * Surgeon Simulator: Experience Reality
+* * Changeling VR
+* * Summoners War: RUSH
+* * Quantum Threshold
+* * REACH
+* * Fellowship
+* * Metal Slug: Awakening
+* * The Obsessive Shadow
+* * Drop Dead: The Cabin
+* * Zero Caliber 2 Remastered
+* * Lost Memories 3 Side Stories
+* * Death by Scrolling
+* * Stellar Reach
+* * Girls' Frontline
+* * Modules
+* * Distant Worlds 2
+* * 懒人修仙传2
+* * Ring Runner: Flight of the Sages
+* * Chronology
+* Fixed Agatha Christie: Evil Under the Sun not being playable in French.
+* Fixed Far Cry 5 showing old GPU drivers warning with AMD gpus.
+* Fixed Age of Empires IV Anniversary Edition showing GPU driver warning with Intel gpus.
+* Fixed music playback in Transcendence.
+* Fixed Mystery Manor: Hidden Objects not displaying anything on gamescope.
+* Fixed HDR in Far Cry 5 on OLED Steam Decks.
+* Fixed Crystal of Atlan crashing on desktops.
+* Fixed broken account switching in Crystal of Atlan with gamescope.
+* Fixed Adventures Of Fluzz wrongly displaying "No Device" window which made game unplayable with gamescope.
+* Fixed Marvel Rivals crashing in benchmark with AMD GPUs.
+* Fixed Assassin's Creed Shadows and Wild Assault incorrectly warning about being installed on a HDD.
+* Fixed long wait on every launch of many Xbox Game Studios games including Avowed, Grounded 2, Indiana Jones and the Great Circle, and The Outer Worlds 2.
+* Fixed Dragon's Dogma Dark Arisen crashing on system with long Steam Library path.
+* Fixed in-game browser in Figmin XR.
+* Fixed server / lobby listing in Men of War II.
+* Fixed Ara: History Untold displaying GPU error.
+* Fixed Ultimate Marvel vs Capcom 3 crashing with monitors that support many resolutions.
+* Fixed Arc Riders stutter on systems with non-Nvidia GPUs due to the game seeing and trying to continually load nvapi.
+* Improved support for Sony controllers in Tekken 8.
+* Fixed haptics support for DualSense controllers which should now work in most games that support it.
+* Fixed audio playback in Rocket Jockey.
+* Fixed For Honor not starting on non-Steam Decks.
+* Fixed store in For Honor not working on desktops.
+* Fixed in-game screenshot feature in Mohrta.
+* Fixed Cladun X3 hanging on exit.
+* Fixed Rocket Jockey not being playable on some installations.
+* Fixed Xalia not interacting correctly with dialogs produced by ARC Raiders.
+* Fixed Atelier Resleriana [JP] not working on certain setups.
+* Added support for speech recognition in Phasmophobia.
+* Fixed video playback in Okayunyumu! and AQUARIUM.
+* Fixed Assassin's Creed Shadows not being playable after a recent game update.
+* Fixed language selection not working in Black Squad's launcher.
+* Fixed voice line playback in Rigid Force Alpha.
+* Fixed 7.1 audio channel mapping in Ghost of Tsushima DIRECTOR'S CUT, Clair Obscur: Expedition 33 and potentially many other games.
+* Fixed horizontal mouse scroll being incorrectly registered as back / forward buttons.
+* Fixed Thai font rendering in Warframe's launcher.
+* Fixed Revolver360 Re:Actor crashing on keyboard input.
+* Fixed text input in Secrets of Grindea.
+* Fixed video playback in Conquer the World.
+* Fixed a crash in Marvin's Mittens after the cutscenes.
+* Fixed Sword of the Stars: The Pit crashing when clicking an enemy.
+* Fixed Lemma randomly crashing.
+* Fixed Ukrainian and Russian font rendering in Trainatic.
+* Fixed Proton 10 regressions:
+* * Video should play correctly again in King of Bones and Indivisible.
+* * Sackboy: A Big Adventure should no longer display a series of errors on fresh prefix.
+* * GodsArena Online is now registering touch/mouse input correctly.
+* * Lost Planet: Extreme Condition is playable again.
+* * Killer Instinct should no longer crash at the end of match.
+* * Workshop integration in The Conquest of Go should work again.
+* * CHRONO TRIGGER should no longer flicker in fullscreen mode.
+* * Camera panning should work as expected in Dungeons & Dragons Online.
+* * Blood Rush should no longer crash with new proton prefixes.
+* Added support for SteamWorks SDK 1.63.
+* Updated Wine Mono to 10.4.1.
+* Updated vkd3d-proton to v3.0b.
+* Updated vkd3d to 1.18.
 
-[ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) is a tool to install and manage [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom) and [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda) for Steam and [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom) for Lutris with this graphical user interface. Based on AUNaseef's [ProtonUp](https://github.com/AUNaseef/protonup), made with Python 3 and Qt 6.
+[ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) es una herramienta para instalar y gestionar [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom) y [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda) para Steam y [Wine-GE] (https://github.com/GloriousEggroll/wine-ge-custom) para Lutris con esta interfaz gráfica de usuario. Basado en [ProtonUp](https://github.com/AUNaseef/protonup) de AUNaseef, creado con Python 3 y Qt 6.
 
 ## Enable Proton in Steam
 
