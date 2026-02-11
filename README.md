@@ -4,19 +4,45 @@
  Guia Linux 
 </h1>
 
+<div align="center">
+
+--- 
+
+<br>
+
+# ≽ܫ≼
+
+<a href="https://github.com/VanitasuShieda/Meowrch/tree/Meowrch-vanitasu"><img src="https://github.com/VanitasuShieda/Meowrch/blob/Meowrch-vanitasu/.meta/logocircle.png" width="280px" alt="Meowrch Logo"></a>
+
 <a href="https://github.com/VanitasuShieda?tab=followers">
          <img alt="followers" title="Follow for Updates" src="https://custom-icon-badges.demolab.com/github/followers/VanitasuShieda?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 
 
+<br> 
 
-#### Una guía traducida sobre Linux que incluye sus múltiples entornos de escritorio, gestores de ventanas, herramientas y aplicaciones que te convertirán en un usuario de Linux mejor y más eficiente.
+---
 
-Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
+</div>
+
+
+## Introducción
+
+Esta es una guía traducida y adaptada sobre Linux que recopila información esencial sobre entornos de escritorio, gestores de ventanas, herramientas, aplicaciones y recursos que te ayudarán a convertirte en un usuario más competente y eficiente.
+
+Además de la traducción, se han realizado actualizaciones en distintas secciones para reflejar el estado actual del ecosistema Linux, así como la incorporación de referencias y recursos en español, incluyendo creadores de contenido que aportan información relevante para la comunidad hispanohablante.
+
+El objetivo de esta guía es ofrecer una base sólida tanto para nuevos usuarios como para quienes desean profundizar en el uso diario de Linux.
+
+Fuente original:
+https://github.com/mikeroyal/Linux-Guide-Spanish
+
 
  **Nota: Puedes convertir fácilmente este archivo tipo Markdown a PDF en [VSCode](https://code.visualstudio.com/) utilizando esta práctica extensión [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
  
  
  # Tabla de Contenidos
  
+- [≽ܫ≼](#ܫ)
+      - [Una guía traducida sobre Linux que incluye sus múltiples entornos de escritorio, gestores de ventanas, herramientas y aplicaciones que te convertirán en un usuario de Linux mejor y más eficiente.](#una-guía-traducida-sobre-linux-que-incluye-sus-múltiples-entornos-de-escritorio-gestores-de-ventanas-herramientas-y-aplicaciones-que-te-convertirán-en-un-usuario-de-linux-mejor-y-más-eficiente)
 - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Recursos para aprender Linux](#recursos-para-aprender-linux)
     - [Repositorios de software y gestores de paquetes de Linux](#repositorios-de-software-y-gestores-de-paquetes-de-linux)
@@ -65,15 +91,15 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
     - [Linux Gaming Resources \& Tweak Tools](#linux-gaming-resources--tweak-tools)
     - [Game Controllers](#game-controllers)
   - [Steam](#steam)
-  - [Enable Proton in Steam](#enable-proton-in-steam)
+  - [Habilitar Proton en Steam](#habilitar-proton-en-steam)
   - [ProtonDB](#protondb)
   - [Lutris](#lutris)
-    - [Epic Games Store integration](#epic-games-store-integration)
-    - [Blizzard Battle.net intgeration](#blizzard-battlenet-intgeration)
-    - [EA Play integration](#ea-play-integration)
-    - [Origin integration](#origin-integration)
-    - [Ubisoft Connect integration](#ubisoft-connect-integration)
-    - [GOG Galaxy integration](#gog-galaxy-integration)
+    - [Integración con Epic Games Store](#integración-con-epic-games-store)
+    - [Integración de Blizzard Battle.net](#integración-de-blizzard-battlenet)
+    - [Integración de EA Play](#integración-de-ea-play)
+    - [Integración de Origin](#integración-de-origin)
+    - [Integración Ubisoft Connect](#integración-ubisoft-connect)
+    - [Integración de GOG Galaxy](#integración-de-gog-galaxy)
     - [Playnite](#playnite)
   - [GameHub](#gamehub)
   - [Epic Games Store](#epic-games-store)
@@ -1322,41 +1348,41 @@ TLPUI
 |  Tipo  | Nombre  | Descripcion |
 |------|------|-----|
 | Complemento  | **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
-  | Complemento | **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter) ** | controla la panoramización estéreo de la fuente de audio. |
-  | Complemento | **[Browser](https://github.com/obsproject/obs-browser) ** | complemento del navegador OBS Studio basado en CEF.|
-  | Complemento | **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media) ** | filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
-  | Complemento | **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer) ** | añade un muelle Downstream Keyer.|
-  | Complemento | **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay) ** | filtro para retrasar dinámicamente una fuente de vídeo.|
-  | Complemento | **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter) ** | congela una fuente utilizando un filtro.|
-  | Complemento | **[Gradient Source](https://github.com/exeldro/obs-gradient-source) ** | añade degradados como fuente.|
-  | Complementos | **[GStreamer](https://github.com/fzwoch/obs-gstreamer) ** | alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
-  | Complemento | **[Move Transition](https://github.com/exeldro/obs-move-transition) ** | mueve la fuente a una nueva posición durante la transición de escena.|
-  | Complemento | **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect) ** | proporciona un efecto personalizado para renderizar múltiples fuentes.|
-  | Complemento | **[NDI](https://github.com/Palakis/obs-ndi) ** | red A/V a través de NDI de NewTek.|
-  | Complemento | **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc) ** | captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
-  | Complemento | **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture) ** | captura el audio de la aplicación desde PulseAudio.|
-  | Complemento | **[Soundboard](https://github.com/cg2121/obs-soundboard) ** | añade un panel de sonido.|
-  | Complemento | **[Source Copy](https://github.com/exeldro/obs-source-copy) ** | añade opciones de copiar y pegar al menú de herramientas.|
-  | Complemento | **[Source Dock](https://github.com/exeldro/obs-source-dock) ** | crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
-  | Complemento | **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect) ** | filtro de efecto de recursividad.|
-  | Complemento | **[Replay Source](https://github.com/exeldro/obs-replay-source) ** | reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
-  | Complemento | **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter) ** | filtro sencillo para ajustar los niveles RGB.|
-  | Complemento | **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/) ** | codifica y publica en una transmisión RTSP.|
-  | Complemento | **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound) ** | añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
-  | Complemento | **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager) ** | filtra, realiza copias de seguridad y restaura colecciones de escenas.|
-  | Complemento | **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock) ** | crea un Dock para mostrar y editar notas de la escena activa actual.|
-  | Complemento | **[Source Record](https://github.com/exeldro/obs-source-record) ** | permite grabar fuentes a través de un filtro.|
-  | Complemento | **[Source Switcher](https://github.com/exeldro/obs-source-switcher) ** | para cambiar entre una lista de fuentes.|
-  | Complemento | **[Spectralizer](https://github.com/univrsal/spectralizer) ** | visualización de audio mediante fftw.|
-  | Complemento | **[StreamFX](https://github.com/Xaymar/obs-StreamFX) ** | colección de filtros y transiciones de efectos modernos.|
-  | Complemento | **[Teleport](https://github.com/fzwoch/obs-teleport) ** | sustituto abierto similar a NDI.|
-  | Complemento | **[Text Pango](https://github.com/kkartaltepe/obs-text-pango) ** | proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
-  | Complemento | **[Text PThread](https://github.com/norihiro/obs-text-pthread) ** | complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
-  | Complemento | **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan) ** | filtro de escaneo con distorsión temporal.|
-  | Complemento | **[Transition Table](https://github.com/exeldro/obs-transition-table) ** | personaliza las transiciones entre escenas.|
-  | Complemento | **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter) ** | permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
-  | Complemento | **[VNC Source](https://github.com/norihiro/obs-vnc) ** | visor VNC que funciona como fuente.|
-  | Complemento | **[Websockets](https://github.com/Palakis/obs-websocket) ** | controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
+  | Complemento | **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** | controla la panoramización estéreo de la fuente de audio. |
+  | Complemento | **[Browser](https://github.com/obsproject/obs-browser)** | complemento del navegador OBS Studio basado en CEF.|
+  | Complemento | **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)** | filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
+  | Complemento | **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** | añade un muelle Downstream Keyer.|
+  | Complemento | **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** | filtro para retrasar dinámicamente una fuente de vídeo.|
+  | Complemento | **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** | congela una fuente utilizando un filtro.|
+  | Complemento | **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** | añade degradados como fuente.|
+  | Complementos | **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** | alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
+  | Complemento | **[Move Transition](https://github.com/exeldro/obs-move-transition)** | mueve la fuente a una nueva posición durante la transición de escena.|
+  | Complemento | **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** | proporciona un efecto personalizado para renderizar múltiples fuentes.|
+  | Complemento | **[NDI](https://github.com/Palakis/obs-ndi)** | red A/V a través de NDI de NewTek.|
+  | Complemento | **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** | captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
+  | Complemento | **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture)** | captura el audio de la aplicación desde PulseAudio.|
+  | Complemento | **[Soundboard](https://github.com/cg2121/obs-soundboard)** | añade un panel de sonido.|
+  | Complemento | **[Source Copy](https://github.com/exeldro/obs-source-copy)** | añade opciones de copiar y pegar al menú de herramientas.|
+  | Complemento | **[Source Dock](https://github.com/exeldro/obs-source-dock)** | crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
+  | Complemento | **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** | filtro de efecto de recursividad.|
+  | Complemento | **[Replay Source](https://github.com/exeldro/obs-replay-source)** | reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
+  | Complemento | **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** | filtro sencillo para ajustar los niveles RGB.|
+  | Complemento | **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)** | codifica y publica en una transmisión RTSP.|
+  | Complemento | **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)** | añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
+  | Complemento | **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** | filtra, realiza copias de seguridad y restaura colecciones de escenas.|
+  | Complemento | **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)** | crea un Dock para mostrar y editar notas de la escena activa actual.|
+  | Complemento | **[Source Record](https://github.com/exeldro/obs-source-record)** | permite grabar fuentes a través de un filtro.|
+  | Complemento | **[Source Switcher](https://github.com/exeldro/obs-source-switcher)** | para cambiar entre una lista de fuentes.|
+  | Complemento | **[Spectralizer](https://github.com/univrsal/spectralizer)** | visualización de audio mediante fftw.|
+  | Complemento | **[StreamFX](https://github.com/Xaymar/obs-StreamFX)** | colección de filtros y transiciones de efectos modernos.|
+  | Complemento | **[Teleport](https://github.com/fzwoch/obs-teleport)** | sustituto abierto similar a NDI.|
+  | Complemento | **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)** | proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
+  | Complemento | **[Text PThread](https://github.com/norihiro/obs-text-pthread)** | complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
+  | Complemento | **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)** | filtro de escaneo con distorsión temporal.|
+  | Complemento | **[Transition Table](https://github.com/exeldro/obs-transition-table)** | personaliza las transiciones entre escenas.|
+  | Complemento | **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** | permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
+  | Complemento | **[VNC Source](https://github.com/norihiro/obs-vnc)** | visor VNC que funciona como fuente.|
+  | Complemento | **[Websockets](https://github.com/Palakis/obs-websocket)** | controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
   
 # Gaming
 [Volver al Inicio](#tabla-de-contenidos)
@@ -1560,17 +1586,18 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
 [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) es una herramienta para instalar y gestionar [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom) y [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda) para Steam y [Wine-GE] (https://github.com/GloriousEggroll/wine-ge-custom) para Lutris con esta interfaz gráfica de usuario. Basado en [ProtonUp](https://github.com/AUNaseef/protonup) de AUNaseef, creado con Python 3 y Qt 6.
 
-## Enable Proton in Steam
+## Habilitar Proton en Steam
 
- - Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
- - On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
-
+ - Haga clic en «Steam» y luego en «Configuración» para abrir la ventana de configuración en la esquina izquierda.
+ - En la ventana «Configuración», haga clic en «Steam Play». Asegúrese de marcar las casillas «Habilitar Steam Play para archivos compatibles» y «Habilitar Steam Play para   todos los demás títulos». Por último, seleccione la versión de Proton que desea utilizar en el menú desplegable.
+  
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
 
 ## ProtonDB
 [Volver al Inicio](#tabla-de-contenidos)
 
-[ProtonDB](https://www.protondb.com) is a collection of over 100,000 gaming reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.
+[ProtonDB](https://www.protondb.com) es una recopilación de más de 100 000 informes de otros jugadores que prueban juegos con Proton en Linux y proporcionan puntuaciones agregadas sobre el rendimiento de los juegos. Un conjunto cada vez mayor de sugerencias ofrece ajustes que puedes probar para que los juegos funcionen mientras Proton continúa su desarrollo. Además, puedes explorar el catálogo de juegos de Steam en este sitio web para descubrir una amplia gama de títulos que antes no estaban disponibles para Linux.
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/108773213-dcd8f800-7512-11eb-8775-19b0c8924d55.png">
@@ -1583,9 +1610,9 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 ## Lutris
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+[Lutris](https://lutris.net) Es un cliente de juegos para Linux. Te permite acceder a todos tus videojuegos, excepto a los de la generación actual de consolas. Además, se integra perfectamente con otras tiendas como GOG, Steam, Battle.net, Origin, Uplay y muchas otras fuentes que te permiten importar tu biblioteca de juegos existente, y los scripts de instalación mantenidos por la comunidad te ofrecen una configuración totalmente automatizada.
 
-### Epic Games Store integration
+### Integración con Epic Games Store
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1593,38 +1620,38 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
  
- ### Blizzard Battle.net intgeration
+ ### Integración de Blizzard Battle.net
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Blizzard Battle.net](https://lutris.net/games/battlenet/) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
+[Blizzard Battle.net](https://lutris.net/games/battlenet/) es una plataforma de juegos en línea, distribución digital y gestión de derechos digitales basada en Internet desarrollada por Activision y Blizzard Entertainment. Battle.net es el lanzador de World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch y Call of Duty.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
 
-### EA Play integration
+### Integración de EA Play 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[EA Play](https://lutris.net/games/ea-desktop/) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
+[EA Play](https://lutris.net/games/ea-desktop/) Es un servicio de videojuegos por suscripción de Electronic Arts para las plataformas Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 y Microsoft Windows, que ofrece acceso a una selección de juegos publicados por Electronic Arts, además de incentivos adicionales.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
 
-### Origin integration
+### Integración de Origin
 [Volver al Inicio](#tabla-de-contenidos)
  
-[Origin](https://lutris.net/games/origin/) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
+[Origin](https://lutris.net/games/origin/) es una plataforma de juegos en línea, distribución digital y gestión de derechos digitales (DRM) desarrollada por Electronic Arts que permite a los usuarios comprar juegos en Internet para PC y plataformas móviles, y descargarlos con el cliente Origin (anteriormente EA Download Manager, EA Downloader y EA Link).
 
 <img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
 
-### Ubisoft Connect integration
+### Integración Ubisoft Connect
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Ubisoft Connect](https://lutris.net/games/ubisoft-connect/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
+[Ubisoft Connect](https://lutris.net/games/ubisoft-connect/) Es un servicio de distribución digital, gestión de derechos digitales, multijugador y comunicaciones creado por Ubisoft para ofrecer una experiencia similar a los logros/trofeos que ofrecen otras empresas de videojuegos.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
-### GOG Galaxy integration
+### Integración de GOG Galaxy
 [Volver al Inicio](#tabla-de-contenidos)
 
-[GOG GALAXY](https://lutris.net/games/gog-galaxy/) is a fully optional client to install, play and update your games.
+[GOG GALAXY](https://lutris.net/games/gog-galaxy/) es un cliente totalmente opcional para instalar, jugar y actualizar tus juegos.
 
 <img src="https://user-images.githubusercontent.com/45159366/189615528-385c01a8-f780-49e0-9502-db00d8082d9d.png">
 
@@ -1632,7 +1659,7 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Playnite](https://playnite.link/) is an open source video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net and Ubisoft Connect. Includes game emulation support, providing one unified interface for your games.
+[Playnite](https://playnite.link/) Es un gestor y lanzador de bibliotecas de videojuegos de código abierto compatible con bibliotecas de terceros como Steam, GOG, Origin, Battle.net y Ubisoft Connect. Incluye compatibilidad con emulación de juegos, lo que proporciona una interfaz unificada para tus juegos.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/208235743-4521f909-f26c-4eb1-b259-0b06e9e1d380.png">
@@ -1641,7 +1668,7 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 ## GameHub
 [Volver al Inicio](#tabla-de-contenidos)
 
-[GameHub](https://github.com/tkashkin/GameHub) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+[GameHub](https://github.com/tkashkin/GameHub) Es una biblioteca unificada para todos tus juegos. Te permite almacenar tus juegos de diferentes plataformas en un solo programa para que te resulte más fácil gestionarlos.
 
 <img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
 
@@ -1667,7 +1694,7 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 ## Epic Games Store
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Heroic](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and macOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. [Flatpak for Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl)
+[Heroic](https://heroicgameslauncher.com/) Es un lanzador de juegos de código abierto para Linux, Windows y macOS (tanto para juegos nativos como para juegos de Windows que utilizan Crossover). Permite iniciar juegos desde Epic Games Store utilizando Legendary, una alternativa CLI al Epic Games Launcher. [Flatpak for Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl)
 
 [Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
 
@@ -1682,21 +1709,21 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)** subscription.
+[Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) es la tecnología de streaming de juegos Xbox basada en la nube de Microsoft **(actualmente en fase beta)**. **Juega a títulos como Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2 y más de 100 juegos adicionales en tu dispositivo móvil o navegador web Chrome**. Xbox Cloud Gaming requiere una suscripción a **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)**.
 
 <img src="https://user-images.githubusercontent.com/45159366/108111388-74d56e00-7049-11eb-8aeb-3e5d65f9e832.png">
 
-[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) es el servicio de juegos en la nube de NVIDIA.
 
 <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
 
-[Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a vartiey of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
+[Amazon Luna](https://www.amazon.com/luna/landing-page) es el servicio de juegos en la nube de Amazon. Amazon Luna es compatible/admite una gran variedad de [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/112693072-364b8400-8e3d-11eb-9df0-d58af7ac9c9c.png">
 </p>
 
-[Shadow](https://shadow.tech/) is a fully-featured, cloud-based, high-end computer. It is the only remote service that offers performance capable of competing with a local PC. Available on Windows, macOS, Linux, Android/AndroidTV, and iOS/tvOS.
+[Shadow](https://shadow.tech/) Es un ordenador de gama alta con todas las funciones, basado en la nube. Es el único servicio remoto que ofrece un rendimiento capaz de competir con un PC local. Disponible en Windows, macOS, Linux, Android/AndroidTV e iOS/tvOS.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/200110962-dd631248-7a13-48bb-9b5a-acbbf8550e16.png">
@@ -1706,33 +1733,33 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
+[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) es un servicio de Steam que te permite compartir tus juegos multijugador locales de Steam con amigos a través de Internet, de forma gratuita. Con Remote Play Together, un jugador es el propietario y ejecuta el juego, y luego pueden unirse hasta cuatro jugadores más.
 
-[Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
+[Steam Link app](https://store.steampowered.com/steamlink/about) está disponible de forma gratuita y permite transmitir tus juegos de Steam para PC a teléfonos, tabletas y televisores.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
 </p>
 
-[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for **PlayStation 4 and PlayStation 5 Remote Play** for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. [Chiaki Flatpak](https://flathub.org/apps/details/re.chiaki.Chiaki)
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) Es un cliente de software libre y de código abierto para **PlayStation 4 y PlayStation 5 Remote Play** para Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch y, potencialmente, incluso más plataformas. [Chiaki Flatpak](https://flathub.org/apps/details/re.chiaki.Chiaki)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/208854787-3442b9df-60bc-4ed2-87e3-efaa159a6b7f.png">
 </p>
 
-[Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
+[Parsec](https://parsec.app/cloud-gaming) es una plataforma de streaming de videojuegos que ofrece una amplia variedad de juegos y géneros entre los que elegir y proporciona una experiencia de juego fluida y de alta calidad. SParsec se ha desarrollado con el fin de proporcionar una experiencia de juego fluida y de alta calidad, a la vez que está libre de anuncios y compras dentro del juego.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/166166858-e70ca081-8931-46f3-9dc3-fe9c719d76f8.png">
 </p>
 
-[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs.
+[Moonlight Game Streaming](https://moonlight-stream.org/) es un programa que te permite transmitir tus juegos de PC a través de Internet sin necesidad de configuración. Transmite desde casi cualquier dispositivo, ya sea que te encuentres en otra habitación o a kilómetros de distancia de tu equipo de juegos. [Sunshine](https://github.com/LizardByte/Sunshine) es un **host de transmisión de juegos para Moonlight** que es una solución de juegos en la nube autohospedada y de baja latencia compatible con GPU AMD, Intel y NVIDIA.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
 </p>
 
-## Game Emulators
+## Emuladores
 [Volver al Inicio](#tabla-de-contenidos)
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
@@ -1751,15 +1778,16 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
 
 ### Frontends
 
-[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows. 
+[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) es una aplicación frontal para explorar y ejecutar juegos de tu colección multiplataforma. Está  disponible para Unix/Linux, macOS (M1 e Intel) y Windows. 
 
-[RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all. [RetroArch Flatpak](https://flathub.org/apps/details/org.libretro.RetroArch)
+[RetroArch](https://www.retroarch.com/) es una interfaz para emuladores, motores de juegos y reproductores multimedia. Te permite ejecutar juegos clásicos en una amplia gama de ordenadores y consolas a través de su elegante interfaz gráfica. Los ajustes también están unificados, por lo que la configuración se realiza de una vez por todas. [RetroArch Flatpak](https://flathub.org/apps/details/org.libretro.RetroArch)
 
-[RetroPie](https://retropie.org.uk/) is a frontend for emulators that allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up.
+[RetroPie](https://retropie.org.uk/) es una interfaz para emuladores que te permite convertir tu Raspberry Pi, ODroid C1/C2 o PC en una máquina de juegos retro. Se basa en Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch y muchos otros proyectos para permitirte jugar a tus juegos favoritos de arcade, consolas domésticas y PC clásicos con una configuración mínima.
 
-[Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance. [Pegasus Flatpak](https://flathub.org/apps/details/org.pegasus_frontend.Pegasus)
+[Pegasus](https://pegasus-frontend.org/) es una interfaz gráfica multiplataforma y personalizable para iniciar emuladores y gestionar tu biblioteca de juegos (especialmente juegos retro) e iniciarlos desde un solo lugar. Se centra en la personalización, la compatibilidad multiplataforma (incluidos los dispositivos integrados) y el alto rendimiento. [Pegasus Flatpak](https://flathub.org/apps/details/org.pegasus_frontend.Pegasus)
 
-[Mednaffe](https://github.com/AmatCoder/mednaffe) is a front-end (GUI) for mednafen emulator which is a portable argument(command-line)-driven multi-system emulator. [Mednaffe Flatpak](https://flathub.org/apps/details/com.github.AmatCoder.mednaffe)
+[Mednaffe](https://github.com/AmatCoder/mednaffe) es una interfaz (GUI) para el emulador mednafen, que es un emulador multisistema portátil controlado por argumentos (línea de comandos). [Mednaffe Flatpak](https://flathub.org/apps/details/com.github.AmatCoder.mednaffe)
+
 
 **The following systems are supported:**
 
@@ -1780,16 +1808,16 @@ Aunque algunos juegos con sistemas anti-cheat aún pueden presentar limitaciones
   * Sega Saturn (experimental, x86_64 only)
   * Sony PlayStation
 
-[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
+[Cartridge](https://github.com/unclebacon-live/cartridge) Es una biblioteca de juegos autohospedada creada con Laravel + Vue.js.
 
-Cartridge Features
+Características de Cartridge
 
-- Scan for ROM files and match with IGDB game information
-- Serve ROM download links alongside game details
-- Manage access to library with user creation and permissions (WIP)
-- Allow users to request games (Planned)
-- Play select ROMs in-browser using JS emulators (Planned)
-- Track played and favorite games (even ones that aren't available for download) (Planned)
+- Busca archivos ROM y los compara con la información de juegos de IGDB.
+- Proporciona enlaces de descarga de ROM junto con los detalles del juego.
+- Gestiona el acceso a la biblioteca con la creación de usuarios y permisos (en desarrollo).
+- Permite a los usuarios solicitar juegos (previsto).
+- Reproduce ROM seleccionadas en el navegador utilizando emuladores JS (previsto).
+- Realiza un seguimiento de los juegos jugados y favoritos (incluso aquellos que no están disponibles para su descarga) (previsto).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/172274231-d691a850-1879-44fb-8fa0-08e549d7bb29.png">
@@ -1797,109 +1825,109 @@ Cartridge Features
       Cartridge UI
 </p>
 
-### Nintendo GameCube & Wii
+### Nintendo GameCube y Wii
 
-[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more. [Dolphin Flatpak](https://flathub.org/apps/details/org.DolphinEmu.dolphin-emu)
+[Dolphin](https://dolphin-emu.org) es un emulador para dos consolas de videojuegos recientes de Nintendo: GameCube y Wii. Permite a los jugadores de PC disfrutar de los juegos de estas dos consolas en Full HD (1080p) con varias mejoras: compatibilidad con todos los mandos de PC, velocidad turbo, multijugador en red y mucho más. [Dolphin Flatpak](https://flathub.org/apps/details/org.DolphinEmu.dolphin-emu)
 
 ### Nintendo Switch 
 
-[Ryujinx](https://ryujinx.org/) is an open-source Nintendo Switch emulator created by gdkchan and written in C#. This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds. [Ryujinx Flatpak](https://flathub.org/apps/details/org.ryujinx.Ryujinx)
+[Ryujinx](https://ryujinx.org/) es un emulador de Nintendo Switch de código abierto creado por gdkchan y escrito en C#. Este emulador tiene como objetivo proporcionar una excelente precisión y rendimiento, una interfaz fácil de usar y compilaciones consistentes. [Ryujinx Flatpak](https://flathub.org/apps/details/org.ryujinx.Ryujinx)
 
-[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra. [yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.[Yuzu Flatpak](https://flathub.org/apps/details/org.yuzu_emu.yuzu)
+[yuzu](https://yuzu-emu.org) es un emulador experimental de código abierto para Nintendo Switch de los creadores de Citra. [yuzu](https://yuzu-emu.org) es un emulador experimental de código abierto para Nintendo Switch creado por los desarrolladores de Citra. [Yuzu Flatpak](https://flathub.org/apps/details/org.yuzu_emu.yuzu)
 
 ### Nintendo 64
 
-[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). [m64p Flatpak](https://flathub.org/apps/details/io.github.m64p.m64p)
+[m64p](https://m64p.github.io/) es un emulador de Nintendo 64. Utiliza mupen64plus-gui, una nueva interfaz de mupen64plus escrita en Qt5. Es compatible con todas las funciones que se esperan de una interfaz (gestión de estados guardados, pausa, capturas de pantalla). [m64p Flatpak](https://flathub.org/apps/details/io.github.m64p.m64p)
 
-[simple64](https://github.com/simple64/simple64) is an emulator based on a heavily modified version of mupen64plus-core, and ParaLLEl RSP/RDP. It includes a GUI, netplay, controller configuration, and  more. [simple64 Flatpak](https://flathub.org/apps/details/io.github.simple64.simple64)
+[simple64](https://github.com/simple64/simple64) es un emulador basado en una versión muy modificada de mupen64plus-core y ParaLLEl RSP/RDP. Incluye una interfaz gráfica de usuario, juego en red, configuración del mando y mucho más. [simple64 Flatpak](https://flathub.org/apps/details/io.github.simple64.simple64)
 
 Nintendo 3DS
 
-[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.[Citra Flatpak](https://flathub.org/apps/details/org.citra_emu.citra)
+[Citra](https://citra-emu.org/) es un emulador de código abierto para Nintendo 3DS capaz de reproducir muchos de tus juegos favoritos. [Citra Flatpak](https://flathub.org/apps/details/org.citra_emu.citra)
 
 ### Nintendo DS
 
-[DeSmuME](https://desmume.org/) is a Nintendo DS emulator. [DeSmuME Flatpak](https://flathub.org/apps/details/org.desmume.DeSmuME)
+[DeSmuME](https://desmume.org/) es un emulador de Nintendo DS. [DeSmuME Flatpak](https://flathub.org/apps/details/org.desmume.DeSmuME)
 
-[melonDS](https://github.com/melonDS-emu/melonDS) is a tool that aims at providing fast and accurate Nintendo DS emulation. While it is still a work in progress, it has a pretty solid set of features. [melonDS Flatpak](https://flathub.org/apps/details/net.kuribo64.melonDS)
+[melonDS](https://github.com/melonDS-emu/melonDS) es una herramienta que tiene como objetivo proporcionar una emulación rápida y precisa de Nintendo DS. Aunque todavía está en desarrollo, cuenta con un conjunto de características bastante sólido. [melonDS Flatpak](https://flathub.org/apps/details/net.kuribo64.melonDS)
 
-**Features:**
+**Características:**
 
-   * Nearly complete core (CPU, video, audio, etc...)
-   * OpenGL renderer, 3D upscaling
-   * RTC, microphone, lid close/open
-   * Joystick support
-   * Savestates
-   * Various display position/sizing/rotations modes
-   * Work-in-progress Wi-Fi emulation for online connectivity and local multiplayer
-   * Experimental emulation of the Nintendo DSi
+   * Núcleo casi completo (CPU, vídeo, audio, etc.)
+   * Renderizador OpenGL, escalado 3D
+   * RTC, micrófono, apertura/cierre de la tapa
+   * Compatibilidad con joystick
+   * Estados guardados   
+   * Varios modos de posición/tamaño/rotación de la pantalla.
+   * Emulación Wi-Fi en desarrollo para conectividad en línea y multijugador local.
+   * Emulación experimental de Nintendo DSi.
 
 ### Super Nintendo Entertainment System (SNES)
 
-[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. [Snes9x Flatpak](https://flathub.org/apps/details/com.snes9x.Snes9x) 
+[Snes9x](https://www.snes9x.com/) es un emulador portátil y gratuito de la Super Nintendo Entertainment System (SNES). [Snes9x Flatpak](https://flathub.org/apps/details/com.snes9x.Snes9x) 
 
-[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use. [bsnes flatpak](https://flathub.org/apps/details/dev.bsnes.bsnes)
+[bsnes](https://github.com/bsnes-emu/bsnes) es un emulador de Super Nintendo (SNES) centrado en el rendimiento, las funciones y la facilidad de uso. [bsnes flatpak](https://flathub.org/apps/details/dev.bsnes.bsnes)
 
-### Nintendo Entertainment System  
+### Nintendo Entertainment System
 
-[Nestopia](https://github.com/0ldsk00l/nestopia) is a portable NES/Famicom emulator written in C++. [Nestopia Flatpak](https://flathub.org/apps/details/ca._0ldsk00l.Nestopia)
+[Nestopia](https://github.com/0ldsk00l/nestopia) es un emulador portátil de NES/Famicom escrito en C++. [Nestopia Flatpak](https://flathub.org/apps/details/ca._0ldsk00l.Nestopia)
 
 ### Game Boy Advance
 
-[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. [mGBA Flatpak](https://flathub.org/apps/details/io.mgba.mGBA)
+[mGBA](https://mgba.io/) es un nuevo emulador para ejecutar juegos de Game Boy Advance. Su objetivo es ser más rápido y preciso que muchos emuladores de Game Boy Advance existentes, además de añadir características que otros emuladores no tienen. [mGBA Flatpak](https://flathub.org/apps/details/io.mgba.mGBA)
 
-[SameBoy](https://github.com/LIJI32/SameBoy) is an open source Game Boy (DMG) and Game Boy Color (CGB) emulator, written in portable C. It has an SDL frontend and a libretro core. [SameBoy Flatpak](https://flathub.org/apps/details/io.github.sameboy.SameBoy)
+[SameBoy](https://github.com/LIJI32/SameBoy) es un emulador de código abierto para Game Boy (DMG) y Game Boy Color (CGB), escrito en C portátil. Tiene una interfaz SDL y un núcleo libretro. [SameBoy Flatpak](https://flathub.org/apps/details/io.github.sameboy.SameBoy)
 
-[GB Enhanced+](https://github.com/shonumi/gbe-plus) is an original Game Boy, Game Boy Color and Game Boy Advance emulator. Its focus is on completeness of emulation, including peripherals. [GB Enhanced+ Flatpak](https://flathub.org/apps/details/com.github.shonumi.gbe-plus)
+[GB Enhanced+](https://github.com/shonumi/gbe-plus) es un emulador original de Game Boy, Game Boy Color y Game Boy Advance. Se centra en la emulación completa, incluidos los periféricos. [GB Enhanced+ Flatpak](https://flathub.org/apps/details/com.github.shonumi.gbe-plus)
 
-### DOS 
+### DOS
 
-[DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
+[DOSBox](https://www.dosbox.com/) es un emulador de DOS de código abierto que se centra principalmente en ejecutar juegos de DOS.
 
-[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode. [DOSBox Staging Flatpak](https://flathub.org/apps/details/io.github.dosbox-staging)
+[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) es un emulador completo de CPU x86 (independiente de la arquitectura del host), capaz de ejecutar programas DOS que requieren modo real o protegido. [DOSBox Staging Flatpak](https://flathub.org/apps/details/io.github.dosbox-staging)
 
 ### Atari
 
-[Stella](https://stella-emu.github.io/) is a multi-platform Atari 2600 VCS emulator released under the GNU General Public License (GPL). Stella is available on Windows MacOS, Linux, and FreeBSD. [Stella Flatpak](https://flathub.org/apps/details/io.github.stella_emu.Stella)
+[Stella](https://stella-emu.github.io/) es un emulador multiplataforma de Atari 2600 VCS publicado bajo la Licencia Pública General GNU (GPL). Stella está disponible para Windows, MacOS, Linux y FreeBSD. [Stella Flatpak](https://flathub.org/apps/details/io.github.stella_emu.Stella)
 
-[Hatari](https://hatari.tuxfamily.org/) is an Atari ST/STE/TT/Falcon emulator for Linux, BSD, MacOS, Windows and other systems which are supported by the SDL library. The Atari ST was a 16/32 bit computer system which was first released by Atari in 1985. [Hatrai Flatpak](https://flathub.org/apps/details/org.tuxfamily.hatari)
+[Hatari](https://hatari.tuxfamily.org/) es un emulador de Atari ST/STE/TT/Falcon para Linux, BSD, MacOS, Windows y otros sistemas compatibles con la biblioteca SDL. El Atari ST era un sistema informático de 16/32 bits lanzado por primera vez por Atari en 1985. [Hatrai Flatpak](https://flathub.org/apps/details/org.tuxfamily.hatari)
 
 ### Sega Dreamcast
 
-[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast. [Flycast Flatpak](https://flathub.org/apps/details/org.flycast.Flycast)
+[Flycast](https://github.com/flyinghead/flycast) es un emulador multiplataforma de Sega Dreamcast, Naomi y Atomiswave derivado de reicast. [Flycast Flatpak](https://flathub.org/apps/details/org.flycast.Flycast)
 
-### PlayStation Portable
+### PlayStation Portable
 
-[PPSSPP](https://www.ppsspp.org/) is a PSP emulator that can run games in full HD resolution. It can even upscale textures that would otherwise be too blurry as they were made for the small screen of the original PSP. [PPSSPP Flatpak](https://flathub.org/apps/details/org.ppsspp.PPSSPP)
+[PPSSPP](https://www.ppsspp.org/) es un emulador de PSP que puede ejecutar juegos en resolución Full HD. Incluso puede mejorar las texturas que, de otro modo, serían demasiado borrosas, ya que fueron creadas para la pequeña pantalla de la PSP original. [PPSSPP Flatpak](https://flathub.org/apps/details/org.ppsspp.PPSSPP)
 
 ### PlayStation 1
 
-[DuckStation](https://www.duckstation.org/) is an simulator/emulator of the Sony PlayStation 1 console, focusing on playability, speed, and long-term maintainability. [DuckStation Flatpak](https://flathub.org/apps/details/org.duckstation.DuckStation).
+[DuckStation](https://www.duckstation.org/) es un simulador/emulador de la consola Sony PlayStation 1, centrado en la jugabilidad, la velocidad y el mantenimiento a largo plazo. [DuckStation Flatpak](https://flathub.org/apps/details/org.duckstation.DuckStation).
 
-[Avocado](https://github.com/JaCzekanski/Avocado) is a Modern PlayStation 1 emulator.
+[Avocado](https://github.com/JaCzekanski/Avocado) es un emulador moderno de PlayStation 1.
 
 ### PlayStation 2
 
-[PCSX2](https://pcsx2.net/) is a Playstation 2 'emulator', a free program that tries to replicate the Playstation 2 console to enable you to play PS2 games on your PC. [PCSX2 Flatpak](https://flathub.org/apps/details/net.pcsx2.PCSX2)
+[PCSX2](https://pcsx2.net/) es un «emulador» de PlayStation 2, un programa gratuito que intenta replicar la consola PlayStation 2 para permitirte jugar a juegos de PS2 en tu PC. [PCSX2 Flatpak](https://flathub.org/apps/details/net.pcsx2.PCSX2)
 
-[Play!](https://github.com/jpd002/Play-) is a PlayStation2 emulator for Windows, macOS, Linux, Android, iOS and web browser platforms. [Play! Flatpak](https://flathub.org/apps/details/org.purei.Play)
+[Play!](https://github.com/jpd002/Play-) es un emulador de PlayStation 2 para Windows, macOS, Linux, Android, iOS y navegadores web. [Play! Flatpak](https://flathub.org/apps/details/org.purei.Play)
 
 ### PlayStation 3
 
-[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL. [RPCS3 Flatpak](https://flathub.org/apps/details/net.rpcs3.RPCS3)
+[RPCS3](https://rpcs3.net/) es un emulador y depurador experimental de código abierto para Sony PlayStation 3 escrito en C++ para Windows y Linux. RPCS3 comenzó a desarrollarse en mayo de 2011 por sus fundadores DH y Hykem. Actualmente, el emulador es capaz de ejecutar más de 1800 títulos comerciales con tecnología Vulkan y OpenGL. [RPCS3 Flatpak](https://flathub.org/apps/details/net.rpcs3.RPCS3)
 
 ### Xbox
 
-[xemu](https://xemu.app/) is an original Xbox emulator. [xemu Flatpak](https://flathub.org/apps/details/app.xemu.xemu)
+[xemu](https://xemu.app/) es un emulador original de Xbox. [xemu Flatpak](https://flathub.org/apps/details/app.xemu.xemu)
 
-[Xenia](https://github.com/xenia-project/xenia) is an Xbox 360 Emulator. 
+[Xenia](https://github.com/xenia-project/xenia) es un emulador de Xbox 360. 
 
 ### MAME
 
-[MAME](https://www.mamedev.org/) is a Arcade Machine Emulator. [MAME Flatpak](https://flathub.org/apps/details/org.mamedev.MAME)
+[MAME](https://www.mamedev.org/) es un emulador de máquinas recreativas. [MAME Flatpak](https://flathub.org/apps/details/org.mamedev.MAME)
 
 
-## Hardware Performance(CPU, GPU, Gaming Peripherals)
+## Rendimiento del hardware (CPU, GPU, periféricos para juegos)
 [Volver al Inicio](#tabla-de-contenidos)
 
 ### NVIDIA
@@ -1910,9 +1938,9 @@ Nintendo 3DS
   <br />
 </p>
 
- * [NVIDIA Linux Open GPU Kernel Module Source](https://github.com/NVIDIA/open-gpu-kernel-modules)
+ * [Código fuente del módulo del kernel NVIDIA Linux Open GPU](https://github.com/NVIDIA/open-gpu-kernel-modules)
 
-[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available as a [Flatpak on FlatHub](https://flathub.org/apps/details/com.leinardi.gwe).
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) es una utilidad del sistema GTK diseñada por Roberto Leinardi para proporcionar información, controlar los ventiladores y overclockear tu tarjeta de vídeo NVIDIA para obtener un mejor rendimiento. Disponible como [Flatpak en FlatHub](https://flathub.org/apps/details/com.leinardi.gwe).
 
  <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
  
@@ -1924,23 +1952,23 @@ Nintendo 3DS
   <br />
 </p>
  
-* **[AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx)** is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. FSR enables “practical performance” for costly render operations, such as hardware ray tracing for the AMD RDNA™ and AMD RDNA™ 2 architectures.
+* **[AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx)** es una solución de código abierto y alta calidad para producir fotogramas de alta resolución a partir de entradas de menor resolución. FSR permite un «rendimiento práctico» para operaciones de renderizado costosas, como el trazado de rayos por hardware para las arquitecturas AMD RDNA™ y AMD RDNA™ 2.
 
-* **[AMD FidelityFX Super Resolution (FSR) 2.0](https://github.com/GPUOpen-Effects/FidelityFX-FSR2)** is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. It uses temporal data and optimized anti-aliasing to boost framerates in supported games while delivering similar or better image quality than native resolution.
+* **[AMD FidelityFX Super Resolution (FSR) 2.0](https://github.com/GPUOpen-Effects/FidelityFX-FSR2)** es una solución de código abierto y alta calidad para producir fotogramas de alta resolución a partir de entradas de menor resolución. Utiliza datos temporales y antialiasing optimizado para aumentar la velocidad de fotogramas en los juegos compatibles, al tiempo que ofrece una calidad de imagen similar o superior a la resolución nativa.
 
-* **[AMD Open Source Driver for Vulkan®](https://github.com/GPUOpen-Drivers/AMDVLK)** is an open-source Vulkan driver for Radeon™ graphics adapters on Linux®. It is built on top of AMD's Platform Abstraction Library (PAL), a shared component that is designed to encapsulate certain hardware and OS-specific programming details for many of AMD's 3D and compute drivers. 
+* **[Controlador de código abierto AMD para Vulkan®](https://github.com/GPUOpen-Drivers/AMDVLK)** es un controlador Vulkan de código abierto para adaptadores gráficos Radeon™ en Linux®. Se basa en la biblioteca de abstracción de plataforma (PAL) de AMD, un componente compartido diseñado para encapsular ciertos detalles de programación específicos del hardware y del sistema operativo para muchos de los controladores 3D y de cálculo de AMD. 
 
-* **[Vulkan® Memory Allocator (VMA)](https://gpuopen.com/vulkan-memory-allocator/)** is a library provides a simple and easy to integrate API to help you allocate memory for Vulkan® buffer and image storage. 
+* **[Vulkan® Memory Allocator (VMA)](https://gpuopen.com/vulkan-memory-allocator/)** es una biblioteca que proporciona una API sencilla y fácil de integrar para ayudarle a asignar memoria para el almacenamiento de imágenes y búferes Vulkan®. 
 
-* **[Radeon™ Raytracing Analyzer (RRA)](https://gpuopen.com/radeon-raytracing-analyzer/)** is a tool that investigates the performance of your raytracing applications and highlight potential bottlenecks.
+* **[Radeon™ Raytracing Analyzer (RRA)](https://gpuopen.com/radeon-raytracing-analyzer/)** es una herramienta que investiga el rendimiento de sus aplicaciones de trazado de rayos y destaca los posibles cuellos de botella.
 
-* **[Radeon™ GPU Profiler](https://gpuopen.com/rgp/)** is a low-level optimization tool that provides detailed information on Radeon™ GPUs.
+* **[Radeon™ GPU Profiler](https://gpuopen.com/rgp/)** Es una herramienta de optimización de bajo nivel que proporciona información detallada sobre las GPU Radeon™.
 
-* **[Radeon™ GPU Analyzer](https://gpuopen.com/rga/)** is an offline compiler and performance analysis tool for DirectX®, Vulkan®, SPIR-V™, OpenGL®, and OpenCL™. It can be used together with [RGP](https://gpuopen.com/rgp/), [RMV](https://gpuopen.com/rmv/), and [RDP](https://gpuopen.com/rdp/).
+* **[Radeon™ GPU Analyzer](https://gpuopen.com/rga/)** es un compilador sin conexión y una herramienta de análisis del rendimiento para DirectX®, Vulkan®, SPIR-V™, OpenGL® y OpenCL™. Se puede utilizar junto con [RGP](https://gpuopen.com/rgp/), [RMV](https://gpuopen.com/rmv/) y [RDP](https://gpuopen.com/rdp/).
 
- * **[Radeon™ Developer Panel (RDP)](https://gpuopen.com/rdp/)** is an essential part of the Radeon™ Developer Tool Suite. It provides the communication channel that delivers requests to, and receives data from, the AMD Radeon™ driver.
+ * **[Radeon™ Developer Panel (RDP)](https://gpuopen.com/rdp/)** es una parte esencial del conjunto de herramientas para desarrolladores Radeon™. Proporciona el canal de comunicación que envía solicitudes y recibe datos del controlador AMD Radeon™.
 
-* **[Radeon™ Memory Visualizer (RMV)](https://gpuopen.com/learn/radeon-memory-visualizer-on-linux/)** is a powerful tool that allows users to analyze video memory usage on AMD Radeon GPUs.
+* **[Radeon™ Memory Visualizer (RMV)](https://gpuopen.com/learn/radeon-memory-visualizer-on-linux/)** es una potente herramienta que permite a los usuarios analizar el uso de la memoria de vídeo en las GPU AMD Radeon.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190555167-e1293b98-eaf1-4df0-815c-88569b8dfe23.png">
@@ -1948,8 +1976,7 @@ Nintendo 3DS
   Radeon™ Memory Visualizer (RMV)
 </p>
 
-
-* **[CoreCtrl](https://gitlab.com/corectrl/corectrl)** is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, along with basic CPU controls and full AMD GPUs controls (for both old and new models). 
+* **[CoreCtrl](https://gitlab.com/corectrl/corectrl)** es una aplicación Linux gratuita y de código abierto que te permite controlar fácilmente el hardware de tu ordenador mediante perfiles de aplicación para aplicaciones nativas y Windows, junto con controles básicos de la CPU y controles completos de las GPU AMD (tanto para modelos antiguos como nuevos). 
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190553872-1111d52c-dc73-4868-8e27-60a8d0f57937.png">
@@ -1965,13 +1992,13 @@ Nintendo 3DS
   <br />
 </p>
 
-**Version requirements for DG2/Alchemist hardware on Linux:**
+**Requisitos de versión para el hardware DG2/Alchemist en Linux:**
 
-* **[Linux Kernel 6.0 or newer](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git)**
-* **[Mesa 22.2 or newer](https://gitlab.freedesktop.org/mesa/mesa/-/tree/22.2)** for ANV Vulkan and Iris OpenGL will in turn work out-of-the-box with current cards when booting with the necessary kernel support in place.
-* **[Latest linux-firmware.git](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git)** for the very latest GuC firmware support.
+* **[Kernel de Linux 6.0 o posterior](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git)**
+* **[Mesa 22.2 o superior](https://gitlab.freedesktop.org/mesa/mesa/-/tree/22.2)** para ANV Vulkan e Iris OpenGL funcionarán de inmediato con las tarjetas actuales al arrancar con el soporte del kernel necesario.
+* **[Última versión de linux-firmware.git](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git)** para el soporte más reciente del firmware GuC.
 
-**Note:** With Linux 6.0 the DG2 class support is not exposed by default but requires setting the **i915.force_probe=[PCI-ID] module option** to force the driver to initialize the graphics card. 
+**Nota:** Con Linux 6.0, la compatibilidad con la clase DG2 no está expuesta de forma predeterminada, sino que requiere configurar la **opción del módulo i915.force_probe=[PCI-ID]** para forzar al controlador a inicializar la tarjeta gráfica. 
 
 **On Debian-based systems:**
 
@@ -1981,7 +2008,7 @@ Nintendo 3DS
 
 ```su dmesg | grep -i i915```
 
-[Intel Xe Super Sampling (XeSS)](https://www.intel.com/content/www/us/en/products/docs/arc-discrete-graphics/xess.html) is a temporal image upscaling AI rendering technology that increases graphics performance similar to [NVIDIA's DLSS (Deep Learning Super Sampling)](https://developer.nvidia.com/dlss). Intel's Arc GPU architecture (Fall 2022) will have GPUs that feature dedicated Xe-cores to run XeSS. The GPUs will have Xe Matrix eXtenstions matrix (XMX) engines for hardware-accelerated AI processing. XeSS will be able to run on devices without XMX, including integrated graphics, though, the performance of XeSS will be lower on non-Intel graphics cards because it will be powered by [DP4a instruction](https://www.intel.com/content/dam/www/public/us/en/documents/reference-guides/11th-gen-quick-reference-guide.pdf).
+[Intel Xe Super Sampling (XeSS)](https://www.intel.com/content/www/us/en/products/docs/arc-discrete-graphics/xess.html) es una tecnología de renderizado con IA para el escalado temporal de imágenes que aumenta el rendimiento gráfico de forma similar a [DLSS (Deep Learning Super Sampling) de NVIDIA](https://developer.nvidia.com/dlss) . La arquitectura de GPU Arc de Intel (otoño de 2022) contará con GPU que incorporan núcleos Xe dedicados para ejecutar XeSS. Las GPU tendrán motores Xe Matrix eXtenstions matrix (XMX) para el procesamiento de IA acelerado por hardware. XeSS podrá ejecutarse en dispositivos sin XMX, incluidos los gráficos integrados, aunque el rendimiento de XeSS será menor en las tarjetas gráficas que no sean de Intel, ya que funcionará con la [instrucción DP4a](https://www.intel.com/content/dam/www/public/us/en/documents/reference-guides/11th-gen-quick-reference-guide.pdf).
 
 
 * [ Intel XeSS ML Upscaling | The Digital Foundry Tech Review | XeSS vs DLSS vs Native](https://www.youtube.com/watch?v=rfLwZy650s0)
