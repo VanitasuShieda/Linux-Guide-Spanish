@@ -27,17 +27,24 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
 - [Entornos de escritorio Linux](#entornos-de-escritorio-linux)
 - [Gestores de ventanas de Linux](#gestores-de-ventanas-de-linux)
     - [Tiling (Gestores de ventanas en mosaico)](#tiling-gestores-de-ventanas-en-mosaico)
-- [Linux Companies](#linux-companies)
-- [Linux Hardware Vendors](#linux-hardware-vendors)
-- [Linux in the Cloud](#linux-in-the-cloud)
-- [Getting Software](#getting-software)
-  - [GNOME Software Center](#gnome-software-center)
-  - [KDE Plasma Discover Software Center](#kde-plasma-discover-software-center)
-  - [App Outlet](#app-outlet)
-  - [Flatpaks](#flatpaks)
-  - [Snaps](#snaps)
-  - [AppImages](#appimages)
-  - [Microsoft Office Alternatives](#microsoft-office-alternatives)
+- [Empresas Linux](#empresas-linux)
+- [Proveedores de hardware para Linux](#proveedores-de-hardware-para-linux)
+- [Linux en la nube](#linux-en-la-nube)
+- [Obtener software](#obtener-software)
+  - [Gestores de paquetes (la forma principal)](#gestores-de-paquetes-la-forma-principal)
+  - [Tiendas gráficas (para usuarios nuevos)](#tiendas-gráficas-para-usuarios-nuevos)
+    - [GNOME Software Center](#gnome-software-center)
+    - [KDE Plasma Discover Software Center](#kde-plasma-discover-software-center)
+    - [App Outlet](#app-outlet)
+  - [Formatos universales (multidistribución)](#formatos-universales-multidistribución)
+    - [Flatpaks](#flatpaks)
+    - [Snaps](#snaps)
+    - [AppImages](#appimages)
+  - [Compilar desde código fuente](#compilar-desde-código-fuente)
+    - [¿Qué es el código fuente?](#qué-es-el-código-fuente)
+    - [Requisitos previos](#requisitos-previos)
+    - [Proceso típico de compilación](#proceso-típico-de-compilación)
+- [Alternativas a Microsoft Office](#alternativas-a-microsoft-office)
   - [Secure \& Privacy Focused Web Browsers](#secure--privacy-focused-web-browsers)
     - [Privacy \& Security Focused Browser extensions](#privacy--security-focused-browser-extensions)
     - [Privacy-focused Search Engines](#privacy-focused-search-engines)
@@ -115,7 +122,7 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
     - [Getting Started with Linux Mint](#getting-started-with-linux-mint)
     - [Installing KDE Plasma on Linux Mint](#installing-kde-plasma-on-linux-mint)
     - [Enable Firewall](#enable-firewall)
-    - [Getting Software](#getting-software-1)
+    - [Getting Software](#getting-software)
       - [Linux Mint Software Center](#linux-mint-software-center)
 - [Fedora/CentOS Stream/RHEL](#fedoracentos-streamrhel)
   - [Getting Started with FedoraCentOS Stream/RHEL](#getting-started-with-fedoracentos-streamrhel)
@@ -134,23 +141,23 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
   - [Contribute](#contribute)
   - [License](#license)
  
-11. [File systems](https://github.com/VanitasuShieda/Linux-Guide-Spanish#file-systems) 
+1.  [File systems](https://github.com/VanitasuShieda/Linux-Guide-Spanish#file-systems) 
 
-12. [Debian](https://github.com/VanitasuShieda/Linux-Guide-Spanish#debian)
+2.  [Debian](https://github.com/VanitasuShieda/Linux-Guide-Spanish#debian)
 
-13. [Ubuntu](https://github.com/VanitasuShieda/Linux-Guide-Spanish#ubuntu)
+3.  [Ubuntu](https://github.com/VanitasuShieda/Linux-Guide-Spanish#ubuntu)
 
-14. [Pop!_OS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#pop_os)
+4.  [Pop!_OS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#pop_os)
 
-15. [Linux Mint](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-mint)
+5.  [Linux Mint](https://github.com/VanitasuShieda/Linux-Guide-Spanish#linux-mint)
 
-16. [Fedora/CentOS Stream/Red Hat Enterprise Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#fedoracentos-streamrhel)
+6.  [Fedora/CentOS Stream/Red Hat Enterprise Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#fedoracentos-streamrhel)
 
-17. [SUSE/openSUSE](https://github.com/VanitasuShieda/Linux-Guide-Spanish#suseopensuse)
+7.  [SUSE/openSUSE](https://github.com/VanitasuShieda/Linux-Guide-Spanish#suseopensuse)
 
-18. [Arch Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#arch-linux)
+8.  [Arch Linux](https://github.com/VanitasuShieda/Linux-Guide-Spanish#arch-linux)
 
-19. [NixOS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#nixos)
+9.  [NixOS](https://github.com/VanitasuShieda/Linux-Guide-Spanish#nixos)
 
  
  <p align="center">
@@ -587,25 +594,25 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 ![Hyprland](https://camo.githubusercontent.com/14fcfb6512ea7aaa45f6381268e34802a234418664c4dfe7a86e1ab99a0f1ca7/68747470733a2f2f692e6962622e636f2f433179546230722f66616c662e706e67 "image")
 
 
-# Linux Companies
+# Empresas Linux
 
  [Volver al Inicio](#tabla-de-contenidos)
 
- * [Red Hat](https://www.redhat.com/en) makers of Red Hat Enterprise Linux and sponsors to the [Fedora Project](https://getfedora.org/).
+ * [Red Hat](https://www.redhat.com/en) creadores de Red Hat Enterprise Linux y patrocinadores de la empresa [Fedora Project](https://getfedora.org/).
 
- * [Canonical](https://canonical.com) makers of Ubuntu Desktop and Server.
+ * [Canonical](https://canonical.com) creadores de Ubuntu Desktop y Server.
 
- * [SUSE](https://www.suse.com) makers of SUSE Enterprise Linux.
+ * [SUSE](https://www.suse.com) creadores de SUSE Enterprise Linux.
 
- * [Manjaro](https://manjaro.org) makers of Manjaro Linux.
+ * [Manjaro](https://manjaro.org) creadores de Manjaro Linux.
 
- * [System76](https://system76.com) makers of [Pop!_OS](https://pop.system76.com/)
+ * [System76](https://system76.com) creadores de [Pop!_OS](https://pop.system76.com/)
 
-# Linux Hardware Vendors
+# Proveedores de hardware para Linux
 
 [Volver al Inicio](#tabla-de-contenidos)
 
- * [Valve](https://www.valvesoftware.com/) makers of the [Steam Deck](http://www.steamdeck.com/).
+ * [Valve](https://www.valvesoftware.com/) creadores de [Steam Deck](http://www.steamdeck.com/).
 
  * [System76](https://system76.com)
 
@@ -625,17 +632,17 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  * [Dell](https://www.dell.com/en-us/work/shop/overview/cp/linuxsystems) 
  
- * [Framework Laptop](https://frame.work/), Please note that you will have to install Linux on your device it does not ship with the laptop.
+ * [Framework Laptop](https://frame.work/), Tenga en cuenta que deberá instalar Linux en su dispositivo, ya que no viene incluido con el portátil.
 
-# Linux in the Cloud
+# Linux en la nube
 
  [Volver al Inicio](#tabla-de-contenidos)
 
-[Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/) a next generation of Amazon Linux, a Linux server operating system from Amazon Web Services (AWS). It provides a secure, stable, and high performance execution environment to develop and run cloud and enterprise applications. With Amazon Linux 2, you get an application environment that offers long term support with access to the latest innovations in the Linux ecosystem.
+[Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/) Una nueva generación de Amazon Linux, un sistema operativo Linux para servidores de Amazon Web Services (AWS). Proporciona un entorno de ejecución seguro, estable y de alto rendimiento para desarrollar y ejecutar aplicaciones empresariales y en la nube. Con Amazon Linux 2, obtienes un entorno de aplicaciones que ofrece soporte a largo plazo con acceso a las últimas innovaciones del ecosistema Linux.
 
-[Amazon Linux AMI](https://aws.amazon.com/amazon-linux-ami/) is a supported and maintained Linux image provided by Amazon Web Services for use on Amazon Elastic Compute Cloud (Amazon EC2). It is designed to provide a stable, secure, and high performance execution environment for applications running on Amazon EC2.
+[Amazon Linux AMI](https://aws.amazon.com/amazon-linux-ami/) Es una imagen de Linux compatible y mantenida por Amazon Web Services para su uso en Amazon Elastic Compute Cloud (Amazon EC2). Está diseñada para proporcionar un entorno de ejecución estable, seguro y de alto rendimiento para las aplicaciones que se ejecutan en Amazon EC2.
 
-[Bottlerocket](https://aws.amazon.com/bottlerocket/) is a Linux-based open-source operating system that is purpose-built by Amazon Web Services for running containers on virtual machines or bare metal hosts. Most customers today run containerized applications on general-purpose operating systems that are updated package-by-package, which makes OS updates difficult to automate.
+[Bottlerocket](https://aws.amazon.com/bottlerocket/) es un sistema operativo de código abierto basado en Linux, diseñado específicamente por Amazon Web Services para ejecutar contenedores en máquinas virtuales o hosts bare metal. La mayoría de los clientes actuales ejecutan aplicaciones en contenedores en sistemas operativos de uso general que se actualizan paquete por paquete, lo que dificulta la automatización de las actualizaciones del sistema operativo.
 
  * [Getting Started with Bottlerocket and Certified AWS Partners](https://aws.amazon.com/blogs/apn/getting-started-with-bottlerocket-and-certified-aws-partners/)
 
@@ -643,11 +650,11 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  * [Ubuntu on AWS](https://ubuntu.com/aws)
 
-[CBL-Mariner](https://github.com/microsoft/CBL-Mariner) is an internal Linux distribution for Microsoft’s cloud infrastructure and edge products and services. CBL-Mariner is designed to provide a consistent platform for these devices and services and will enhance Microsoft’s ability to stay current on Linux updates. This initiative is part of Microsoft’s increasing investment in a wide range of Linux technologies, such as [SONiC](https://azure.microsoft.com/en-us/blog/sonic-the-networking-switch-software-that-powers-the-microsoft-global-cloud/), [Azure Sphere OS](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) and [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about). 
+[CBL-Mariner](https://github.com/microsoft/CBL-Mariner) es una distribución interna de Linux para la infraestructura en la nube y los productos y servicios periféricos de Microsoft. CBL-Mariner está diseñado para proporcionar una plataforma coherente para estos dispositivos y servicios, y mejorará la capacidad de Microsoft para mantenerse al día con las actualizaciones de Linux. Esta iniciativa forma parte de la creciente inversión de Microsoft en una amplia gama de tecnologías Linux, tales como [SONiC](https://azure.microsoft.com/en-us/blog/sonic-the-networking-switch-software-that-powers-the-microsoft-global-cloud/), [Azure Sphere OS](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) y [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about). 
 
-[SONiC](https://azure.github.io/SONiC/) is an open source network operating system based on Linux that runs on switches from multiple vendors and ASICs. It offers a full-suite of network functionality, like BGP and RDMA, that has been production-hardened in the data centers of some of the largest cloud-service providers.
+[SONiC](https://azure.github.io/SONiC/) Es un sistema operativo de red de código abierto basado en Linux que se ejecuta en conmutadores de múltiples proveedores y ASIC. Ofrece un conjunto completo de funciones de red, como BGP y RDMA, que se han probado en entornos de producción en los centros de datos de algunos de los mayores proveedores de servicios en la nube.
 
-[Azure Sphere](https://www.microsoft.com/en-us/azure-sphere/) is a secured, high-level application platform with built-in communication and security features for internet-connected devices. The platform consists of the integration of hardware built around a secured silicon chip; the Azure Sphere OS, a custom high-level Linux-based operating system; and the Azure Sphere Security Service, a cloud-based security service that provides continuous security.
+[Azure Sphere](https://www.microsoft.com/en-us/azure-sphere/) es una plataforma de aplicaciones segura y de alto nivel con funciones de comunicación y seguridad integradas para dispositivos conectados a Internet. La plataforma consiste en la integración de hardware construido en torno a un chip de silicio seguro; el sistema operativo Azure Sphere, un sistema operativo personalizado de alto nivel basado en Linux; y el servicio de seguridad Azure Sphere, un servicio de seguridad basado en la nube que proporciona seguridad continua.
 
  * [Ubuntu on Azure](https://ubuntu.com/azure)
 
@@ -671,27 +678,65 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  * [Linode](https://linode.com/)
 
-# Getting Software
+# Obtener software
 
  [Volver al Inicio](#tabla-de-contenidos)
 
-## GNOME Software Center
+En Linux, el software se obtiene de manera diferente a otros sistemas operativos.
+En lugar de descargar archivos ejecutables desde páginas web, la forma principal de instalar programas es a través de repositorios oficiales gestionados por el sistema.
+
+Un repositorio es un servidor que contiene software verificado y compatible con tu distribución. El sistema utiliza un gestor de paquetes para descargar, instalar y actualizar automáticamente estos programas, manteniendo todo organizado y seguro.
+
+Además de los repositorios tradicionales, existen otros métodos para obtener software, como formatos universales (Flatpak, Snap, AppImage) o la compilación manual desde el código fuente.
+
+
+## Gestores de paquetes (la forma principal)
+En Linux, el software se instala mediante gestores de paquetes que descargan programas desde repositorios oficiales.
+
+Ejemplos según distribución:
+
+Debian / Ubuntu
+`sudo apt install nombre-paquete`
+
+
+Arch Linux
+`sudo pacman -S nombre-paquete`
+
+
+Fedora
+`sudo dnf install nombre-paquete`
+
+## Tiendas gráficas (para usuarios nuevos)
+
+Muchos entornos tienen tiendas, funcionan como una tienda de apps, pero usan el gestor de paquetes del sistema por debajo:
+
+* GNOME Software
+* KDE Discover
+* Ubuntu Software
+
+### GNOME Software Center
 
 <img src="https://user-images.githubusercontent.com/45159366/145691816-6445caec-5608-4022-bff2-353cfb728c66.png">
 
-## KDE Plasma Discover Software Center
+### KDE Plasma Discover Software Center
 
 <img src="https://user-images.githubusercontent.com/45159366/145691934-52154d53-2457-4226-be11-ee23d4520c74.png">
 
 **Note: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).** Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
 
-## App Outlet
+### App Outlet
 
 [App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
 
  <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
 
-## Flatpaks
+## Formatos universales (multidistribución)
+
+* Flatpak → más común en distros modernas
+* Snap → más común en Ubuntu
+* AppImage → portable, sin instalación
+
+### Flatpaks
 
 [FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
 
@@ -701,7 +746,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  <img src="https://github.com/VanitasuShieda/Linux-Guide-Spanish/assets/45159366/e19925b2-4fcf-406d-81eb-85b8dcd84889">
  
- ## Snaps
+### Snaps
 
 [Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
 
@@ -710,7 +755,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
  <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
 
-## AppImages
+### AppImages
 
 [AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
 
@@ -720,10 +765,105 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
 
-## Microsoft Office Alternatives
+## Compilar desde código fuente
+
+Compilar desde código fuente significa descargar el código original de un programa y construirlo manualmente en tu sistema.
+
+Este método es más avanzado y normalmente se utiliza cuando:
+
+- El programa no está disponible en los repositorios oficiales.
+- Se necesita una versión más reciente.
+- Se desea personalizar la compilación.
+- Se quiere entender mejor cómo funciona el software internamente.
+
+Para usuarios principiantes, generalmente no es el método recomendado, pero es importante conocerlo.
+
+---
+
+### ¿Qué es el código fuente?
+
+El código fuente es el conjunto de archivos escritos en un lenguaje de programación (como C, C++ o Rust) que describen cómo funciona un programa.
+
+Para poder ejecutarlo, ese código debe convertirse en binarios mediante un proceso llamado **compilación**.
+
+---
+
+### Requisitos previos
+
+Antes de compilar, necesitas herramientas de desarrollo instaladas.
+
+- Debian / Ubuntu
+  
+`sudo apt install build-essential`
+
+
+ - Arch Linux
+  
+`sudo pacman -S base-devel`
+
+### Proceso típico de compilación
+
+Muchos proyectos siguen este flujo clásico:
+
+- 1.  Descargar el código fuente
+
+El código puede obtenerse desde:
+* El sitio oficial del proyecto
+* GitHub o GitLab
+* Un archivo comprimido (.tar.gz, .tar.xz)
+
+Ejemplo:
+```
+tar -xvf programa.tar.gz
+cd programa
+```
+- 2. Configurar la compilación
+
+Algunos proyectos usan el sistema tradicional configure:
+
+`./configure`
+
+
+Este paso:
+* Verifica dependencias
+* Prepara el entorno
+* Genera archivos necesarios para compilar
+
+Si falta alguna dependencia, el proceso mostrará un error.
+
+- 3. Compilar
+
+`make`
+
+Aquí el compilador transforma el código fuente en archivos ejecutables.
+
+Este proceso puede tardar desde segundos hasta varios minutos, dependiendo del tamaño del proyecto.
+
+- 4. Instalar
+  
+`sudo make install`
+
+Este paso copia los archivos compilados al sistema (normalmente en /usr/local/).
+
+
+
+Otros sistemas de compilación modernos
+
+No todos los proyectos usan configure y make. Algunos sistemas modernos incluyen:
+
+* CMake
+* Meson
+* Cargo (Rust)
+* Go build (Go)
+* npm / yarn (JavaScript)
+
+Cada proyecto suele incluir instrucciones específicas en un archivo README.md o INSTALL.
+
+
+# Alternativas a Microsoft Office
 [Volver al Inicio](#tabla-de-contenidos)
 
-[OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats  for Windows, Mac and Linux.
+[OnlyOffice](https://www.onlyoffice.com/) es una suite ofimática segura, tanto offline como online, altamente compatible con los formatos de MS Office  para Windows, Mac y Linux.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158472597-9ca73786-4e28-497f-9c6d-0a0040e8c3da.png">
@@ -731,7 +871,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   OnlyOffice
 </p>
 
-[FreeOffice](https://www.freeoffice.com/) is a secure office suite highly compatible with MS Office formats for Windows, Mac and Linux.
+[FreeOffice](https://www.freeoffice.com/) Es una suite ofimática segura y altamente compatible con los formatos de MS Office para Windows, Mac y Linux.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158266331-321a1004-14cb-473f-a01f-9a9a6e67623a.png">
@@ -739,13 +879,25 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   FreeOffice
 </p>
 
-[LibreOffice](https://www.libreoffice.org/) is a free and open-source office productivity software suite similar to Microsoft Office.
+[LibreOffice](https://www.libreoffice.org/) es una suite de software de productividad ofimática gratuita y de código abierto similar a Microsoft Office.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158470268-2834d32d-72ef-4e5e-8cd6-02db51a5dcfa.png">
   <br />
   LibreOffice
 </p>
+
+[WPS Office](https://www.wps.com/office/linux/) es una suite ofimática gratuita desarrollada por Kingsoft. Ofrece procesador de textos, hojas de cálculo y presentaciones con una interfaz y compatibilidad muy similares a Microsoft Office, lo que la convierte en una alternativa popular para usuarios que migran desde Windows.
+
+Aunque es gratuita, WPS Office no es completamente de código abierto.
+ 
+<p align="center">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/WPS_Office_logo.svg">
+  <br />
+  WPS Office
+</p>
+
+
          
          
 ## Secure & Privacy Focused Web Browsers
