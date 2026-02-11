@@ -19,14 +19,14 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
  
 - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Recursos para aprender Linux](#recursos-para-aprender-linux)
-    - [Linux Software Repositories \& Package Managers](#linux-software-repositories--package-managers)
+    - [Repositorios de software y gestores de paquetes de Linux](#repositorios-de-software-y-gestores-de-paquetes-de-linux)
     - [Kernel de Linux](#kernel-de-linux)
     - [Systemd](#systemd)
-    - [Linux YouTube Channels](#linux-youtube-channels)
+    - [Canales de YouTube sobre Linux](#canales-de-youtube-sobre-linux)
     - [Linux Podcasts](#linux-podcasts)
-- [Linux Desktop Environments](#linux-desktop-environments)
-- [Linux Window Managers](#linux-window-managers)
-    - [Tiling Windows Managers](#tiling-windows-managers)
+- [Entornos de escritorio Linux](#entornos-de-escritorio-linux)
+- [Gestores de ventanas de Linux](#gestores-de-ventanas-de-linux)
+    - [Tiling (Gestores de ventanas en mosaico)](#tiling-gestores-de-ventanas-en-mosaico)
 - [Linux Companies](#linux-companies)
 - [Linux Hardware Vendors](#linux-hardware-vendors)
 - [Linux in the Cloud](#linux-in-the-cloud)
@@ -192,7 +192,7 @@ NOTA: Link a sitio web oficial en ingles.
 [Free Software Foundation (FSF)](https://www.fsf.org/) es una organización sin fines de lucro con la misión mundial de promover la libertad de los usuarios de computadoras.
 
 
-### Linux Software Repositories & Package Managers
+### Repositorios de software y gestores de paquetes de Linux
 [Volver al Inicio](#tabla-de-contenidos)
 
 
@@ -214,9 +214,9 @@ NOTA: Link a sitio web oficial en ingles.
 
 [EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) es un proyecto de repositorio de la comunidad, gratuito y de código abierto, del equipo de Fedora que proporciona paquetes adicionales de software de alta calidad para distribuciones Linux como RHEL (Red Hat Enterprise Linux) y CentOS Stream.
 
-[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)  es un gestor de paquetes que instala, actualiza y elimina paquetes en Fedora y es el sucesor de YUM (Yellow-Dog Updater Modified). DNF facilita el mantenimiento de paquetes comprobando automáticamente las dependencias y determinando las acciones necesarias para instalar paquetes.
+[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) es un gestor de paquetes que instala, actualiza y elimina paquetes en Fedora y es el sucesor de YUM (Yellow-Dog Updater Modified). DNF facilita el mantenimiento de paquetes comprobando automáticamente las dependencias y determinando las acciones necesarias para instalar paquetes.
 
-[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf)es una implementación ligera en C de DNF, diseñada para realizar acciones de empaquetado simples cuando no necesitas DNF completo y deseas los entornos más pequeños posibles. Consulta [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
+[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf) es una implementación ligera en C de DNF, diseñada para realizar acciones de empaquetado simples cuando no necesitas DNF completo y deseas los entornos más pequeños posibles. Consulta [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
 
 [Fedora Updates System](https://bodhi.fedoraproject.org/) es un lugar para crear, probar y publicar actualizaciones de paquetes para Fedora.
 
@@ -246,7 +246,7 @@ Fedora Updates System
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-The Linux kernel is the main component of a Linux operating system (OS) and is the core interface between a computer’s hardware and its processes. It communicates between the 2, managing resources as efficiently as possible.
+El núcleo (Kernel) Linux es el componente principal de un sistema operativo (SO) Linux y es la interfaz central entre el hardware de un ordenador y sus procesos. Se encarga de la comunicación entre ambos, gestionando los recursos de la forma más eficiente posible.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/219989150-5b6d5f1d-e7f8-4c5e-8fb9-5359f1acc54d.png">
@@ -254,21 +254,25 @@ The Linux kernel is the main component of a Linux operating system (OS) and is t
 Linux kernel layout
 </p>
 
-**Categories for Linux Kernel Releases:**
+**Categorías para las versiones del kernel de Linux:**
 
-* **Prepatch:** Prepatch or "RC(Realease Candidate)" kernels are mainline kernel pre-releases that are mostly aimed at other kernel developers and Linux enthusiasts. They must be compiled from source and usually contain new features that must be tested before they can be put into a stable release. Prepatch kernels are maintained and released by Linus Torvalds.
+* **Prepatch:** **Pre parche:** Los kernels Prepatch o «RC (Realease Candidate)» son versiones preliminares del kernel principal destinadas principalmente a otros desarrolladores de kernels y entusiastas de Linux. Deben compilarse desde el código fuente y suelen contener nuevas características que deben probarse antes de poder incluirse en una versión estable. Los kernels Prepatch son mantenidos y publicados por Linus Torvalds.
     
-* **Mainline:** Mainline tree is maintained by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). It's the tree where all new features are introduced and where all the exciting new development happens. New mainline kernels are released every 9-10 weeks.
+* **Mainline:** **Línea principal:** El árbol de la línea principal es mantenido por  [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Es el árbol donde se introducen todas las nuevas características y donde se producen todos los nuevos y emocionantes desarrollos. Los nuevos núcleos de la línea principal se publican cada 9-10 semanas.
     
-* **Stable:** After each mainline kernel is released, it is considered "stable." Any bug fixes for a stable kernel are backported from the mainline tree and applied by a designated stable kernel maintainer. There are usually only a few bugfix kernel releases until next mainline kernel becomes available -- unless it is designated a "longterm maintenance kernel." Stable kernel updates are released on as-needed basis, usually once a week.
+* **Stable:** **Estable:** Después de cada lanzamiento de un kernel mainline, se considera «estable». Cualquier corrección de errores para un kernel estable se retroporta desde el árbol mainline y la aplica un mantenedor de kernel estable designado. Por lo general, solo hay unos pocos lanzamientos de kernel con correcciones de errores hasta que el siguiente kernel mainline está disponible, a menos que se designe como «kernel de mantenimiento a largo plazo». Las actualizaciones del núcleo estable se lanzan según sea necesario, normalmente una vez a la semana.
     
-* **Longterm:** There are usually several "longterm maintenance" kernel releases provided for the purposes of backporting bugfixes for older kernel trees. Only important bugfixes are applied to such kernels and they don't usually see very frequent releases, especially for older trees. 
+* **Longterm:**  **A largo plazo:** Normalmente hay varios lanzamientos de núcleos de «mantenimiento a largo plazo» con el fin de retroportar correcciones de errores para árboles de núcleos más antiguos. Solo se aplican correcciones de errores importantes a estos núcleos y no suelen tener lanzamientos muy frecuentes, especialmente en el caso de los árboles más antiguos. 
 
-**Current Longterm release kernels**
+
+**Núcleos actuales de versión a largo plazo**
  
-|Version |Maintainer |	Released |Projected EOL|
+|Versión |Responsable del mantenimiento |    Fecha de lanzamiento |Fecha prevista de fin de vida útil|
 |------|------|-----|-----|
-|6.1 |Greg Kroah-Hartman & Sasha Levin |2022-12-11 |Dec, 2026|
+|6.18 |Greg Kroah-Hartman & Sasha Levin |2025-11-30 |Dec, 2026|
+|6.12 |Greg Kroah-Hartman & Sasha Levin |2024-11-17 |Dec, 2026|
+|6.6 |Greg Kroah-Hartman & Sasha Levin |2023-10-30 |Dec, 2026|
+|6.1 |Greg Kroah-Hartman & Sasha Levin |2022-12-11 |Dec, 2027|
 |5.15 |Greg Kroah-Hartman & Sasha Levin |2021-10-31 |Oct, 2026|
 |5.10 |Greg Kroah-Hartman & Sasha Levin |2020-12-13 |Dec, 2026|
 |5.4 |Greg Kroah-Hartman & Sasha Levin 	|2019-11-24 |Dec, 2025|
@@ -278,7 +282,7 @@ Linux kernel layout
 ### Systemd
 [Volver al Inicio](#tabla-de-contenidos)
 
-[systemd](https://systemd.io/) is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. It provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for [SysVinit](https://wiki.archlinux.org/title/SysVinit).
+[systemd](https://systemd.io/) Es un conjunto de componentes básicos para un sistema Linux. Proporciona un administrador de sistemas y servicios que se ejecuta como PID 1 e inicia el resto del sistema. Ofrece capacidades de paralelización agresivas, utiliza activación de socket y D-Bus para iniciar servicios, ofrece inicio bajo demanda de demonios, realiza un seguimiento de los procesos utilizando grupos de control de Linux, mantiene puntos de montaje y automontaje, e implementa una elaborada lógica de control de servicios basada en dependencias transaccionales. systemd es compatible con scripts de inicio SysV y LSB y funciona como sustituto de [SysVinit](https://wiki.archlinux.org/title/SysVinit).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/190265681-2266a967-096f-43be-a7ca-ae48815aa5e2.png">
@@ -286,15 +290,21 @@ Linux kernel layout
 Systemd Overview
 </p>
 
-[init](https://en.wikipedia.org/wiki/Init) is parent of all Linux processes with PID or process ID of 1. It is the first process to start when a computer boots up and runs until the system shuts down. **init stands for initialization**. 
+[init](https://en.wikipedia.org/wiki/Init) Es el padre de todos los procesos Linux con PID o ID de proceso 1. Es el primer proceso que se inicia cuando se arranca un ordenador y se ejecuta hasta que se apaga el sistema. **init significa inicialización**. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/190264913-d77974ff-d96f-4092-a6c0-465ecb6d608b.png">
+  <img
+    src="./assets/images/linux-boot-process-es.png"
+    alt="Diagrama del proceso de arranque de Linux">
   <br />
-Linux Boot Process
+Proceso de Arranque de Linux
 </p>
 
-### Linux YouTube Channels
+> Nota: Este diagrama representa el proceso de arranque clásico.
+> En sistemas modernos, `systemd` reemplaza a `init` y los runlevels.
+
+
+### Canales de YouTube sobre Linux
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -352,6 +362,28 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  
  [Volver al Inicio](#tabla-de-contenidos)
  
+// Spanish
+  * [Podcast Linux](https://podcastlinux.com/)
+  
+  * [Reset](https://www.tupodcast.com/@reset)
+  * [Reset (ApplePodcast)](https://podcasts.apple.com/us/podcast/reset/id1796972768)
+  
+  
+  * [Linux Radio](https://open.spotify.com/show/38mWdd0CABMNaLYQe7RezU?si=818f8aa149394de5)
+
+  * [Ubuntu y otras hierbas](https://www.youtube.com/playlist?list=PLrtOacI496LQE-2js3gwgv2upN72zJpO8)
+  * [Ubuntu y otras hierbas (ApplePodcast)](https://podcasts.apple.com/es/podcast/ubuntu-y-otras-hierbas/id1239347221)
+  
+  * [Atareao con Linux](https://open.spotify.com/show/2v0fC8PyeeUTQDD67I0mKW?si=a35133aba8334ea2)
+  * [Atareao con Linux (ApplePodcast)](https://podcasts.apple.com/ar/podcast/atareao-con-linux/id1437197202)
+ 
+  * [Reca Linux](https://open.spotify.com/show/70Ld7IRVbFAZuMdd60BrLz?si=42b5b708345641f8)
+
+  * [YT - KDE Express. Comunidad y Software Libre](https://www.youtube.com/playlist?list=PLnYTvqeUgaCFSbofkYgs0KyAVnU3BlqB7)
+  * [Spotify - KDE Express. Comunidad y Software Libre](https://open.spotify.com/show/5sXfRJBfy8jiE5qXIkipjB?si=2896ec15202d4826)
+
+//English
+
  * [Jupiter Broadcasting](https://www.youtube.com/c/JupiterBroadcasting)
  
  * [Destination Linux](https://www.youtube.com/channel/UC6vBLLp4V4cO6-58WBOIO2Q)
@@ -360,9 +392,9 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  
  * [Linux Game Cast](https://www.youtube.com/c/linuxgamecast)
 
-# Linux Desktop Environments
+# Entornos de escritorio Linux
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/189545533-4621b1a6-15c2-406a-9b89-b3ed43e47762.png">
@@ -370,7 +402,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   KDE Plasma Desktop
 </h1>
 
-[KDE Plasma Desktop](https://kde.org), is a beautiful Windows-like desktop that you use to surf the web, keep in touch with colleagues, friends and family, manage your files, enjoy music and videos; and get creative and productive at work. The KDE community develops and maintains more than 200 applications which run on any Linux desktop, and often other platforms too.
+[KDE Plasma Desktop](https://kde.org), es un bonito escritorio similar al de Windows que se utiliza para navegar por Internet, mantenerse en contacto con compañeros de trabajo, amigos y familiares, gestionar archivos, disfrutar de música y vídeos, y ser creativo y productivo en el trabajo. La comunidad KDE desarrolla y mantiene más de 200 aplicaciones que se ejecutan en cualquier escritorio Linux y, a menudo, también en otras plataformas.
 
 ![image](https://user-images.githubusercontent.com/45159366/189545547-7e048fad-d7e5-41c3-aaf4-af08a60135e8.png?raw=true "image")
 
@@ -380,7 +412,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   GNOME Desktop
 </h1>
 
-[GNOME Desktop](https://www.gnome.org/), An easy and elegant way to use your computer, GNOME is designed to put you in control and get things done.
+[GNOME Desktop](https://www.gnome.org/), GNOME, una forma fácil y elegante de utilizar tu ordenador, está diseñado para que tú tengas el control y puedas hacer todo lo que necesites.
 
 ![image](https://user-images.githubusercontent.com/45159366/189545552-e83c423b-02a8-4604-b37b-5b93b814a354.png?raw=true "image")
 
@@ -390,7 +422,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   MATE Desktop
 </h1>
 
-[MATE Desktop](https://mate-desktop.org/), is the continuation of GNOME 2 desktop environment.  
+[MATE Desktop](https://mate-desktop.org/), es la continuación del entorno de escritorio GNOME 2.  
 
 ![image](https://user-images.githubusercontent.com/45159366/54108470-4c429500-4399-11e9-8b8a-3ad0e831214b.png?raw=true "image")
 
@@ -400,7 +432,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Budgie Desktop
 </h1>
 
-[Budgie Desktop](https://getsol.us/solus/experiences/), a feature-rich, modern desktop designed to keep out the way of the user. 
+[Budgie Desktop](https://getsol.us/solus/experiences/), Un escritorio moderno y con numerosas funciones, diseñado para no interferir en el trabajo del usuario. 
 
 ![budgie-desktop](https://user-images.githubusercontent.com/45159366/60866577-899b2000-a1dd-11e9-8d8f-48716ac14fba.png?raw=true "budgie-desktop")
 
@@ -410,7 +442,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   XFCE Desktop
 </h1>
 
-[XFCE Desktop](https://xfce.org/), a lightweight desktop environment for UNIX-like operating systems. 
+[XFCE Desktop](https://xfce.org/), Un entorno de escritorio ligero para sistemas operativos similares a UNIX. 
 
 
 ![image](https://user-images.githubusercontent.com/45159366/52910530-9a0e2680-324d-11e9-8e55-a7450c7fc316.png?raw=true "image")
@@ -422,7 +454,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Cinnamon Desktop
 </h1>
 
-[Cinnamon Desktop](https://cinnamon-spices.linuxmint.com/), a Linux desktop which provides advanced innovative features and a traditional user experience.
+[Cinnamon Desktop](https://cinnamon-spices.linuxmint.com/), Un escritorio Linux que ofrece funciones avanzadas e innovadoras y una experiencia de usuario tradicional.
 
 ![image](https://user-images.githubusercontent.com/45159366/54108466-4a78d180-4399-11e9-90aa-9340ca45ab1a.png?raw=true "image")
 
@@ -432,7 +464,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   LXQt Desktop
 </h1>
 
-[LXQt Desktop](https://lxqt.org/),the Lightweight Qt Desktop Environment.
+[LXQt Desktop](https://lxqt.org/),El entorno de escritorio ligero Qt.
 
 ![image](https://user-images.githubusercontent.com/45159366/60866574-8869f300-a1dd-11e9-8c56-da585fe2d581.png?raw=true "image")
 
@@ -442,7 +474,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Pantheon Desktop
 </h1>
 
-[Pantheon Desktop](https://elementary.io/), a GTK desktop based on the GNOME software base maintained by the elementary OS developers.
+[Pantheon Desktop](https://elementary.io/), un escritorio GTK basado en el software GNOME mantenido por los desarrolladores de elementary OS.
 
 ![image](https://user-images.githubusercontent.com/45159366/53000646-ba6ceb00-33dd-11e9-93dd-fbd262cf1ce8.jpeg?raw=true "image")
 
@@ -452,7 +484,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Deepin Desktop
 </h1>
 
-[Deepin Desktop](https://www.deepin.org/en/dde/), an elegant, easy to use and reliable domestic desktop environment.
+[Deepin Desktop](https://www.deepin.org/en/dde/), Un entorno de escritorio doméstico elegante, fácil de usar y fiable.
 
 ![image](https://user-images.githubusercontent.com/45159366/57979064-21923f80-79cd-11e9-842a-55ab9ec73d41.jpeg?raw=true "image")
 
@@ -462,13 +494,13 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Unity Desktop
 </h1>
 
-[Unity Desktop](https://unity8.io/), a graphical shell for the GNOME desktop environment originally developed by Canonical Ltd.
+[Unity Desktop](https://unity8.io/), Una interfaz gráfica para el entorno de escritorio GNOME desarrollada originalmente por Canonical Ltd.
 
 ![unity-desktop](https://user-images.githubusercontent.com/45159366/62761607-e9ceed00-ba3b-11e9-900a-591c53152e1f.png?raw=true "unity-desktop")
 
-# Linux Window Managers
+# Gestores de ventanas de Linux
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/189545533-4621b1a6-15c2-406a-9b89-b3ed43e47762.png">
@@ -476,7 +508,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   KWin WM
 </h1>
 
-[KWin](https://invent.kde.org/plasma/kwin) is the window manager for the KDE Plasma Desktop. It gives you complete control over your windows, making sure they're not in the way but aid you in your task.  It paints the window decoration, the bar on top of every window with (configurable) buttons like close, maximize and minimize.
+[KWin](https://invent.kde.org/plasma/kwin) Es el gestor de ventanas del escritorio KDE Plasma. Te ofrece un control total sobre tus ventanas, asegurándose de que no te estorben y te ayuden en tus tareas.  Dibuja la decoración de las ventanas, la barra situada en la parte superior de cada ventana con botones (configurables) como cerrar, maximizar y minimizar.
 
 ![image](https://user-images.githubusercontent.com/45159366/189545547-7e048fad-d7e5-41c3-aaf4-af08a60135e8.png?raw=true "image")
 
@@ -486,7 +518,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Mutter WM
 </h1>
 
-[Mutter](https://gitlab.gnome.org/GNOME/mutter) is a Wayland display server and X11 window manager and compositor library. When used as a Wayland display server, it runs on top of KMS and libinput. It implements the compositor side of the Wayland core protocol as well as various protocol extensions. 
+[Mutter](https://gitlab.gnome.org/GNOME/mutter) es un servidor de pantalla Wayland y una biblioteca de gestión y composición de ventanas X11. Cuando se utiliza como servidor de pantalla Wayland, se ejecuta sobre KMS y libinput. Implementa el lado compositor del protocolo central Wayland, así como varias extensiones del protocolo. 
 
 ![image](https://user-images.githubusercontent.com/45159366/189545552-e83c423b-02a8-4604-b37b-5b93b814a354.png?raw=true "image")
 
@@ -496,7 +528,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  FluxBox
 </h1>
 
-[Fluxbox](https://fluxbox.org/) is a stacking window manager for the X Window System, which based upon Blackbox.
+[Fluxbox](https://fluxbox.org/) Es un gestor de ventanas apilables para el sistema X Window, basado en Blackbox.
 
 ![fluxbox](https://user-images.githubusercontent.com/45159366/189555437-825c9bc9-5630-4985-bc84-b5a2d55b0865.png?raw=true "image")
 
@@ -506,12 +538,12 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  OpenBox
 </h1>
 
-[Openbox](http://openbox.org/) is a lightweight, powerful, and highly configurable stacking window manager with extensive standards support.
+[Openbox](http://openbox.org/) Es un gestor de ventanas apilable ligero, potente y altamente configurable con amplia compatibilidad con los estándares.
 
 ![openbox](https://user-images.githubusercontent.com/45159366/189502364-368f1873-5d3e-4819-8dc6-0c14606d1d9a.png?raw=true "image")
 
 
-### Tiling Windows Managers
+### Tiling (Gestores de ventanas en mosaico)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/58378567-d804a000-7f4a-11e9-9b60-db6a0136261f.png">
@@ -519,7 +551,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   i3 wm
 </h1>
 
-[i3-wm](https://i3wm.org/), a tiling window manager for X11.
+[i3-wm](https://i3wm.org/), Un gestor de ventanas en mosaico para X11.
 
 
 ![i3-wm](https://user-images.githubusercontent.com/45159366/58378568-d935cd00-7f4a-11e9-8dd1-3c2a92986a68.png?raw=true "image")
@@ -530,7 +562,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  awesome wm
 </h1>
 
-[Awesome](https://awesomewm.org/), a highly configurable, next generation framework window manager for X. 
+[Awesome](https://awesomewm.org/), Un gestor de ventanas de marco de trabajo de última generación y altamente configurable para X. 
 
 ![awesome-wm](https://user-images.githubusercontent.com/45159366/58737340-f7ba1f00-83b5-11e9-98f2-d801ed881396.png?raw=true "image")
 
@@ -540,14 +572,24 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
   Bspwm
 </h1>
 
-[Bspwm](https://github.com/baskerville/bspwm), a tiling window manager based on binary space partitioning with a focus on resource efficiency.
+[Bspwm](https://github.com/baskerville/bspwm), Un gestor de ventanas basado en la partición binaria del espacio, centrado en la eficiencia de los recursos.
 
 ![bspwm](https://user-images.githubusercontent.com/45159366/60765269-d7cce980-a04c-11e9-9a69-3ee236c07a8f.png?raw=true "image")
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/hyprwm/Hyprland/main/assets/header.svg">
+  <br />
+  Hyprland
+</h1>
+
+[Hyprland](https://github.com/hyprwm/Hyprland), Hyprland es un compositor Wayland 100 % independiente y dinámico que no sacrifica su aspecto.
+
+![Hyprland](https://camo.githubusercontent.com/14fcfb6512ea7aaa45f6381268e34802a234418664c4dfe7a86e1ab99a0f1ca7/68747470733a2f2f692e6962622e636f2f433179546230722f66616c662e706e67 "image")
 
 
 # Linux Companies
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
  * [Red Hat](https://www.redhat.com/en) makers of Red Hat Enterprise Linux and sponsors to the [Fedora Project](https://getfedora.org/).
 
@@ -587,7 +629,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 # Linux in the Cloud
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/) a next generation of Amazon Linux, a Linux server operating system from Amazon Web Services (AWS). It provides a secure, stable, and high performance execution environment to develop and run cloud and enterprise applications. With Amazon Linux 2, you get an application environment that offers long term support with access to the latest innovations in the Linux ecosystem.
 
@@ -631,7 +673,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 # Getting Software
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 ## GNOME Software Center
 
@@ -2013,7 +2055,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
 
 #  Debian
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439772-7225c680-6ae7-11eb-90ae-05908496c8d1.png">
@@ -2044,7 +2086,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 # Ubuntu
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/106686312-ef4cbb00-657e-11eb-92d5-93d7d39b4cf6.png">
@@ -2172,7 +2214,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 
 # Pop!_OS
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107091607-eb0ae280-67b6-11eb-91af-c052daa76876.png">
@@ -2317,7 +2359,7 @@ sudo systemctl start ufw
 
 # Fedora/CentOS Stream/RHEL
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/145488517-79284af2-ec1d-40a5-a7b8-ddb2cb343da2.png">
@@ -2436,7 +2478,7 @@ Red Hat Enterprise Linux Desktop
  <img src="https://user-images.githubusercontent.com/45159366/107158836-7ca65b80-6941-11eb-95dd-5166023597a7.png">
  
 # SUSE/openSUSE
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439812-836ed300-6ae7-11eb-9c6c-2f8b2cbaab86.png">
@@ -2494,7 +2536,7 @@ Red Hat Enterprise Linux Desktop
  
  
 # Arch Linux
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/107439842-91bcef00-6ae7-11eb-9e8b-bafe48a25bd7.png">
@@ -2559,7 +2601,7 @@ ArcoLinux Desktop
 </h3>
 
 # NixOS
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645103-795eebbd-f853-47cc-8087-916dfd98347b.png">
@@ -2806,8 +2848,62 @@ ArcoLinux Desktop
 
 ## License
 
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Guide-Spanish#table-of-contents)
+ [Volver al Inicio](#tabla-de-contenidos)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
 
 Post Original: mikeroyal - [Linux Guide](https://github.com/mikeroyal/Linux-Guide)
+
+
+
+
+
+████████████████████████████████████████████████████████████▓█████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████▓ ▒▓███████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████▓▒  ▓███████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████▓▒  ▓▓██████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████▓   ▒▓██████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████▒   ░▓██████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████▓▒    ▓██████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████▓     ▒██████████████████████████████████████████████████████████
+█████████████████████████████████████████████▓▓ █████████▓     ▒▓████████▓▓▓██████████████████████████████████████████████
+███████████████████████████████████████████▓░ ▒▓████████▓▒      ▓█████████▓  ▒▓███████████████████████████████████████████
+█████████████████████████████████████████▓░  ▒██████▓▓▓▒░        ▒▓▓▓██████▓░  ▒▓█████████████████████████████████████████
+██████████████████████████████████████▓▓░  ░▓████▓▒                   ▒▓▓████▓   ▒▓███████████████████████████████████████
+█████████████████████████████████████▓▒   ▒▓██▓▒░        ░               ▒▓███▓   ░▓██████████████████████████████████████
+████████████████████████████████████▓    ▓███▓      ▒▓▓█▓▒      ▓▓▓▓▒      ▒███▓░   ▓▓████████████████████████████████████
+██████████████████████████████████▓▒    ▓██▓▒       ▒▓███▓      ▓██▓▒░      ░▓██▓▒   ░▓███████████████████████████████████
+█████████████████████████████████▓▒    ▒██▓░   ░  ████ ░░       ░░ ▒███  █    ▓██▓░   ░▓██████████████████████████████████
+█████████████████████████████████▒    ▒▓█▓░    █     ███████████████     █     ▓██▓    ░▓█████████████████████████████████
+███████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████▓     ▓█▓▒    ░░   ▒██████████████████   █ ░    ▓██▒    ▒██████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████████
+██████████▒               ░▓███▓▒    ▒██▓    ▓▒ █ █████████████████████▒▓ ▒▓░   ▓██▓     ▓███▓▒               ░▓██████████
+████████▓▒   ░▒▒▒▒▒▒▒▒▒▒   ▒███▓     ▓██▒   ▒▓▓ ████     ███████      ███ ▓█▓   ░▓█▓▒    ▒███▓   ▒▒▒▒▒▒▒▒▒▒▒░  ▒▓█████████
+██▓               ░▓███▓▒  ░▓██▓    ░▓█▓▒   ▓█▓ ███  ████ █████ █▓██  ███ ▓█▓    ▓██▒    ▒▓██▒  ▒▓███▓▒               ▓███
+██▓                 ▓███▓   ▓█▓▒    ▒▓█▓░   ▓█▓ ███   ██████████▒██░  ███ ▒█▓░   ▓██▓     ▓█▓░  ▓███▓                 ▓███
+████████████████▓▒   ▒▓█▓▒  ▒▓▓▒    ▒▓█▓░   ▓▓░ ██████▒████▓ ▒████▒██████  ▓▓░   ▓██▓     ▓▓▓   ▓██▓   ▒▓█████████████████
+██████████████████▓   ▒▓▓▓   ▓▓▒     ▓██▒   ▒▒  █████████████████████████   ▒    ▓██▒     ▓▓▒  ░▓▓▒   ▒███████████████████
+███████████████████▓   ▒▓▓   ▒▓▒     ▓██▓   ▒▓  ▒████████████████████████  ▒▓   ▒▓█▓     ░▓▒   ▒▓▒   ▓████████████████████
+████████████████████▓░   ▒░          ▒██▓▒   ▓▓▒ ███████████████████████ ░▒▓▒   ▓██▓           ▒░   ▒█████████████████████
+█████████████████████▓▒   ▒░  ░░      ▓██▓   ▒███▒  ▓████████████████  ▒▓██▓   ▓██▓░     ░   ░▒░   ▓██████████████████████
+██████████████████████▓▒              ░▓██▓   ▒████▓▒ █████████████ ▒▓████▓   ▓███▒               ▓███████████████████████
+████████████████████████▓▓▒▒▒▒▒▒▒      ░▓██▓░  ▓███▓░███████  ██████ ▓███▓▒  ▓███▒      ░▒▒▒▒▒▒▓▓█████████████████████████
+█████████████████████████████████▓      ░▓███▓  ▓██▒ ██████   ███████░██▓░ ▒▓███▓      ▒██████████████████████████████████
+██████████████████████████████████▓       ▓███▓▓ ▓▓ █████ ██ ██ █████ ▓▓ ▒▓███▓▒      ▒███████████████████████████████████
+███████████████████████████████████▓       ▒▓████▓░███████████████████ ▓████▓▒       ▒████████████████████████████████████
+████████████████████████████████████▓▒       ▒▓██▒ ███████████████████▓░▓█▓▒        ▓█████████████████████████████████████
+██████████████████████████████████████▓         ░ █████████████████████ ░░        ▒▓██████████████████████████████████████
+███████████████████████████████████████▓▒          ███████████████████          ▒▓████████████████████████████████████████
+█████████████████████████████████████████▓▓░               ░▒▒                ▒▓██████████████████████████████████████████
+████████████████████████████████████████████▓▓░                            ▒▓█████████████████████████████████████████████
+████████████████████████████████████████████████▓▒░                    ▒▓▓████████████████████████████████████████████████
+████████████████████████████████████████████████████▓▓▓▒▒▒░░░░▒░▒▒▓▓▓█████████████████████████████████████████████████████
+█████████████████████████▓▓▓▓▓▓█████▒  ▓██████████████████████▓▒ ▓████████████████████████████████████████████████████████
+██████████████████████▓▒      ▒▓███▓░  ▓██████████████████████▓  ▓██▓▓▓▓██████████████████████████████████████████████████
+████████████████████▓▒  ▓▓▒  ▒▓███▓░  ▓███████████████████████▓████▓  ▒▓██████████████████████████████████████████████████
+████████████████████▓  ▒▓▓  ▒▓███▓  ▓▓▓▓▒    ░█▓▓   ▓▒   ▓█▓▒  ▓█▓     ░███▓▒     ▓█▓▒    ▓▓▓   ██▓  ▓████████████████████
+████████████████████▓  ▓▓░  ▓██▓  ▒▓▓▓  ▓▒   ▓▓ ░    ░   ▓░ ░  ▓█▓░  ▒▓▓█▓  ▓▒░  ▓█▓  ▒▓  ▒ ░  ░▓▓  ░▓████████████████████
+████████████████████████▓   ▓▓▒ ░▓█▓░ ▓▓▓▒  ▓██▓▒  ▒▒▒  ▓▓▓▒  ▒██▓  ▒▓██▒  ▓▓▓  ▒███   ▒▓██▓▒  ▓▓▒  ▓█████████████████████
+████████████████████████▓  ▒░ ░▓██▓░ ░▓▓▒  ▓▓██▓  ▓▓▓  ▒▓█▓  ░▓█▓   ▓▓▓▒  ▓▓▓  ░▓█▓▓▓▓   ▓█▓  ▓▓▒  ▒▓█████████████████████
+████████████████████████▓   ▒▓████▓   ▒      ▓▓  ░▓▓     ▓▒  ▒ ▓▒  ░  ▒   ▒    ▒ ▒  ▓▓▒  ▓▓  ░▒      ▓████████████████████
+████████████████████████▓ ▒▓███████▓  ▓▓░ ▒▓██▓  ▓█▓  ▒▓█▓▒ ░▓██▓  ▒▓██▓  ░▓▒  ▓██▓   ▓▓███░  ▓▓▒ ▒▓██████████████████████
+
