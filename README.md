@@ -48,19 +48,19 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
       - [2 - Configurar la compilación](#2---configurar-la-compilación)
       - [3 - Compilar](#3---compilar)
       - [4 - Instalar](#4---instalar)
-- [Alternativas a Microsoft Office](#alternativas-a-microsoft-office)
+  - [Alternativas a Microsoft Office](#alternativas-a-microsoft-office)
   - [Secure \& Privacy Focused Web Browsers](#secure--privacy-focused-web-browsers)
     - [Privacy \& Security Focused Browser extensions](#privacy--security-focused-browser-extensions)
     - [Privacy-focused Search Engines](#privacy-focused-search-engines)
   - [Backups](#backups)
   - [Storage Disk Health](#storage-disk-health)
-  - [Improving Battery Life](#improving-battery-life)
-  - [Tools to Copy/Transfer files to your Linux System](#tools-to-copytransfer-files-to-your-linux-system)
-  - [Running Android Apps on your Linux System](#running-android-apps-on-your-linux-system)
-  - [Running Windows Apps on your Linux System](#running-windows-apps-on-your-linux-system)
-  - [Professional Audio \& Video Editing](#professional-audio--video-editing)
-  - [Setting up OBS Studio](#setting-up-obs-studio)
-    - [Useful OBS Studio 3rd party plugins and themes.](#useful-obs-studio-3rd-party-plugins-and-themes)
+  - [Mejorar la duración de la batería](#mejorar-la-duración-de-la-batería)
+  - [Herramientas para copiar/transferir archivos a tu sistema Linux](#herramientas-para-copiartransferir-archivos-a-tu-sistema-linux)
+  - [Ejecutar aplicaciones Android en tu sistema Linux](#ejecutar-aplicaciones-android-en-tu-sistema-linux)
+  - [Ejecutar aplicaciones de Windows en tu sistema Linux](#ejecutar-aplicaciones-de-windows-en-tu-sistema-linux)
+  - [Edición profesional de audio y vídeo](#edición-profesional-de-audio-y-vídeo)
+  - [Configuración de OBS Studio](#configuración-de-obs-studio)
+    - [Complementos y temas útiles de terceros para OBS Studio.](#complementos-y-temas-útiles-de-terceros-para-obs-studio)
 - [Gaming](#gaming)
     - [Linux Gaming Resources \& Tweak Tools](#linux-gaming-resources--tweak-tools)
     - [Game Controllers](#game-controllers)
@@ -912,7 +912,7 @@ No todos los proyectos usan configure y make. Algunos sistemas modernos incluyen
 Cada proyecto suele incluir instrucciones específicas en un archivo README.md o INSTALL.
 
 
-# Alternativas a Microsoft Office
+## Alternativas a Microsoft Office
 [Volver al Inicio](#tabla-de-contenidos)
 
 [OnlyOffice](https://www.onlyoffice.com/) es una suite ofimática segura, tanto offline como online, altamente compatible con los formatos de MS Office  para Windows, Mac y Linux.
@@ -963,7 +963,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
   Firefox
 </p>
 
-[LibreWolf](https://librewolf.net/) is designed to increase protection against tracking and fingerprinting techniques, while also including a few security improvements. It remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.
+[LibreWolf](https://librewolf.net/) Está diseñado para aumentar la protección contra las técnicas de rastreo y huellas digitales, al tiempo que incluye algunas mejoras de seguridad. Elimina toda la telemetría, la recopilación de datos y las molestias, además de desactivar funciones que restringen la libertad, como el DRM.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189506043-3e2c44b9-9809-469f-a41e-8f6e6fad5c04.png">
@@ -971,7 +971,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
   LibreWolf
 </p>
 
-[Brave](https://brave.com/) is a fast, private and secure web browser for PC, Mac and mobile. It comes with [Brave Search](https://brave.com/search/), which is a private search engine that puts you first, not big tech for those that don't want to use Google Search.
+[Brave](https://brave.com/) Es un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles. Incluye [Brave Search](https://brave.com/search/), un motor de búsqueda privado que te da prioridad a ti, y no a las grandes tecnológicas, para aquellos que no quieren utilizar Google Search.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158266393-8891913c-5acd-4a3a-98cf-ce214282126d.png">
@@ -979,7 +979,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
   Brave
 </p>
 
-[Ungoogled-Chromium](https://github.com/ungoogled-software/ungoogled-chromium) is a lightweight approach to removing Google web service dependency.
+[Ungoogled-Chromium](https://github.com/ungoogled-software/ungoogled-chromium) Es un enfoque sencillo para eliminar la dependencia del servicio web de Google.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/173683899-a91b5b02-533f-4ad2-ba84-c3a70108e0dd.png">
@@ -987,7 +987,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
  Ungoogled-Chromium
 </p>
 
-[Vivaldi](https://vivaldi.com/) is a fast, private and secure web browser for PC, Mac and mobile. It comes with built-in features like Notes, Screen Capture, Image Properties and (a lot) more. Please note that Vivaldi is proprietary and not open source.
+[Vivaldi](https://vivaldi.com/) Es un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles. Incluye funciones integradas como Notas, Captura de pantalla, Propiedades de imagen y (muchas) más. Tenga en cuenta que Vivaldi es un software propietario y no de código abierto.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158266396-25f48ceb-9868-4d8f-80a3-30bbd0bbf092.png">
@@ -995,7 +995,7 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
   Vivaldi
 </p>
 
-[Ghostery Dawn](https://www.ghostery.com/dawn) is a fast, private and secure web browser for PC, Mac and mobile. It comes with the complete Ghostery Privacy Suite including [Ghostery Glow](https://www.ghostery.com/glow) a private search engine that does not log your search history, which means you get served objective results, not results that are filtered by the likelihood you’ll click on them.
+[Ghostery Dawn](https://www.ghostery.com/dawn) Es un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles. Incluye el paquete completo Ghostery Privacy Suite, que contiene [Ghostery Glow](https://www.ghostery.com/glow), un motor de búsqueda privado que no registra tu historial de búsqueda, lo que significa que obtienes resultados objetivos, no resultados filtrados según la probabilidad de que hagas clic en ellos.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/169711128-745e445d-0c1e-46d8-a7cf-12b0d6fcbda5.png">
@@ -1007,61 +1007,61 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
+[UBlock Origin](https://ublockorigin.com/) es una extensión de navegador gratuita y de código abierto, multiplataforma, destinada al filtrado de contenidos y cuyo objetivo principal es neutralizar la invasión de la privacidad de una forma eficaz y fácil de usar.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-[Privacy Badger](https://privacybadger.org/) is a browser extension that automatically learns to block invisible trackers.
+[Privacy Badger](https://privacybadger.org/) es una extensión del navegador que aprende automáticamente a bloquear rastreadores invisibles.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
 
-[DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) is an extension that seamlessly helps prevent your personal information from being exposed during everyday online activity. 
+[DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) It is a browser extension that automatically learns to block invisible trackers.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=fr)
 
-[Ghostery](https://www.ghostery.com/ghostery-browser-extension) is a comprehensive privacy protection Ad Blocker browser extension.
+[Ghostery](https://www.ghostery.com/ghostery-browser-extension) es una extensión de navegador Ad Blocker que ofrece una protección integral de la privacidad.
 
  * [Firefox extension](https://www.ghostery.com/ghostery-ad-blocker-firefox)
  * [Chrome extension](https://www.ghostery.com/ghostery-ad-blocker-chrome)
 
-[HTTPS Everywhere](https://www.eff.org/https-everywhere)  is an extension created by EFF and the Tor Project which automatically switches thousands of sites from insecure "http" to secure "https".
+[HTTPS Everywhere](https://www.eff.org/https-everywhere)  es una extensión creada por EFF y el Proyecto Tor que cambia automáticamente miles de sitios web de «http» (no seguro) a «https» (seguro).
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en)
 
-[CleanURLs](https://gitlab.com/KevinRoebert/ClearUrls) is an extension will automatically remove tracking elements from URLs to help protect your privacy when browsing through the Internet.
+[CleanURLs](https://gitlab.com/KevinRoebert/ClearUrls) es una extensión que elimina automáticamente los elementos de seguimiento de las URL para ayudar a proteger tu privacidad cuando navegas por Internet.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)
 
-**PixelBlock** is an Gmail extension that blocks email tracking attempts used to detect when you open and read emails. 
+**PixelBlock** es una extensión de Gmail que bloquea los intentos de rastreo de correos electrónicos utilizados para detectar cuándo abres y lees los correos electrónicos. 
 
  * [Chrome extension](https://chrome.google.com/webstore/detail/pixelblock/jmpmfcjnflbcoidlgapblgpgbilinlem/)
 
-[Sitejabber](https://www.sitejabber.com/) is an extension for consumers to find trustworthy online businesses and avoid scams.
+[Sitejabber](https://www.sitejabber.com/) es una extensión para que los consumidores encuentren negocios online fiables y eviten estafas.
 
 [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/sitejabber/)
 
 [Chrome extension](https://chrome.google.com/webstore/detail/sitejabber-ratings-review/ckiddbafgcfifpioacgfijgicacanflo)
 
-[1Password](https://1password.com/) is a password manager that provides a place for users to store various passwords, software licenses, and other sensitive information in a virtual vault that is locked with a PBKDF2-guarded master password.
+[1Password](https://1password.com/) Es un gestor de contraseñas que proporciona a los usuarios un lugar donde almacenar diversas contraseñas, licencias de software y otra información confidencial en una caja fuerte virtual protegida con una contraseña maestra protegida por PBKDF2.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en)
 
-[Bitwarden](https://bitwarden.com/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
+[Bitwarden](https://bitwarden.com/) Es un servicio gratuito y de código abierto para la gestión de contraseñas que almacena información confidencial, como credenciales de sitios web, en una bóveda cifrada.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 
-[Guardio](https://guard.io/) is a lightweight extension designed to help you browse quickly and securely. It will clean your browser, speed it up, and protect your private information.
+[Guardio](https://guard.io/) es una extensión ligera diseñada para ayudarte a navegar de forma rápida y segura. Limpiará tu navegador, lo acelerará y protegerá tu información privada.
 
  * [Chrome extension](https://chrome.google.com/webstore/detail/guardio-protection-for-ch/gjfpmkejnolcfklaaddjnckanhhgegla)
 
-[OneTab](https://www.one-tab.com/) is an extension that converts your tabs to a list and speeds up your browser.
+[OneTab](https://www.one-tab.com/) Es una extensión que convierte tus pestañas en una lista y acelera tu navegador.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/onetab/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
@@ -1146,21 +1146,21 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[TimeShift](https://github.com/linuxmint/timeshift) is a system restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. 
+[TimeShift](https://github.com/linuxmint/timeshift) Es una herramienta de restauración del sistema para Linux. Crea instantáneas del sistema de archivos utilizando rsync+hardlinks o instantáneas BTRFS. Admite instantáneas programadas, múltiples niveles de copia de seguridad y filtros de exclusión. 
 
-[Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft. [Available as a Flatpak on Flathub](https://flathub.org/apps/details/com.borgbase.Vorta)
+[Vorta](https://vorta.borgbase.com/) Es un cliente de copia de seguridad para equipos de escritorio macOS y Linux. Integra el potente Borg Backup con tu entorno de escritorio favorito para proteger tus datos contra fallos del disco, ransomware y robos. [Disponible como Flatpak en Flathub](https://flathub.org/apps/details/com.borgbase.Vorta)
 
-[Pika Backup](https://apps.gnome.org/app/org.gnome.World.PikaBackup/) is a backup tool that is designed to save your personal data and does not support complete system recovery. Pika Backup is powered by the well-tested BorgBackup software. [Available as a Flatpak on Flathub](https://flathub.org/apps/details/org.gnome.World.PikaBackup)
+[Pika Backup](https://apps.gnome.org/app/org.gnome.World.PikaBackup/) es una herramienta de copia de seguridad diseñada para guardar tus datos personales y no admite la recuperación completa del sistema. Pika Backup funciona con el software BorgBackup, que ha sido probado exhaustivamente. [Disponible como Flatpak en Flathub](https://flathub.org/apps/details/org.gnome.World.PikaBackup)
 
 ## Storage Disk Health 
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Dirstat-rs](https://github.com/scullionw/dirstat-rs) is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/). 
+[Dirstat-rs](https://github.com/scullionw/dirstat-rs) Es una interfaz de línea de comandos rápida y multiplataforma para el uso del disco, similar a [Windirstat](https://windirstat.net/). 
 
-[Dutree](https://github.com/nachoparker/dutree) is a tool to analyze file system usage written in Rust.
+[Dutree](https://github.com/nachoparker/dutree) es una herramienta para analizar el uso del sistema de archivos escrita en Rust.
 
-[Scrutiny](https://github.com/AnalogJ/scrutiny) is a WebUI tool for smartd [S.M.A.R.T monitoring](https://www.crucial.com/articles/about-ssd/smart-and-ssds), Historical Trends & Real World Failure Thresholds.
+[Scrutiny](https://github.com/AnalogJ/scrutiny) Es una herramienta WebUI para smartd [monitorización S.M.A.R.T](https://www.crucial.com/articles/about-ssd/smart-and-ssds), tendencias históricas y umbrales de fallo en el mundo real.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/183272245-468ac924-ebd6-475d-94af-6dfa7b97e7cb.png">
@@ -1168,16 +1168,16 @@ Aunque es gratuita, WPS Office no es completamente de código abierto.
 Scrutiny UI
 </p>
 
-## Improving Battery Life
+## Mejorar la duración de la batería
 [Volver al Inicio](#tabla-de-contenidos)
 
 * [Laptop Power Management tutorial by Chris Titus Tech](https://christitus.com/laptop-power-management/)
 
-[auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) is an automatic CPU speed & power optimizer for Linux based on active monitoring of laptop's battery state, CPU usage, CPU temperature and system load. Ultimately allowing you to improve battery life without making any compromises. 
+[auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) es un optimizador automático de la velocidad y el consumo de la CPU para Linux basado en la supervisión activa del estado de la batería del portátil, el uso de la CPU, la temperatura de la CPU y la carga del sistema. En definitiva, le permite mejorar la duración de la batería sin renunciar a nada. 
 
-[TLP](https://linrunner.de/tlp/index.html) is a free open source, feature-rich and command line tool for advanced power management, which helps to optimize battery life in laptops powered by Linux. 
+[TLP](https://linrunner.de/tlp/index.html) es una herramienta gratuita de código abierto, con numerosas funciones y línea de comandos para la gestión avanzada de la energía, que ayuda a optimizar la duración de la batería en ordenadores portátiles con sistema operativo Linux. 
 
-[TLPUI](https://github.com/d4nj1/TLPUI) is a GTK user interface for TLP written in Python.
+[TLPUI](https://github.com/d4nj1/TLPUI) es una interfaz de usuario GTK para TLP escrita en Python.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/189506040-bad9ef24-1a43-442e-a9b1-844e0e463490.png">
@@ -1185,51 +1185,53 @@ Scrutiny UI
 TLPUI
 </p>    
 
+[Asus linux drivers](https://github.com/asus-linux-drivers) Controladores Linux no oficiales para portátiles y accesorios Asus. Mantenido por el fundador de la organización y la comunidad. Cualquier contribución es bienvenida (incidencias, debates, relaciones públicas).
+
  
-## Tools to Copy/Transfer files to your Linux System
+## Herramientas para copiar/transferir archivos a tu sistema Linux
  [Volver al Inicio](#tabla-de-contenidos)
  
-[KDE Connect](https://kdeconnect.kde.org/) is a tool that lets you easily link up your phone to your computer, your computer to your tablet; or your computer to your Steam Deck device. It can be used to share files across devices, read and send SMS directly from your laptop, and lock up your computer remotely.
+[KDE Connect](https://kdeconnect.kde.org/) es una herramienta que te permite conectar fácilmente tu teléfono a tu ordenador, tu ordenador a tu tableta o tu ordenador a tu dispositivo Steam Deck. Se puede utilizar para compartir archivos entre dispositivos, leer y enviar SMS directamente desde tu ordenador portátil y bloquear tu ordenador de forma remota.
 
-[Warpinator](https://github.com/linuxmint/warpinator) is a free, open-source tool for sending and receiving files between computers that are on the same network. [Warpinator Flatpak](https://flathub.org/apps/details/org.x.Warpinator)
+[Warpinator](https://github.com/linuxmint/warpinator) Es una herramienta gratuita y de código abierto para enviar y recibir archivos entre ordenadores que se encuentran en la misma red. [Warpinator Flatpak](https://flathub.org/apps/details/org.x.Warpinator)
 
-[FileZilla Client](https://filezilla-project.org/) is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface. [FileZilla Flatpak](https://flathub.org/apps/details/org.filezillaproject.Filezilla)
+[FileZilla Client](https://filezilla-project.org/) Es un cliente FTP, FTPS y SFTP multiplataforma rápido y fiable con muchas funciones útiles y una interfaz gráfica de usuario intuitiva. [FileZilla Flatpak](https://flathub.org/apps/details/org.filezillaproject.Filezilla)
 
-[Dragit](https://github.com/sireliah/dragit) is an application for intuitive file sharing between devices. It's useful for when you want to send file from one computer to another with minimal effort. Dragit automatically detects devices in the local network with help of mDNS protocol and allows you to send file immediately. [Dragit Flatpak](https://flathub.org/apps/details/com.sireliah.Dragit)
+[Dragit](https://github.com/sireliah/dragit) es una aplicación para compartir archivos de forma intuitiva entre dispositivos. Es útil cuando se desea enviar archivos de un ordenador a otro con el mínimo esfuerzo. Dragit detecta automáticamente los dispositivos de la red local con la ayuda del protocolo mDNS y permite enviar archivos de forma inmediata. [Dragit Flatpak](https://flathub.org/apps/details/com.sireliah.Dragit)
 
-[WinFsp](https://github.com/winfsp/winfsp) is a set of software components for Windows computers that allows the creation of user mode file systems. In this sense it is similar to FUSE (Filesystem in Userspace), which provides the same functionality on UNIX-like computers.
+[WinFsp](https://github.com/winfsp/winfsp) Es un conjunto de componentes de software para ordenadores con Windows que permite la creación de sistemas de archivos en modo usuario. En este sentido, es similar a FUSE (Filesystem in Userspace), que proporciona la misma funcionalidad en ordenadores similares a UNIX.
 
-[SSHFS-Win](https://github.com/winfsp/sshfs-win) is a minimal port of SSHFS to Windows. Looking under the hood it uses Cygwin for the POSIX environment and WinFsp for the FUSE (Filesystem in Userspace) functionality.
+[SSHFS-Win](https://github.com/winfsp/sshfs-win) Es una adaptación mínima de SSHFS a Windows. Si nos fijamos en su funcionamiento interno, utiliza Cygwin para el entorno POSIX y WinFsp para la funcionalidad FUSE (Filesystem in Userspace).
 
-[RiftShare](https://riftshare.app) is a cross platform (Windows, MacOS, Linux) file sharing tool that supports fully encrypted transfers both on the local network and off network using a simple passphrase. RiftShare uses [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) under the hood and is compatible with other magic-wormhole clients. It is also fully open source and licensed under the GPLv3. [RiftShare Flatpak](https://flathub.org/apps/details/app.riftshare.RiftShare)
+[RiftShare](https://riftshare.app) es una herramienta multiplataforma (Windows, MacOS, Linux) para compartir archivos que admite transferencias totalmente cifradas tanto en la red local como fuera de ella mediante una sencilla contraseña. RiftShare utiliza [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) y es compatible con otros clientes magic-wormhole. Además, es totalmente de código abierto y tiene licencia GPLv3. [RiftShare Flatpak](https://flathub.org/apps/details/app.riftshare.RiftShare)
 
-[SyncThing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Works with Mac OS X, Windows, Linux, FreeBSD, Solaris, OpenBSD, Android, and many others. Downloadable in Discover. It's also open source and licensed under the MPL-2.0 license.
+[SyncThing](https://syncthing.net/) Es un programa de sincronización continua de archivos. Sincroniza archivos entre dos o más ordenadores en tiempo real, protegidos de forma segura contra miradas indiscretas. Funciona con Mac OS X, Windows, Linux, FreeBSD, Solaris, OpenBSD, Android y muchos otros. Se puede descargar en Discover. También es de código abierto y tiene licencia MPL-2.0.
 
-[Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. [Usermode FTP Server on FlatHub](https://flathub.org/apps/details/eu.ithz.umftpd)
+[Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) es una herramienta que te permite iniciar un servidor FTP como usuario y transferir archivos con cualquier cliente FTP. Te permite acceder a tus archivos directamente con el soporte FTP integrado en muchos exploradores de archivos: Explorador de archivos de Windows, Thunar, Gnome Files, Dolphin y muchos más. [Usermode FTP Server on FlatHub](https://flathub.org/apps/details/eu.ithz.umftpd)
 
-## Running Android Apps on your Linux System
+## Ejecutar aplicaciones Android en tu sistema Linux
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. Make sure to checkout the [Waydroid Arch wiki page](https://wiki.archlinux.org/title/Waydroid). 
+[Waydroid](https://github.com/waydroid/waydroid) es un enfoque basado en contenedores para arrancar un sistema Android completo en un sistema Linux normal. Asegúrate de consultar el [Waydroid Arch wiki page](https://wiki.archlinux.org/title/Waydroid). 
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189516892-24454312-836a-4a88-a6b8-a3e9aaa8612c.png">
   <br />
 </p>
 
-[Anbox](https://github.com/anbox) is a container-based software for running a full Android system on Linux distributions. Make sure to checkout the [Anbox Arch wiki page](https://wiki.archlinux.org/title/Anbox).
+[Anbox](https://github.com/anbox) es un software basado en contenedores para ejecutar un sistema Android completo en distribuciones Linux. Asegúrate de consultar [Anbox Arch wiki page](https://wiki.archlinux.org/title/Anbox).
 
 
-## Running Windows Apps on your Linux System
+## Ejecutar aplicaciones de Windows en tu sistema Linux
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Bottles](https://usebottles.com/) is a software tool that let's you run Windows software on Linux. It's built-in dependency installation system grants automatic software compatibility access. The download manager can download the official components such as: the runner (Wine, Proton), DXVK, dependencies, etc. Available on [FlatHub](https://flathub.org/apps/details/com.usebottles.bottles) or throught [KDE Discover](https://apps.kde.org/discover/) store.
+[Bottles](https://usebottles.com/) Es una herramienta de software que te permite ejecutar software de Windows en Linux. Su sistema de instalación de dependencias integrado garantiza el acceso automático a la compatibilidad del software. El gestor de descargas puede descargar los componentes oficiales, tales como: el ejecutor (Wine, Proton), DXVK, dependencias, etc. Disponible en [FlatHub](https://flathub.org/apps/details/com.usebottles.bottles) o a través de la tienda [KDE Discover](https://apps.kde.org/discover/).
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/182049940-ccba08e7-b05d-4991-b36f-1e2596c390da.png">
  </p>
  
-## Professional Audio & Video Editing
+## Edición profesional de audio y vídeo
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1238,59 +1240,59 @@ TLPUI
 </p>
 
 
-[H.264(AVC)](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) is a video compression standard based on block-oriented and motion-compensated integer-DCT coding that defines multiple profiles (tools) and levels (max bitrates and resolutions) with support up to 8K.
+[H.264(AVC)](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) Es un estándar de compresión de vídeo basado en la codificación DCT entera orientada a bloques y con compensación de movimiento que define múltiples perfiles (herramientas) y niveles (velocidades de bits y resoluciones máximas) con soporte hasta 8K.
 
-[H.265(HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) is a video compression standard that is the successor to H.264(AVC). It offers a 25% to 50% better data compression at the same level of video quality, or improved video quality at the same bit-rate.
+[H.265(HEVC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) Es un estándar de compresión de vídeo sucesor del H.264 (AVC). Ofrece una compresión de datos entre un 25 % y un 50 % mejor con el mismo nivel de calidad de vídeo, o una calidad de vídeo mejorada con la misma velocidad de bits.
 
-[FFmpeg](https://ffmpeg.org) is a leading multimedia framework that can decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge ones on multiple platforms such as Windows, macOS, and Linux.
+[FFmpeg](https://ffmpeg.org) es un marco multimedia líder que puede decodificar, codificar, transcodificar, multiplexar, demultiplexar, transmitir, filtrar y reproducir prácticamente cualquier cosa que hayan creado los seres humanos y las máquinas. Es compatible con los formatos antiguos más desconocidos y con los más avanzados en múltiples plataformas, como Windows, macOS y Linux.
 
-[HandBrake](https://handbrake.fr/) is a tool for transcoding video from almost any format with a selection of widely supported codecs. It is supported on Window, macOS, and Linux.
+[HandBrake](https://handbrake.fr/) Es una herramienta para transcodificar vídeo desde casi cualquier formato con una selección de códecs ampliamente compatibles. Es compatible con Windows, macOS y Linux.
  
-[Dynamic Adaptive Streaming over HTTP (DASH)](https://developer.mozilla.org/en-US/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video) is an adaptive streaming protocol that allows for a video stream to switch between bit rates on the basis of network performance, in order to keep a video playing.
+[Dynamic Adaptive Streaming over HTTP (DASH)](https://developer.mozilla.org/en-US/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video) Es un protocolo de transmisión adaptativa que permite que una transmisión de vídeo cambie entre velocidades de bits en función del rendimiento de la red, con el fin de mantener la reproducción del vídeo.
 
-[OpenMAX™](https://www.khronos.org/openmax/) is a cross-platform API that provides comprehensive streaming media codec and application portability by enabling accelerated multimedia components to be developed, integrated and programmed across multiple operating systems and silicon platforms.
+[OpenMAX™](https://www.khronos.org/openmax/) es una API multiplataforma que proporciona una amplia compatibilidad con códecs y aplicaciones de streaming multimedia, ya que permite desarrollar, integrar y programar componentes multimedia acelerados en múltiples sistemas operativos y plataformas de silicio.
 
-[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) is the world’s only solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool! You can instantly move between editing, color, effects, and audio with a single click. DaVinci Resolve Studio is also the only solution designed for multi user collaboration so editors, assistants, colorists, VFX artists and sound designers can all work live on the same project at the same time.
+[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) es la única solución del mundo que combina edición profesional 8K, corrección de color, efectos visuales y posproducción de audio, todo en una sola herramienta de software. Puede pasar instantáneamente de la edición al color, los efectos y el audio con un solo clic. DaVinci Resolve Studio es también la única solución diseñada para la colaboración entre múltiples usuarios, de modo que editores, asistentes, coloristas, artistas de efectos visuales y diseñadores de sonido pueden trabajar en directo en el mismo proyecto al mismo tiempo.
 
-[Blender](https://www.blender.org/features/video-editing/) comes with a built-in video sequence editor allows you to perform basic actions like video cuts and splicing, as well as more complex tasks like video masking or color grading. The Video Editor includes: Live preview, luma waveform, chroma vectorscope and histogram displays. Audio mixing, syncing, scrubbing and waveform visualization.
+[Blender](https://www.blender.org/features/video-editing/) Incluye un editor de secuencias de vídeo integrado que le permite realizar acciones básicas como cortes y empalmes de vídeo, así como tareas más complejas como el enmascaramiento de vídeo o la gradación de color. El editor de vídeo incluye: vista previa en directo, forma de onda de luminancia, vectorscopio de crominancia y visualización de histogramas. Mezcla de audio, sincronización, desplazamiento y visualización de formas de onda.
 
-[Kdenlive](https://kdenlive.org/en/) is an open source video editing tool that supports unlimited multimedia files. It's based on the MLT Framework, KDE and Qt. People who are looking for a very versatile video editing tool that comes packed with features. The latest 20.08 release is out with nifty features like Interface Layouts, Multiple Audio Stream support, Cached data management and Zoombars in the Clip Monitor and Effects Panel but one may argue that the highlights of this release are stability and interface improvements.
+[Kdenlive](https://kdenlive.org/en/) es una herramienta de edición de vídeo de código abierto que admite archivos multimedia ilimitados. Se basa en MLT Framework, KDE y Qt. Es ideal para quienes buscan una herramienta de edición de vídeo muy versátil y repleta de funciones. La última versión 25.12 incluye funciones muy interesantes, como diseños de interfaz, compatibilidad con múltiples flujos de audio, gestión de datos en caché y barras de zoom en el monitor de clips y el panel de efectos, pero se podría decir que lo más destacado de esta versión son las mejoras en la estabilidad y la interfaz.
 
-[OpenShot](https://www.openshot.org/) is an open-source video editing tool that's designed for users new in the editing environment. It has simple features such as a simple drag-and-drop function, it provides an easy-to-use and quick-to-learn user interface. The powerful video editor offers tons of efficient ways to cut and trim down your videos. You can freely utilize the unlimited tracks, video effects engine, title editor, 3D animations, slow motion, and time effects. It supports commonly used video codecs that are supported by FFmpeg like WebM (VP9), AVCHD (libx264), HEVC (libx265) and audio codecs like mp3 (libmp3lame) and aac (libfaac). The program can render MPEG4, ogv, Blu-ray and DVD video, and Full HD videos for uploading to the internet video websites like YouTube.
+[OpenShot](https://www.openshot.org/) es una herramienta de edición de vídeo de código abierto diseñada para usuarios nuevos en el entorno de edición. Cuenta con funciones sencillas, como la función de arrastrar y soltar, y ofrece una interfaz de usuario fácil de usar y rápida de aprender. Este potente editor de vídeo ofrece un montón de formas eficientes de cortar y recortar tus vídeos. Puedes utilizar libremente las pistas ilimitadas, el motor de efectos de vídeo, el editor de títulos, las animaciones 3D, la cámara lenta y los efectos de tiempo. Es compatible con los códecs de vídeo más utilizados que son compatibles con FFmpeg, como WebM (VP9), AVCHD (libx264), HEVC (libx265) y códecs de audio como mp3 (libmp3lame) y aac (libfaac). El programa puede renderizar vídeos MPEG4, ogv, Blu-ray y DVD, así como vídeos Full HD para subirlos a sitios web de vídeos en Internet como YouTube.
 
-[Lightworks](https://www.lwks.com/) is a non-linear video editing appluication for editing and mastering digital video used by the film industry. Its professional edition has been used for box office hits, such as Shutter Island, Pulp Fiction, and Mission Impossible. Intimidating user interface. Like professional video editors, such as Adobe Premiere Pro, Lightworks is rather complicated to use for new users.
+[Lightworks](https://www.lwks.com/) Es una aplicación de edición de vídeo no lineal para editar y masterizar vídeo digital utilizada por la industria cinematográfica. Su edición profesional se ha utilizado para éxitos de taquilla como Shutter Island, Pulp Fiction y Misión imposible. Interfaz de usuario intimidante. Al igual que los editores de vídeo profesionales, como Adobe Premiere Pro, Lightworks es bastante complicado de usar para los nuevos usuarios.
 
-[Shotcut](https://www.shotcut.org/) is an open source multi-platform video editor. You can perform various actions such as video editing (including 4K video quality), add effects, create new movies, import most image files formats, export to almost any file format and much more.
+[Shotcut](https://www.shotcut.org/) es un editor de vídeo multiplataforma de código abierto. Permite realizar diversas acciones, como editar vídeos (incluida la calidad de vídeo 4K), añadir efectos, crear nuevas películas, importar la mayoría de formatos de archivos de imagen, exportar a casi cualquier formato de archivo y mucho más.
 
-[Olive](https://www.olivevideoeditor.org) is a free non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software.
+[Olive](https://www.olivevideoeditor.org) Es un editor de vídeo no lineal gratuito cuyo objetivo es ofrecer una alternativa completa al software profesional de edición de vídeo de alta gama.
 
-[Natron](https://natrongithub.github.io/) is a powerful Digital Compositor that can handle all of your 2D/2.5D needs. Its robust OIIO file formats and OpenFX architecture is what make Natron the most flexible open source compositor for the visual effects community. Its interface and functionally are the same across all platforms such as MacOS, Linux and Windows.
+[Natron](https://natrongithub.github.io/) es un potente compositor digital capaz de satisfacer todas tus necesidades en 2D/2.5D. Sus robustos formatos de archivo OIIO y su arquitectura OpenFX hacen de Natron el compositor de código abierto más flexible para la comunidad de efectos visuales. Su interfaz y funcionalidad son las mismas en todas las plataformas, como MacOS, Linux y Windows.
 
-[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding.
+[OBS (Open Broadcaster Software)](https://obsproject.com/) es un software gratuito y de código abierto para la grabación de vídeo y la transmisión en directo. Transmite a Twitch, YouTube y muchos otros proveedores o graba tus propios vídeos con codificación H264 / AAC de alta calidad.
 
-[REAPER](https://www.reaper.fm/) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.REAPER supports a vast range of hardware, digital formats and plugins, and can be comprehensively extended, scripted and modified. 
+[REAPER](https://www.reaper.fm/) Es una aplicación completa de producción de audio digital para ordenadores que ofrece un conjunto completo de herramientas para la grabación, edición, procesamiento, mezcla y masterización multipista de audio y MIDI. REAPER es compatible con una amplia gama de hardware, formatos digitales y complementos, y se puede ampliar, programar y modificar de forma integral. 
 
-[JACK Audio Connection Kit AKA JACK](https://jackaudio.org/) is a professional sound server daemon that provides real-time, low-latency connections for both audio and MIDI data between applications that implement its API. JACK can be configured to send audio data over a network to a "master" machine, which then outputs the audio to a physical device. This can be useful to mix audio from a number of "slave" computers without requiring additional cables or hardware mixers, and keeping the audio path digital for as long as possible.
+[JACK Audio Connection Kit AKA JACK](https://jackaudio.org/) es un demonio de servidor de sonido profesional que proporciona conexiones en tiempo real y de baja latencia para datos de audio y MIDI entre aplicaciones que implementan su API. JACK se puede configurar para enviar datos de audio a través de una red a una máquina «maestra», que luego envía el audio a un dispositivo físico. Esto puede ser útil para mezclar audio de varios ordenadores «esclavos» sin necesidad de cables adicionales o mezcladores de hardware, y manteniendo la ruta de audio digital durante el mayor tiempo posible.
 
-[Bitwig Studio](https://www.bitwig.com) is a digital audio workstation that has linear and non-linear workflows for sound design, recording, live performance, and more. Along with 90+ instruments, effects, and other creative tools. It is supported Windows, macOS, and Linux.
+[Bitwig Studio](https://www.bitwig.com) Es una estación de trabajo de audio digital que cuenta con flujos de trabajo lineales y no lineales para el diseño de sonido, la grabación, las actuaciones en directo y mucho más. Incluye más de 90 instrumentos, efectos y otras herramientas creativas. Es compatible con Windows, macOS y Linux.
 
-[PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing.
+[PipeWire](https://pipewire.org) es una API de servidor y espacio de usuario para gestionar canalizaciones multimedia. Proporciona un motor de procesamiento basado en gráficos y de baja latencia sobre dispositivos de audio y vídeo que se puede utilizar para dar soporte a los casos de uso que actualmente gestionan tanto pulseaudio como JACK. PipeWire se diseñó con un potente modelo de seguridad que facilita la interacción con dispositivos de audio y vídeo desde aplicaciones en contenedores. Los nodos del gráfico se pueden implementar como procesos independientes, que se comunican con sockets e intercambian contenido multimedia mediante el paso de fd.
 
-[Yabridge](https://github.com/robbert-vdh/yabridge) is a modern and transparent way to use Windows VST2 and VST3 plugins on Linux. Yabridge seamlessly supports using both 32-bit and 64-bit Windows VST2 and VST3 plugins in a 64-bit Linux VST host as if they were native VST2 and VST3 plugins, with optional support for [plugin groups](https://github.com/robbert-vdh/yabridge#plugin-groups) to enable inter-plugin communication for VST2 plugins and quick startup times. 
+[Yabridge](https://github.com/robbert-vdh/yabridge) es una forma moderna y transparente de utilizar los plugins VST2 y VST3 de Windows en Linux. Yabridge es compatible con el uso de plugins VST2 y VST3 de Windows de 32 y 64 bits en un host VST de Linux de 64 bits, como si fueran plugins VST2 y VST3 nativos, con compatibilidad opcional con [grupos de complementos](https://github.com/robbert-vdh/yabridge#plugin-groups) para permitir la comunicación entre complementos VST2 y tiempos de inicio rápidos. 
 
-[Sonobus](https://sonobus.net) is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.
+[Sonobus](https://sonobus.net) Es una aplicación fácil de usar para transmitir audio peer-to-peer de alta calidad y baja latencia entre dispositivos a través de Internet o una red local.
 
-[Avid Pro Tools](https://www.avid.com/pro-tools) is an industry standard audio-production software for songwriters, musicians, producers, and engineers.
+[Avid Pro Tools](https://www.avid.com/pro-tools) Es un software de producción de audio estándar en la industria para compositores, músicos, productores e ingenieros.
 
-[LMMS](https://lmms.io/) is an open source digital audio workstation application program. When LMMS is pairedr with appropriate computer hardware, it allows music to be produced by arranging samples, synthesizing sounds, playing on a MIDI keyboard, and combining the features of trackers and sequencers. Developed by Paul Giblock and Tobias Junghans, this program stands for "Linux MultiMedia Studio" and supports handy plugins that enables it to work on different operating systems.
+[LMMS](https://lmms.io/) es un programa de aplicación de estación de trabajo de audio digital de código abierto. Cuando LMMS se combina con el hardware informático adecuado, permite producir música mediante la organización de muestras, la síntesis de sonidos, la reproducción en un teclado MIDI y la combinación de las funciones de rastreadores y secuenciadores. Desarrollado por Paul Giblock y Tobias Junghans, este programa significa «Linux MultiMedia Studio» y es compatible con prácticos complementos que le permiten funcionar en diferentes sistemas operativos.
 
-[Ardour](http://ardour.org/) is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers. Development is transparent — anyone can watch our work as it happens. Like a good piece of vintage hardware, you can open the box and look inside.
+[Ardour](http://ardour.org/) es un proyecto colaborativo de código abierto en el que participa un equipo internacional formado por músicos, programadores e ingenieros de sonido profesionales. El desarrollo es transparente: cualquiera puede ver nuestro trabajo a medida que se realiza. Al igual que con un buen equipo vintage, puedes abrir la caja y mirar dentro.
 
-[Audacity](https://www.audacityteam.org/) is an easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems. Developed by a group of volunteers as open source and offered free of charge. Amazing support community.
+[Audacity](https://www.audacityteam.org/) Es un editor y grabador de audio multipista fácil de usar para Windows, Mac OS X, GNU/Linux y otros sistemas operativos. Desarrollado por un grupo de voluntarios como código abierto y ofrecido de forma gratuita. Increíble comunidad de soporte.
 
-[Glimpse](https://glimpse-editor.github.io/) is a cross-platform raster graphics editor based on the GNU Image Manipulation Program available for Linux, MacOS, and Windows. A great tool for making YouTube video thumbnails.
+[Glimpse](https://glimpse-editor.github.io/) Es un editor de gráficos rasterizados multiplataforma basado en el Programa de Manipulación de Imágenes GNU, disponible para Linux, MacOS y Windows. Una herramienta excelente para crear miniaturas de vídeos de YouTube.
  
- ## Setting up OBS Studio
+ ## Configuración de OBS Studio
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -1299,7 +1301,7 @@ TLPUI
   <br />
 </p>
 
-[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. OBS Studio added **native PipeWire and Wayland support in version 27**. 
+[OBS (Open Broadcaster Software)](https://obsproject.com/) es un software gratuito y de código abierto para la grabación de vídeo y la transmisión en directo. Transmite a Twitch, YouTube y muchos otros proveedores o graba tus propios vídeos con codificación H264 / AAC de alta calidad. OBS Studio añadió **compatibilidad nativa con PipeWire y Wayland en la versión 27**. 
 
  [![OBS Studio Flatpak on Flathub](https://user-images.githubusercontent.com/45159366/185704745-32111c92-2687-49f6-9247-6e925f6a41a6.png)](https://flathub.org/apps/details/com.obsproject.Studio)
  
@@ -1309,50 +1311,51 @@ TLPUI
   OBS Studio
 </p>
 
- * [OBS PipeWire Audio Capture](https://github.com/dimtpap/obs-pipewire-audio-capture) is a plugin adds 3 sources for OBS Studio tocapture audio outputs, inputs and applications using PipeWire.
+ * [OBS PipeWire Audio Capture](https://github.com/dimtpap/obs-pipewire-audio-capture) Es un complemento que añade tres fuentes para OBS Studio con el fin de capturar salidas de audio, entradas y aplicaciones utilizando PipeWire.
  
- * [OBS Scale To Sound](https://github.com/dimtpap/obs-scale-to-sound) is a plugin for OBS Studio that adds a filter which makes a source scale based on the audio levels of any audio source you choose.
+ * [OBS Scale To Sound](https://github.com/dimtpap/obs-scale-to-sound) Es un complemento para OBS Studio que añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.
  
-  * [OBS Studio Fully-loaded](https://github.com/wimpysworld/obs-fully-loaded) is a script for Ubuntu/Debian-based systems that installs OBS Studio along with pre-loaded extra features and plugins. This project is developed and maintained by [Martin Wimpress](https://github.com/wimpysworld/).
+  * [OBS Studio Fully-loaded](https://github.com/wimpysworld/obs-fully-loaded) es un script para sistemas basados en Ubuntu/Debian que instala OBS Studio junto con funciones y complementos adicionales preinstalados. Este proyecto ha sido desarrollado y es mantenido por [Martin Wimpress](https://github.com/wimpysworld/).
  
- ### Useful OBS Studio 3rd party plugins and themes.
+ ### Complementos y temas útiles de terceros para OBS Studio.
 
-  * **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** plugin; an automated scene switcher.
-  * **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** plugin; control stereo pan of audio source.
-  * **[Browser](https://github.com/obsproject/obs-browser)** plugin; CEF-based OBS Studio browser plugin.
-  * **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)** plugin; filter you can add to media source to load the oldest or newest file in a directory.
-  * **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** plugin; add a Downstream Keyer dock.
-  * **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** plugin; filter for dynamic delaying a video source.
-  * **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** plugin; freeze a source using a filter.
-  * **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** plugin; adding gradients as a Soource.
-  * **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** plugins; feed GStreamer launch pipelines into OBS Studio and use GStreamer encoder elements.
-  * **[Move Transition](https://github.com/exeldro/obs-move-transition)** plugin; move source to a new position during scene transition.
-  * **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** plugin; provides a custom effect to render multiple sources.
-  * **[NDI](https://github.com/Palakis/obs-ndi)** plugin; Network A/V via NewTek's NDI.
-  * **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** plugin; screen capture via NVIDIA FBC API. Requires [NvFBC patches for Nvidia drivers](https://github.com/keylase/nvidia-patch) for consumer grade GPUs.
-  * **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture)** plugin; capture application audio from PulseAudio.
-  * **[Soundboard](https://github.com/cg2121/obs-soundboard)** plugin; adds a soundboard dock.
-  * **[Source Copy](https://github.com/exeldro/obs-source-copy)** plugin; adds copy and paste options to the tools menu.
-  * **[Source Dock](https://github.com/exeldro/obs-source-dock)** plugin; create a Dock for a source, which lets you see audio levels, change volume and control media. 
-  * **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** plugin; recursion effect filter.
-  * **[Replay Source](https://github.com/exeldro/obs-replay-source)** plugin; slow motion replay async sources from memory.
-  * **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** plugin; simple filter to adjust RGB levels.
-  * **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)** plugin; encode and publish to a RTSP stream.
-  * **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)** plugin; adds a filter which makes a source scale based on the audio levels of any audio source you choose
-  * **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** plugin; filter, backup and restore Scene Collections.
-  * **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)** plugin; create a Dock for showing and editing notes for the current active scene.
-  * **[Source Record](https://github.com/exeldro/obs-source-record)** plugin; make sources available to record via a filter.
-  * **[Source Switcher](https://github.com/exeldro/obs-source-switcher)** plugin; to switch between a list of sources.
-  * **[Spectralizer](https://github.com/univrsal/spectralizer)** plugin; audio visualization using fftw.
-  * **[StreamFX](https://github.com/Xaymar/obs-StreamFX)** plugin; collection modern effects filters and transitions.
-  * **[Teleport](https://github.com/fzwoch/obs-teleport)** plugin; open NDI-like replacement.
-  * **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)** plugin; Provides a text source rendered using Pango with multi-language support, emoji support, vertical rendering and RTL support.
-  * **[Text PThread](https://github.com/norihiro/obs-text-pthread)** plugin; Rich text source plugin with many advanced features.
-  * **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)** plugin; a time warp scan filter.
-  * **[Transition Table](https://github.com/exeldro/obs-transition-table)** plugin; customize scene transitions.
-  * **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** plugin; make sources available to the virtual camera via a filter
-  * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
-  * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
+|  Tipo  | Nombre  | Descripcion |
+| Complemento  |**[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
+  | Complemento |**[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter) **| controla la panoramización estéreo de la fuente de audio. |
+  | Complemento |**[Browser](https://github.com/obsproject/obs-browser) **| complemento del navegador OBS Studio basado en CEF.|
+  | Complemento |**[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media) **| filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
+  | Complemento |**[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer) **| añade un muelle Downstream Keyer.|
+  | Complemento |**[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay) **| filtro para retrasar dinámicamente una fuente de vídeo.|
+  | Complemento |**[Freeze Filter](https://github.com/exeldro/obs-freeze-filter) **| congela una fuente utilizando un filtro.|
+  | Complemento |**[Gradient Source](https://github.com/exeldro/obs-gradient-source) **| añade degradados como fuente.|
+  | Complementos |**[GStreamer](https://github.com/fzwoch/obs-gstreamer) **| alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
+  | Complemento |**[Move Transition](https://github.com/exeldro/obs-move-transition) **| mueve la fuente a una nueva posición durante la transición de escena.|
+  | Complemento |**[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect) **| proporciona un efecto personalizado para renderizar múltiples fuentes.|
+  | Complemento |**[NDI](https://github.com/Palakis/obs-ndi) **| red A/V a través de NDI de NewTek.|
+  | Complemento |**[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc) **| captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
+  | Complemento |**[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture) **| captura el audio de la aplicación desde PulseAudio.|
+  | Complemento |**[Soundboard](https://github.com/cg2121/obs-soundboard) **| añade un panel de sonido.|
+  | Complemento |**[Source Copy](https://github.com/exeldro/obs-source-copy) **| añade opciones de copiar y pegar al menú de herramientas.|
+  | Complemento |**[Source Dock](https://github.com/exeldro/obs-source-dock) **| crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
+  | Complemento |**[Recursion Effect](https://github.com/exeldro/obs-recursion-effect) **| filtro de efecto de recursividad.|
+  | Complemento |**[Replay Source](https://github.com/exeldro/obs-replay-source) **| reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
+  | Complemento |**[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter) **| filtro sencillo para ajustar los niveles RGB.|
+  | Complemento |**[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/) **| codifica y publica en una transmisión RTSP.|
+  | Complemento |**[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound) **| añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
+  | Complemento |**[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager) **| filtra, realiza copias de seguridad y restaura colecciones de escenas.|
+  | Complemento |**[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock) **| crea un Dock para mostrar y editar notas de la escena activa actual.|
+  | Complemento |**[Source Record](https://github.com/exeldro/obs-source-record) **| permite grabar fuentes a través de un filtro.|
+  | Complemento |**[Source Switcher](https://github.com/exeldro/obs-source-switcher) **| para cambiar entre una lista de fuentes.|
+  | Complemento |**[Spectralizer](https://github.com/univrsal/spectralizer) **| visualización de audio mediante fftw.|
+  | Complemento |**[StreamFX](https://github.com/Xaymar/obs-StreamFX) **| colección de filtros y transiciones de efectos modernos.|
+  | Complemento |**[Teleport](https://github.com/fzwoch/obs-teleport) **| sustituto abierto similar a NDI.|
+  | Complemento |**[Text Pango](https://github.com/kkartaltepe/obs-text-pango) **| proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
+  | Complemento |**[Text PThread](https://github.com/norihiro/obs-text-pthread) **| complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
+  | Complemento |**[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan) **| filtro de escaneo con distorsión temporal.|
+  | Complemento |**[Transition Table](https://github.com/exeldro/obs-transition-table) **| personaliza las transiciones entre escenas.|
+  | Complemento |**[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter) **| permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
+  | Complemento |**[VNC Source](https://github.com/norihiro/obs-vnc) **| visor VNC que funciona como fuente.|
+  | Complemento |**[Websockets](https://github.com/Palakis/obs-websocket) **| controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
   
 # Gaming
 [Volver al Inicio](#tabla-de-contenidos)
