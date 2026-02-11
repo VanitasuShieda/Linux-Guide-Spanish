@@ -722,25 +722,38 @@ Muchos entornos tienen tiendas, funcionan como una tienda de apps, pero usan el 
 
 <img src="https://user-images.githubusercontent.com/45159366/145691934-52154d53-2457-4226-be11-ee23d4520c74.png">
 
-**Note: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).** Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+**Note: Todo este software también está disponible en otras distribuciones populares de Linux, como [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) y [Arch Linux](https://archlinux.org/).
+** Además, si sigues desplazándote hacia abajo, verás otras formas sencillas de obtener aplicaciones de software a través de Flathub, Snap Store y AppImages.**
 
 ### App Outlet
 
-[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+[App Outlet](https://app-outlet.github.io/) es una tienda de aplicaciones universal (Flatpaks, Snaps y AppImages) inspirada en el servicio en línea Linux App Store.
 
  <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
 
 ## Formatos universales (multidistribución)
-
-* Flatpak → más común en distros modernas
-* Snap → más común en Ubuntu
-* AppImage → portable, sin instalación
+Además de los repositorios tradicionales, existen formatos universales que permiten instalar aplicaciones de forma independiente a la distribución.
 
 ### Flatpaks
 
-[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+Flatpak es un sistema de paquetes universal enfocado en aplicaciones de escritorio. Es común en distribuciones modernas y se integra bien con entornos como GNOME y KDE.
 
-[Flatseal](https://github.com/tchx84/flatseal) is a graphical utility to review and modify permissions from your [Flatpak](https://flatpak.org/) applications. [Get it on Flathub store](https://flathub.org/apps/details/com.github.tchx84.Flatseal).
+Ventajas:
+- Funciona en múltiples distribuciones.
+- Aísla las aplicaciones mediante sandboxing.
+- Permite instalar versiones más recientes que las disponibles en los repositorios oficiales.
+
+Desventajas:
+- Puede ocupar más espacio en disco debido a dependencias incluidas.
+- Requiere configuración inicial (por ejemplo, añadir Flathub).
+
+Ejemplo:
+
+`flatpak install flathub org.mozilla.firefox`
+
+[FlatHub](https://flathub.org/) es un servicio de compilación y distribución para aplicaciones Flatpak.
+
+[Flatseal](https://github.com/tchx84/flatseal) es una utilidad gráfica para revisar y modificar los permisos desde tu [Flatpak](https://flatpak.org/). [Get it on Flathub store](https://flathub.org/apps/details/com.github.tchx84.Flatseal).
 
 [FlatHub Forum](https://discourse.flathub.org/)
 
@@ -748,7 +761,24 @@ Muchos entornos tienen tiendas, funcionan como una tienda de apps, pero usan el 
  
 ### Snaps
 
-[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+Snap es un formato desarrollado por Canonical (empresa detrás de Ubuntu). Es más común en Ubuntu y sus derivadas.
+
+Ventajas:
+- Instalación sencilla.
+- Actualizaciones automáticas.
+- Buen aislamiento de aplicaciones.
+
+Desventajas:
+- Puede tener tiempos de arranque más lentos.
+- Mayor consumo de espacio.
+- Menor integración en distribuciones que no son Ubuntu.
+
+Ejemplo:
+
+`sudo snap install vlc`
+
+
+[Snap Store](https://snapcraft.io/store) es un servicio de compilación y distribución para aplicaciones Snap.
 
 [Snapcraft Forum](https://forum.snapcraft.io/)
 
@@ -757,9 +787,27 @@ Muchos entornos tienen tiendas, funcionan como una tienda de apps, pero usan el 
 
 ### AppImages
 
-[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+AppImage es un formato portable que no requiere instalación. El programa se descarga como un único archivo ejecutable.
 
-[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) is a package manager for AppImages.
+Ventajas:
+- No necesita instalación.
+- No modifica el sistema.
+- Ideal para probar aplicaciones rápidamente.
+
+Desventajas:
+- No se actualiza automáticamente.
+- Mo se integra completamente con el gestor de paquetes.
+- El usuario debe gestionar los permisos manualmente.
+
+Uso típico:
+```
+chmod +x programa.AppImage
+./programa.AppImage
+```
+
+[AppImageHub](https://www.appimagehub.com) es un servicio de compilación y distribución para aplicaciones AppImage.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) es un gestor de paquetes para AppImages.
 
 [AppImage Forum](https://discourse.appimage.org/)
 
