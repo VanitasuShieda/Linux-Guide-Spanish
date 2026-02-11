@@ -44,6 +44,10 @@ Fuente Original: https://github.com/mikeroyal/Linux-Guide-Spanish
     - [¿Qué es el código fuente?](#qué-es-el-código-fuente)
     - [Requisitos previos](#requisitos-previos)
     - [Proceso típico de compilación](#proceso-típico-de-compilación)
+      - [1 - Descargar el código fuente](#1---descargar-el-código-fuente)
+      - [2 - Configurar la compilación](#2---configurar-la-compilación)
+      - [3 - Compilar](#3---compilar)
+      - [4 - Instalar](#4---instalar)
 - [Alternativas a Microsoft Office](#alternativas-a-microsoft-office)
   - [Secure \& Privacy Focused Web Browsers](#secure--privacy-focused-web-browsers)
     - [Privacy \& Security Focused Browser extensions](#privacy--security-focused-browser-extensions)
@@ -757,7 +761,7 @@ Ejemplo:
 
 [FlatHub Forum](https://discourse.flathub.org/)
 
- <img src="https://github.com/VanitasuShieda/Linux-Guide-Spanish/assets/45159366/e19925b2-4fcf-406d-81eb-85b8dcd84889">
+ <img src="https://github.com/mikeroyal/Linux-Guide/assets/45159366/e19925b2-4fcf-406d-81eb-85b8dcd84889">
  
 ### Snaps
 
@@ -853,7 +857,7 @@ Antes de compilar, necesitas herramientas de desarrollo instaladas.
 
 Muchos proyectos siguen este flujo clásico:
 
-- 1.  Descargar el código fuente
+#### 1 - Descargar el código fuente
 
 El código puede obtenerse desde:
 * El sitio oficial del proyecto
@@ -865,7 +869,7 @@ Ejemplo:
 tar -xvf programa.tar.gz
 cd programa
 ```
-- 2. Configurar la compilación
+####  2 - Configurar la compilación
 
 Algunos proyectos usan el sistema tradicional configure:
 
@@ -879,7 +883,7 @@ Este paso:
 
 Si falta alguna dependencia, el proceso mostrará un error.
 
-- 3. Compilar
+#### 3 - Compilar
 
 `make`
 
@@ -887,13 +891,13 @@ Aquí el compilador transforma el código fuente en archivos ejecutables.
 
 Este proceso puede tardar desde segundos hasta varios minutos, dependiendo del tamaño del proyecto.
 
-- 4. Instalar
+#### 4 - Instalar
   
 `sudo make install`
 
 Este paso copia los archivos compilados al sistema (normalmente en /usr/local/).
 
-
+---
 
 Otros sistemas de compilación modernos
 
@@ -940,7 +944,7 @@ Cada proyecto suele incluir instrucciones específicas en un archivo README.md o
 Aunque es gratuita, WPS Office no es completamente de código abierto.
  
 <p align="center">
- <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/WPS_Office_logo.svg">
+ <img src="./assets/images/wps-2019.png">
   <br />
   WPS Office
 </p>
