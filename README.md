@@ -1320,6 +1320,7 @@ TLPUI
  ### Complementos y temas útiles de terceros para OBS Studio.
 
 |  Tipo  | Nombre  | Descripcion |
+|------|------|-----|
 | Complemento  |**[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
   | Complemento |**[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter) **| controla la panoramización estéreo de la fuente de audio. |
   | Complemento |**[Browser](https://github.com/obsproject/obs-browser) **| complemento del navegador OBS Studio basado en CEF.|
