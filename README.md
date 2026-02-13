@@ -2018,7 +2018,7 @@ Nintendo 3DS
   <br />
 </p>
 
-Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
+Intel ARC GPUs Overview. Creditos: [Intel](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc.html)
 
 ### Gaming Peripherals
 [Volver al Inicio](#tabla-de-contenidos)
@@ -2030,21 +2030,21 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
   <br />
 </p>
 
-[OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) is a network-based Software Development Kit, which allows third-party software to control all of your RGB. This allows for game integrations, music visualization, ambient lighting, and anything else you can imagine. It supports ASUS, ASRock, Corsair, G.Skill, Gigabyte, HyperX, MSI, Razer, ThermalTake, and more.
+[OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) es un kit de desarrollo de software basado en red que permite que software de terceros controle todo tu RGB. Esto permite integraciones de juegos, visualización de música, iluminación ambiental y cualquier otra cosa que puedas imaginar. Es compatible con ASUS, ASRock, Corsair, G.Skill, Gigabyte, HyperX, MSI, Razer, ThermalTake y más.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189850391-73936b95-8996-44f3-8d81-bd0938a379fd.png">
   <br />
 </p>
 
-[GX52](https://gitlab.com/leinardi/gx52) is a GTK application designed to provide control for the LEDs and MFD of Logitech X52 and X52 Pro H.O.T.A.S.
+[GX52](https://gitlab.com/leinardi/gx52) es una aplicación GTK diseñada para controlar los LED y el MFD de Logitech X52 y X52 Pro H.O.T.A.S.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189784925-ebe6c07f-bfe4-441d-b705-1dc737fbacdf.png">
   <br />
 </p>
 
-[Coolero](https://gitlab.com/coolero/coolero) is a program to monitor and control your cooling devices. It offers an easy-to-use user interface with various control features and also provides live thermal performance details.
+[Coolero](https://gitlab.com/coolero/coolero) es un programa para supervisar y controlar sus dispositivos de refrigeración. Ofrece una interfaz de usuario fácil de usar con diversas funciones de control y también proporciona detalles en tiempo real sobre el rendimiento térmico.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189784926-67102123-7bb4-4ccd-9fde-c499780c45e5.gif">
@@ -2058,43 +2058,43 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
   <br />
 </p>
  
-[StreamDeck-UI](https://timothycrosley.github.io/streamdeck-ui/) is a Linux compatible UI for the [Elgato Stream Deck](https://www.elgato.com/en/stream-deck).
+[StreamDeck-UI](https://timothycrosley.github.io/streamdeck-ui/) es una interfaz de usuario compatible con Linux para el [Elgato Stream Deck](https://www.elgato.com/en/stream-deck).
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189784917-512c6757-4cc5-41bb-b9bb-9b1cd3500255.gif">
   <br />
 </p>
  
-[Asusctl](https://asus-linux.org/) is a control daemon, CLI tools, and a collection of crates for interacting with ASUS ROG laptops.
-
+[Asusctl](https://asus-linux.org/) es un demonio de control, herramientas CLI y una colección de crates para interactuar con las computadoras portátiles ASUS ROG.
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/189784927-21208072-450e-4018-a613-3e3156535cc4.png">
   <br />
 </p>
 
-[MangoHud](https://github.com/flightlessmango/MangoHud) is a Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+[MangoHud](https://github.com/flightlessmango/MangoHud) es una superposición de Vulkan y OpenGL para supervisar los FPS, las temperaturas, la carga de la CPU/GPU y mucho más.
 
-[GOverlay](https://github.com/benjamimgois/goverlay) is an open source project aimed to create a Graphical UI to manage Vulkan/OpenGL overlays. It is still in early development.
+[GOverlay](https://github.com/benjamimgois/goverlay) es un proyecto de código abierto cuyo objetivo es crear una interfaz gráfica de usuario para gestionar las superposiciones de Vulkan/OpenGL. Todavía se encuentra en una fase inicial de desarrollo.
 
-## Performance Benchmarks
+## Pruebas de rendimiento
 [Volver al Inicio](#tabla-de-contenidos)
 
-[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+[Geekbench 5](https://www.geekbench.com/download/) es una prueba de rendimiento multiplataforma que mide el rendimiento de tu sistema con solo pulsar un botón.
 
 [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
 
-[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) Es una prueba extrema de rendimiento y estabilidad para el hardware de la computadora: tarjeta de video, fuente de alimentación, sistema de refrigeración.
+
 
 <img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
 
 ## Wine
 [Volver al Inicio](#tabla-de-contenidos)
 
-[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) es una capa de compatibilidad capaz de ejecutar aplicaciones de Windows en varios sistemas operativos compatibles con POSIX, como Linux, macOS y BSD. En lugar de simular la lógica interna de Windows como una máquina virtual o un emulador, Wine traduce las llamadas a la API de Windows en llamadas POSIX sobre la marcha, lo que elimina las penalizaciones de rendimiento y memoria de otros métodos y le permite integrar limpiamente las aplicaciones de Windows en su escritorio.
 
 ### Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) is an easy way to work around problems in Wine. 
+[Winetricks](https://github.com/Winetricks/winetricks) es una forma fácil de solucionar problemas en Wine. 
   
 # WireGuard
 [Back to the Top](https://github.com/VanitasuShieda/Self-Hosting-Guide#table-of-contents)
@@ -2105,47 +2105,47 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 </p>
 
 
-[WireGuard®](https://www.wireguard.com/) is a straight-forward, fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general-purpose VPN for running on embedded interfaces and super computers alike, fit for many circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under a massive development, but it already might be regarded as the most secure, most comfortable to use, and the simplest VPN solution in the industry.
+[WireGuard®](https://www.wireguard.com/) es una VPN sencilla, rápida y moderna que utiliza criptografía de última generación. Su objetivo es ser más rápida, sencilla, ágil y útil que IPsec, evitando al mismo tiempo los enormes dolores de cabeza. Pretende ser considerablemente más eficaz que OpenVPN. WireGuard está diseñado como una VPN de uso general para funcionar tanto en interfaces integradas como en supercomputadoras, y se adapta a muchas circunstancias. Lanzado inicialmente para el kernel de Linux, ahora es multiplataforma (Windows, macOS, BSD, iOS, Android) y se puede implementar ampliamente. Actualmente se encuentra en fase de desarrollo masivo, pero ya se puede considerar como la solución VPN más segura, más cómoda de usar y más sencilla del sector.
 
-[Wiretrustee](https://wiretrustee.com/) is a WireGuard®-based mesh network that connects your devices into a single private network.
+[Wiretrustee](https://wiretrustee.com/) es una red en malla basada en WireGuard® que conecta sus dispositivos en una única red privada.
 
-[Wireguard Manager](https://github.com/complexorganizations/wireguard-manager) is a tool that enables you to build your own vpn under a minute.
+[Wireguard Manager](https://github.com/complexorganizations/wireguard-manager) es una herramienta que le permite crear su propia VPN en menos de un minuto.
 
-[Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
+[Tailscale](https://github.com/tailscale) es una aplicación basada en WireGuard que facilita la creación de redes privadas y seguras para equipos de cualquier tamaño. Funciona como una [red superpuesta](https://tailscale.com/blog/how-tailscale-works/) entre las computadoras de sus redes utilizando todo tipo de [magia NAT traversal](https://tailscale.com/blog/how-nat-traversal-works/).
 
-[Headscale](https://github.com/juanfont/headscale) is an open source, self-hosted implementation of the Tailscale coordination server.
+[Headscale](https://github.com/juanfont/headscale) es una implementación de código abierto y autohospedada del servidor de coordinación Tailscale.
 
-[Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
+[Firezone](https://firezone.dev/) es un servidor VPN autohospedado basado en WireGuard® y un firewall para Linux.
 
-[Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
+[Mistborn](https://gitlab.com/cyber5k/mistborn) es una plataforma segura para crear y administrar fácilmente sus propios servicios en la nube, incluyendo firewall, bloqueo de anuncios y acceso VPN WireGuard multifactorial.
 
-[Mistborn CLI](https://gitlab.com/cyber5k/mistborn-cli) is a Command-line interface for [Mistborn](https://gitlab.com/cyber5k/mistborn).
+[Mistborn CLI](https://gitlab.com/cyber5k/mistborn-cli) es una interfaz de línea de comandos para [Mistborn](https://gitlab.com/cyber5k/mistborn).
 
-[BoringTun](https://github.com/cloudflare/boringtun) is an implementation of the WireGuard® protocol designed for portability and speed. It's successfully deployed on millions of [iOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) and [Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&hl=en_US) consumer devices as well as thousands of Cloudflare Linux servers.
+[BoringTun](https://github.com/cloudflare/boringtun) es una implementación del protocolo WireGuard® diseñada para ofrecer portabilidad y velocidad. Se ha implementado con éxito en millones de dispositivos [iOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) y [Android](https://play.google.com/store/apps/details?id=com.cloudflare. onedotonedotonedotone&hl=en_US), así como en miles de servidores Linux de Cloudflare.
 
-[PiVPN](https://pivpn.io/) is the simplest VPN installer, designed for [Raspberry Pi](https://www.raspberrypi.com).
+[PiVPN](https://pivpn.io/) es el instalador de VPN más sencillo, diseñado para [Raspberry Pi](https://www.raspberrypi.com).
 
-[Algo VPN](https://github.com/trailofbits/algo) is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers.
+[Algo VPN](https://github.com/trailofbits/algo) es un conjunto de scripts de Ansible que simplifican la configuración de una VPN personal WireGuard e IPsec. Utiliza los valores predeterminados más seguros disponibles y funciona con los proveedores de nube más comunes.
 
-[Pro Custodibus](https://www.procustodibus.com/features/) is a tool for managing WireGuard with a variety of business VPN (Virtual Private Network) use cases, such as site-to-site connectivity, secure remote access from anywhere, secure access to the cloud (Amazon Web Services, Google Cloud Platform, Microsoft Azure, etc), and more.
+[Pro Custodibus](https://www.procustodibus.com/features/) es una herramienta para gestionar WireGuard con una variedad de casos de uso de VPN (red privada virtual) empresarial, como conectividad de sitio a sitio, acceso remoto seguro desde cualquier lugar, acceso seguro a la nube (Amazon Web Services, Google Cloud Platform, Microsoft Azure, etc.) y mucho más.
 
-[Drago](https://seashell.github.io/drago) is a flexible configuration manager for WireGuard designed to make it simple to configure secure network overlays spanning heterogeneous nodes distributed across different clouds and physical locations. Drago is in active development, and we welcome contributions from the open-source community.
+[Drago](https://seashell.github.io/drago) es un administrador de configuración flexible para WireGuard diseñado para simplificar la configuración de superposiciones de red seguras que abarcan nodos heterogéneos distribuidos en diferentes nubes y ubicaciones físicas. Drago se encuentra en fase de desarrollo activo y agradecemos las contribuciones de la comunidad de código abierto.
 
-[Netmaker](https://netmaker.org/) is a tool that helps connect any computers together over a secure, fast, private network, and manage multiple networks from a central server.
+[Netmaker](https://netmaker.org/) es una herramienta que ayuda a conectar cualquier computadora a través de una red privada, segura y rápida, y a administrar múltiples redes desde un servidor central.
 
-[Kilo](https://github.com/squat/kilo) is a multi-cloud network overlay built on WireGuard and designed for Kubernetes. Kilo connects nodes in a cluster by providing an encrypted layer 3 network that can span across data centers and public clouds. The Pod network created by Kilo is always fully connected, even when the nodes are in different networks or behind NAT. By allowing pools of nodes in different locations to communicate securely, Kilo enables the operation of multi-cloud clusters. Kilo's design allows clients to VPN to a cluster in order to securely access services running on the cluster.
+[Kilo](https://github.com/squat/kilo) es una superposición de red multinube basada en WireGuard y diseñada para Kubernetes. Kilo conecta los nodos de un clúster proporcionando una red cifrada de capa 3 que puede abarcar centros de datos y nubes públicas. La red Pod creada por Kilo está siempre totalmente conectada, incluso cuando los nodos se encuentran en redes diferentes o detrás de NAT. Al permitir que grupos de nodos en diferentes ubicaciones se comuniquen de forma segura, Kilo hace posible el funcionamiento de clústeres multicloud. El diseño de Kilo permite a los clientes conectarse mediante VPN a un clúster para acceder de forma segura a los servicios que se ejecutan en él.
 
-[Subspace](https://github.com/subspacecloud/subspace) is a simple WireGuard VPN server GUI.
+[Subspace](https://github.com/subspacecloud/subspace) es una sencilla interfaz gráfica de usuario para servidores VPN WireGuard.
 
-[WG UI](https://github.com/EmbarkStudios/wg-ui) is a basic, self-contained management service for WireGuard with a self-serve web UI.
+[WG UI](https://github.com/EmbarkStudios/wg-ui) es un servicio de gestión básico e independiente para WireGuard con una interfaz gráfica de usuario web de autoservicio.
 
-[WireHole](https://github.com/IAmStoxe/wirehole) is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
+[WireHole](https://github.com/IAmStoxe/wirehole) es una combinación de WireGuard, PiHole y Unbound en un proyecto docker-compose con la intención de permitir a los usuarios crear y desplegar de forma rápida y sencilla una VPN WireGuard de túnel completo o dividido gestionada personalmente con capacidades de bloqueo de anuncios (a través de Pihole) y almacenamiento en caché de DNS con opciones de privacidad adicionales (a través de Unbound).
 
-[Gluetun](https://github.com/qdm12/gluetun) is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
+[Gluetun](https://github.com/qdm12/gluetun) es un cliente VPN ligero en un contenedor Docker delgado para múltiples proveedores de VPN, escrito en Go, que utiliza OpenVPN o Wireguard, DNS sobre TLS, con algunos servidores proxy integrados.
 
-[Ethr](https://github.com/microsoft/ethr) is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
+[Ethr](https://github.com/microsoft/ethr) es una herramienta multiplataforma de medición del rendimiento de la red escrita en golang. El objetivo de este proyecto es proporcionar una herramienta nativa para realizar mediciones exhaustivas del rendimiento de la red en cuanto a ancho de banda, conexiones/s, paquetes/s, latencia, pérdida y fluctuación, en múltiples protocolos como TCP, UDP, HTTP, HTTPS y en múltiples plataformas como Windows, Linux y otros sistemas Unix.
 
-# Linux Security Hardening
+# Fortalecimiento de la seguridad de Linux
 [Volver al Inicio](#tabla-de-contenidos)
 
 <p align="center">
@@ -2155,10 +2155,10 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 ### Security Standards, Frameworks and Benchmarks 
 
- * [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
+ * [Lista de verificación de seguridad personal](https://github.com/Lissy93/personal-security-checklist) es una lista seleccionada con más de 300 consejos para proteger la seguridad digital y la privacidad en 2022.
 
- * [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services. 
-
+ * [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) es una lista seleccionada de software y servicios centrados en la privacidad y la seguridad. 
+* 
  * [STIGs Benchmarks - Security Technical Implementation Guides](https://public.cyber.mil/stigs/)
 
  * [CIS Benchmarks - CIS Center for Internet Security](https://www.cisecurity.org/cis-benchmarks/)
@@ -2173,181 +2173,182 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
  * [ISO Standards Catalogue](https://www.iso.org/standards.html)
 
- * [Common Criteria for Information Technology Security Evaluation (CC)](https://www.commoncriteriaportal.org/cc/) is an international standard (ISO / IEC 15408) for computer security. It allows an objective evaluation to validate that a particular product satisfies a defined set of security requirements. 
+ * [Common Criteria for Information Technology Security Evaluation (CC)](https://www.commoncriteriaportal.org/cc/) es una norma internacional (ISO/IEC 15408) para la seguridad informática. Permite realizar una evaluación objetiva para validar que un producto concreto cumple un conjunto definido de requisitos de seguridad. 
 
- * [ISO 22301](https://www.iso.org/en/contents/data/standard/07/51/75106.html) is the international standard that provides a best-practice framework for implementing an optimised BCMS (business continuity management system).
+ * [ISO 22301](https://www.iso.org/en/contents/data/standard/07/51/75106.html) es la norma internacional que proporciona un marco de buenas prácticas para implementar un BCMS (sistema de gestión de la continuidad del negocio) optimizado.
 
- * [ISO27001](https://www.iso.org/isoiec-27001-information-security.html) is the international standard that describes the requirements for an ISMS (information security management system). The framework is designed to help organizations manage their security practices in one place, consistently and cost-effectively.
+ * [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) es la norma internacional que describe los requisitos para un SGSI (sistema de gestión de la seguridad de la información). El marco está diseñado para ayudar a las organizaciones a gestionar sus prácticas de seguridad en un solo lugar, de forma coherente y rentable.
 
- * [ISO 27701](https://www.iso.org/en/contents/data/standard/07/16/71670.html) specifies the requirements for a PIMS (privacy information management system) based on the requirements of ISO 27001. It is extended by a set of privacy-specific requirements, control objectives and controls. Companies that have implemented ISO 27001 will be able to use ISO 27701 to extend their security efforts to cover privacy management.
+ * La norma [ISO 27701](https://www.iso.org/en/contents/data/standard/07/16/71670.html) especifica los requisitos para un PIMS (sistema de gestión de la información privada) basándose en los requisitos de la norma ISO 27001. Se amplía con un conjunto de requisitos, objetivos de control y controles específicos para la privacidad. Las empresas que hayan implementado la norma ISO 27001 podrán utilizar la norma ISO 27701 para ampliar sus esfuerzos de seguridad y abarcar la gestión de la privacidad.
  
- * [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) is an auditing procedure that ensures your service providers securely manage your data to protect the interests of your company/organization and the privacy of their clients. 
+ * [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) es un procedimiento de auditoría que garantiza que sus proveedores de servicios gestionen sus datos de forma segura para proteger los intereses de su empresa u organización y la privacidad de sus clientes. 
 
- * [NIST CSF](https://www.nist.gov/national-security-standards) is a voluntary framework primarily intended for critical infrastructure organizations to manage and mitigate cybersecurity risk based on existing best practice.
+ * [NIST CSF](https://www.nist.gov/national-security-standards) es un marco voluntario destinado principalmente a organizaciones de infraestructuras críticas para gestionar y mitigar los riesgos de ciberseguridad basándose en las mejores prácticas existentes.
 
- * [Landlock LSM(Linux Security Module)](https://www.kernel.org/doc/html/latest/security/landlock.html) is a framework to create scoped access-control (sandboxing). Landlock is designed to be usable by unprivileged processes while following the system security policy enforced by other access control mechanisms (DAC, LSM, etc.).
+ * [Landlock LSM (Módulo de seguridad de Linux)](https://www.kernel.org/doc/html/latest/security/landlock.html) es un marco para crear un control de acceso limitado (sandboxing). Landlock está diseñado para que lo puedan utilizar procesos sin privilegios, al tiempo que sigue la política de seguridad del sistema impuesta por otros mecanismos de control de acceso (DAC, LSM, etc.).
  
-### Security Tools
+### Herramientas de seguridad
 
-[OpenSCAP](https://www.open-scap.org/) is U.S. standard maintained by [National Institute of Standards and Technology (NIST)](https://www.nist.gov/). It provides multiple tools to assist administrators and auditors with assessment, measurement, and enforcement of security baselines. OpenSCAP maintains great flexibility and interoperability by reducing the costs of performing security audits. Whether you want to evaluate DISA STIGs, NIST‘s USGCB, or Red Hat’s Security Response Team’s content, all are supported by OpenSCAP.
+[OpenSCAP](https://www.open-scap.org/) es un estándar estadounidense mantenido por el [Instituto Nacional de Estándares y Tecnología (NIST)](https://www.nist.gov/). Proporciona múltiples herramientas para ayudar a los administradores y auditores en la evaluación, medición y aplicación de las bases de referencia de seguridad. OpenSCAP mantiene una gran flexibilidad e interoperabilidad al reducir los costos de realizar auditorías de seguridad. Tanto si desea evaluar los DISA STIG, el USGCB del NIST o el contenido del Equipo de Respuesta de Seguridad de Red Hat, todos ellos son compatibles con OpenSCAP.
 
-[Open Vulnerability and Assessment Language](https://oval.mitre.org/) is a community effort to standardize how to assess and report upon the machine state of computer systems. OVAL includes a language to encode system details, and community repositories of content. Tools and services that use OVAL provide enterprises with accurate, consistent, and actionable information to improve their security.
+El [Lenguaje Abierto de Vulnerabilidad y Evaluación](https://oval.mitre.org/) es un esfuerzo comunitario para estandarizar la forma de evaluar e informar sobre el estado de los sistemas informáticos. OVAL incluye un lenguaje para codificar los detalles del sistema y repositorios comunitarios de contenido. Las herramientas y servicios que utilizan OVAL proporcionan a las empresas información precisa, coherente y útil para mejorar su seguridad.
 
-[OWASP](https://www.owasp.org/index.php/Main_Page) is an online community, produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+[OWASP](https://www.owasp.org/index.php/Main_Page) es una comunidad en línea que produce artículos, metodologías, documentación, herramientas y tecnologías de libre acceso en el campo de la seguridad de las aplicaciones web.
 
-[OWASP Nettacker](https://github.com/OWASP/Nettacker) is a project created to automate information gathering, vulnerability scanning and eventually generating a report for networks, including services, bugs, vulnerabilities, misconfigurations, and other information. This software will utilize TCP SYN, ACK, ICMP, and many other protocols in order to detect and bypass Firewall/IDS/IPS devices. 
+[OWASP Nettacker](https://github.com/OWASP/Nettacker) es un proyecto creado para automatizar la recopilación de información, el análisis de vulnerabilidades y, finalmente, la generación de un informe para redes, que incluye servicios, errores, vulnerabilidades, configuraciones incorrectas y otra información. Este software utilizará TCP SYN, ACK, ICMP y muchos otros protocolos para detectar y eludir dispositivos Firewall/IDS/IPS. 
 
-[OWASP Zed Attack Proxy (ZAP)](https://owasp.org/www-project-zap/) is a free, open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is designed specifically for testing web applications and is both flexible and extensible. Great for pentesters, devs, QA, and CI/CD integration. At its core, ZAP is what is known as a "man-in-the-middle proxy."
+[OWASP Zed Attack Proxy (ZAP)](https://owasp.org/www-project-zap/) es una herramienta gratuita y de código abierto para pruebas de penetración que se mantiene bajo el paraguas del Open Web Application Security Project (OWASP). ZAP está diseñado específicamente para probar aplicaciones web y es flexible y extensible. Ideal para pentesters, desarrolladores, control de calidad e integración CI/CD. En esencia, ZAP es lo que se conoce como un «proxy man-in-the-middle».
 
-[SELinux](https://github.com/SELinuxProject/selinux) is a security enhancement to Linux which allows users and administrators more control over access control. Access can be constrained on such variables as which users and applications can access which resources. These resources may take the form of files. Standard Linux access controls, such as file modes (-rwxr-xr-x) are modifiable by the user and the applications which the user runs. Conversely, SELinux access controls are determined by a policy loaded on the system which may not be changed by careless users or misbehaving applications.
+[SELinux](https://github.com/SELinuxProject/selinux) es una mejora de seguridad para Linux que permite a los usuarios y administradores un mayor control sobre el control de acceso. El acceso se puede restringir en función de variables tales como qué usuarios y aplicaciones pueden acceder a qué recursos. Estos recursos pueden adoptar la forma de archivos. Los controles de acceso estándar de Linux, como los modos de archivo (-rwxr-xr-x), pueden ser modificados por el usuario y las aplicaciones que este ejecuta. Por el contrario, los controles de acceso de SELinux están determinados por una política cargada en el sistema que no puede ser modificada por usuarios descuidados o aplicaciones que se comportan de forma incorrecta.
 
-[AppArmor](https://www.apparmor.net/) is an effective and easy-to-use Linux application security system. AppArmor proactively protects the operating system and applications from external or internal threats, even zero-day attacks, by enforcing good behavior and preventing both known and unknown application flaws from being exploited. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It has been included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
+[AppArmor](https://www.apparmor.net/) es un sistema de seguridad para aplicaciones Linux eficaz y fácil de usar. AppArmor protege de forma proactiva el sistema operativo y las aplicaciones contra amenazas externas o internas, incluso ataques de día cero, imponiendo un buen comportamiento y evitando que se aprovechen los fallos conocidos y desconocidos de las aplicaciones. AppArmor complementa el modelo tradicional de control de acceso discrecional (DAC) de Unix proporcionando un control de acceso obligatorio (MAC). Se ha incluido en el núcleo principal de Linux desde la versión 2.6.36 y su desarrollo ha sido respaldado por Canonical desde 2009.
 
-[Control Groups(Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
+[Grupos de control (Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) es una función del kernel de Linux que permite asignar recursos como tiempo de CPU, memoria del sistema, ancho de banda de red o cualquier combinación de estos recursos a grupos de tareas (procesos) definidos por el usuario que se ejecutan en un sistema.
 
-[SpiderFoot](https://github.com/smicallef/spiderfoot) is an open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
+[SpiderFoot](https://github.com/smicallef/spiderfoot) es una herramienta de automatización de inteligencia de fuentes abiertas (OSINT). Se integra con casi todas las fuentes de datos disponibles y utiliza una variedad de métodos para el análisis de datos, lo que facilita la navegación por ellos.
 
-[Lynis](https://cisofy.com/lynis/) is a security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation is optional.
+[Lynis](https://cisofy.com/lynis/) es una herramienta de auditoría de seguridad para sistemas basados en Linux, macOS y UNIX. Ayuda con las pruebas de cumplimiento (HIPAA/ISO27001/PCI DSS) y el fortalecimiento del sistema. No requiere agente y la instalación es opcional.
 
-[Fail2Ban](http://www.fail2ban.org/) is an open source intrusion prevention software framework that scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. 
+[Fail2Ban](http://www.fail2ban.org/) es un marco de software de prevención de intrusiones de código abierto que analiza archivos de registro como /var/log/auth.log y bloquea las direcciones IP que realizan demasiados intentos fallidos de inicio de sesión. Para ello, actualiza las reglas del firewall del sistema para rechazar nuevas conexiones desde esas direcciones IP durante un periodo de tiempo configurable. 
 
-[Aircrack-ng](https://www.aircrack-ng.org/) is a network software suite consisting of a detector, packet sniffer, WEP and WPA/WPA2-PSK cracker and analysis tool for 802.11 wireless LANs. It works with any wireless network interface controller whose driver supports raw monitoring mode and can sniff 802.11a, 802.11b and 802.11g traffic.
+[Aircrack-ng](https://www.aircrack-ng.org/) es un paquete de software de red que consta de un detector, un analizador de paquetes, un descifrador de WEP y WPA/WPA2-PSK y una herramienta de análisis para redes LAN inalámbricas 802.11. Funciona con cualquier controlador de interfaz de red inalámbrica cuyo controlador admita el modo de monitoreo sin procesar y puede rastrear el tráfico 802.11a, 802.11b y 802.11g.
 
-[Burp Suite](https://portswigger.net/burp) is a leading range of cybersecurity tools.
+[Burp Suite](https://portswigger.net/burp) es una gama líder de herramientas de ciberseguridad.
 
-[KernelCI](https://foundation.kernelci.org/) is a community-based open source distributed test automation system focused on upstream kernel development. The primary goal of KernelCI is to use an open testing philosophy to ensure the quality, stability and long-term maintenance of the Linux kernel.
+[KernelCI](https://foundation.kernelci.org/) es un sistema de automatización de pruebas distribuido de código abierto basado en la comunidad y centrado en el desarrollo del kernel upstream. El objetivo principal de KernelCI es utilizar una filosofía de pruebas abierta para garantizar la calidad, la estabilidad y el mantenimiento a largo plazo del kernel de Linux.
 
-[Continuous Kernel Integration project](https://github.com/cki-project) helps find bugs in kernel patches before they are commited to an upstram kernel tree. We are team of kernel developers, kernel testers, and automation engineers.
+[Continuous Kernel Integration project](https://github.com/cki-project) ayuda a encontrar errores en los parches del kernel antes de que se incorporen al árbol del kernel upstream. Somos un equipo de desarrolladores de kernel, probadores de kernel e ingenieros de automatización.
 
-[Snowpatch](https://github.com/ruscur/snowpatch) is a continuous integration tool for projects using a patch-based, mailing-list-centric git workflow. This workflow is used by a number of well-known open source projects such as the Linux kernel.
+[Snowpatch](https://github.com/ruscur/snowpatch) es una herramienta de integración continua para proyectos que utilizan un flujo de trabajo git basado en parches y centrado en listas de correo. Este flujo de trabajo es utilizado por varios proyectos de código abierto muy conocidos, como el kernel de Linux.
 
-[Snort](https://www.snort.org/) is an open-source, free and lightweight network intrusion detection system (NIDS) software for Linux and Windows to detect emerging threats.
+[Snort](https://www.snort.org/) es un software de código abierto, gratuito y ligero, que funciona como sistema de detección de intrusiones en la red (NIDS) para Linux y Windows con el fin de detectar amenazas emergentes.
 
-[Wireshark](https://www.wireshark.org/) is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. 
+[Wireshark](https://www.wireshark.org/) es un analizador de paquetes gratuito y de código abierto. Se utiliza para la resolución de problemas de red, el análisis, el desarrollo de software y protocolos de comunicación, y la educación. 
 
-[Tink](https://github.com/google/tink) is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and harder to misuse. 
+[Tink](https://github.com/google/tink) es una biblioteca de código abierto, multilingüe y multiplataforma que proporciona API criptográficas seguras, fáciles de usar correctamente y más difíciles de utilizar de forma indebida. 
 
-[OSSEC HIDS(Host Intrusion Detection System)](https://www.ossec.net/) is an open source security tool that performs log analysis, integrity checking, rootkit detection, time-based alerting and active response. In addition to its IDS functionality, it is commonly used as a SEM/SIM solution.
+[OSSEC HIDS (Host Intrusion Detection System)](https://www.ossec.net/) es una herramienta de seguridad de código abierto que realiza análisis de registros, comprobación de integridad, detección de rootkits, alertas basadas en el tiempo y respuesta activa. Además de su funcionalidad IDS, se utiliza comúnmente como solución SEM/SIM.
 
-[Scapy](https://scapy.net/) is a powerful interactive packet manipulation tool, packet generator, network scanner, network discovery tool, and packet sniffer.
+[Scapy](https://scapy.net/) es una potente herramienta interactiva de manipulación de paquetes, generador de paquetes, escáner de redes, herramienta de descubrimiento de redes y sniffer de paquetes.
 
-[Certgen](https://github.com/cilium/certgen) is a convenience tool to generate and store certificates for Hubble Relay mTLS.
+[Certgen](https://github.com/cilium/certgen) es una herramienta muy útil para generar y almacenar certificados para Hubble Relay mTLS.
 
-[syzkaller](https://github.com/google/syzkaller) is an unsupervised, coverage-guided kernel fuzzer.
+[syzkaller](https://github.com/google/syzkaller) es un fuzzer de kernel no supervisado y guiado por cobertura.
 
-[SchedViz](https://github.com/google/schedviz) is a tool for gathering and visualizing kernel scheduling traces on Linux machines.
+[SchedViz](https://github.com/google/schedviz) es una herramienta para recopilar y visualizar trazas de programación del kernel en máquinas Linux.
 
-[oss-fuzz](https://google.github.io/oss-fuzz/) aims to make common open source software more secure and stable by combining modern fuzzing techniques with scalable, distributed execution.
+[oss-fuzz](https://google.github.io/oss-fuzz/) tiene como objetivo hacer que el software de código abierto común sea más seguro y estable combinando técnicas modernas de fuzzing con una ejecución escalable y distribuida.
 
-[Wfuzz](https://github.com/xmendez/wfuzz) was created to facilitate the task in web applications assessments and it is based on a simple concept: it replaces any reference to the FUZZ keyword by the value of a given payload.
+[Wfuzz](https://github.com/xmendez/wfuzz) se creó para facilitar la tarea de evaluar aplicaciones web y se basa en un concepto sencillo: sustituye cualquier referencia a la palabra clave FUZZ por el valor de una carga útil determinada.
 
-[Nmap](https://nmap.org/) is a security scanner used to discover hosts and services on a computer network, thus building a "map" of the network. 
+[Nmap](https://nmap.org/) es un escáner de seguridad que se utiliza para descubrir hosts y servicios en una red informática, creando así un «mapa» de la red. 
 
-[Acra](https://cossacklabs.com/acra) is a single database security suite with 9 strong security controls: application level encryption, searchable encryption, data masking, data tokenization, secure authentication, data leakage prevention, database request firewall, cryptographically signed audit logging, security events automation. It is designed to cover the most important data security requirements with SQL and NoSQL databases and distributed apps in a fast, convenient, and reliable way.
+[Acra](https://cossacklabs.com/acra) es una suite de seguridad de bases de datos única con nueve potentes controles de seguridad: cifrado a nivel de aplicación, cifrado con capacidad de búsqueda, enmascaramiento de datos, tokenización de datos, autenticación segura, prevención de fugas de datos, firewall de solicitudes de bases de datos, registro de auditoría con firma criptográfica y automatización de eventos de seguridad. Está diseñada para cubrir los requisitos de seguridad de datos más importantes con bases de datos SQL y NoSQL y aplicaciones distribuidas de una manera rápida, cómoda y confiable.
 
-[Netdata](https://github.com/netdata/netdata) is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+[Netdata](https://github.com/netdata/netdata) es una herramienta de monitoreo y resolución de problemas de infraestructura de alta fidelidad. El agente de monitoreo en tiempo real recopila miles de métricas de sistemas, hardware, contenedores y aplicaciones sin necesidad de configuración. Se ejecuta de forma permanente en todos sus servidores físicos/virtuales, contenedores, implementaciones en la nube y dispositivos periféricos/IoT, y es perfectamente seguro instalarlo en sus sistemas en medio de un incidente sin necesidad de preparación previa.
 
-[Themis](https://cossacklabs.com/themis) is a free open-source high-level cryptographic library for mobile and backend platforms. Recommended by OWASP for application security, it allows protecting sensitive data (PII, locations, messages, etc.). While giving easy-to-use and hard-to-misuse API, Themis works to provide secure data storage, message exchange, socket connections, and authentication in apps across 15 platforms and languages.
+[Themis](https://cossacklabs.com/themis) es una biblioteca criptográfica de alto nivel, gratuita y de código abierto para plataformas móviles y backend. Recomendada por OWASP para la seguridad de las aplicaciones, permite proteger datos confidenciales (información de identificación personal, ubicaciones, mensajes, etc.). Además de ofrecer una API fácil de usar y difícil de utilizar indebidamente, Themis proporciona almacenamiento seguro de datos, intercambio de mensajes, conexiones de socket y autenticación en aplicaciones de 15 plataformas y lenguajes.
 
-[Trivy](https://aquasecurity.github.io/trivy/) is a comprehensive security scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets.
+[Trivy](https://aquasecurity.github.io/trivy/) es un escáner de seguridad integral para detectar vulnerabilidades en imágenes de contenedores, sistemas de archivos y repositorios Git, así como problemas de configuración y secretos codificados.
 
-[Lynis](https://cisofy.com/lynis/) is a security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional. 
+[Lynis](https://cisofy.com/lynis/) es una herramienta de auditoría de seguridad para sistemas basados en Linux, macOS y UNIX. Ayuda con las pruebas de cumplimiento (HIPAA/ISO27001/PCI DSS) y el fortalecimiento del sistema. Sin agente y con instalación opcional. 
 
-[RustScan](https://github.com/RustScan/RustScan) is a Modern Port Scanner.
+[RustScan](https://github.com/RustScan/RustScan) es un escáner de puertos moderno.
 
-[gosec](https://github.com/securego/gosec) is a Golang Security Checker that inspects source code for security problems by scanning the Go AST.
+[gosec](https://github.com/securego/gosec) es un verificador de seguridad de Golang que inspecciona el código fuente en busca de problemas de seguridad mediante el escaneo del AST de Go.
 
-[Prowler](https://github.com/prowler-cloud/prowler) is an Open Source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains more than 240 controls covering CIS, PCI-DSS, ISO27001, GDPR, HIPAA, FFIEC, SOC2, AWS FTR, ENS and custom security frameworks. 
+[Prowler](https://github.com/prowler-cloud/prowler) es una herramienta de seguridad de código abierto que permite realizar evaluaciones de las mejores prácticas de seguridad de AWS, auditorías, respuesta a incidentes, supervisión continua, refuerzo y preparación forense. Contiene más de 240 controles que cubren CIS, PCI-DSS, ISO27001, GDPR, HIPAA, FFIEC, SOC2, AWS FTR, ENS y marcos de seguridad personalizados. 
 
-[eNgine](https://github.com/yogeshojha/rengine) is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive UI. 
+[eNgine](https://github.com/yogeshojha/rengine) es un marco de reconocimiento automatizado para aplicaciones web que se centra en un proceso de reconocimiento optimizado y altamente configurable a través de motores, la correlación y organización de datos de reconocimiento, la supervisión continua, respaldada por una base de datos, y una interfaz de usuario sencilla e intuitiva. 
 
-[Osmedeus](https://github.com/j3ssie/osmedeus) is a Workflow Engine for Offensive Security. It was designed to build a foundation with the capability and flexibility that allows you to build your own reconnaissance system and run it on a large number of targets.
+[Osmedeus](https://github.com/j3ssie/osmedeus) es un motor de flujo de trabajo para seguridad ofensiva. Se diseñó para crear una base con la capacidad y flexibilidad que le permiten crear su propio sistema de reconocimiento y ejecutarlo en un gran número de objetivos.
 
-[Terrascan](https://runterrascan.io/) is a static code analyzer for Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure. 
+[Terrascan](https://runterrascan.io/) es un analizador de código estático para infraestructura como código que mitiga el riesgo antes de aprovisionar la infraestructura nativa de la nube. 
 
-[Sliver](https://github.com/BishopFox/sliver) is an open source cross-platform adversary emulation/red team framework, it can be used by organizations of all sizes to perform security testing. Sliver's implants support C2 over Mutual TLS (mTLS), WireGuard, HTTP(S), and DNS and are dynamically compiled with per-binary asymmetric encryption keys.
+[Sliver](https://github.com/BishopFox/sliver) es un marco de emulación de adversarios/equipo rojo multiplataforma de código abierto que pueden utilizar organizaciones de todos los tamaños para realizar pruebas de seguridad. Los implantes de Sliver son compatibles con C2 sobre Mutual TLS (mTLS), WireGuard, HTTP(S) y DNS, y se compilan dinámicamente con claves de cifrado asimétricas por binario.
 
-[Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) is a list of useful payloads and bypass for Web Application Security and Pentest/CTF. 
+[Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) es una lista de cargas útiles y bypass útiles para la seguridad de aplicaciones web y Pentest/CTF. 
 
-[TheHive](https://thehive-project.org/) is a scalable 3-in-1 open source and free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly. It is the perfect companion to [MISP](http://www.misp-project.org/). 
+[TheHive](https://thehive-project.org/) es una plataforma de respuesta a incidentes de seguridad escalable, 3 en 1, de código abierto y gratuita, diseñada para facilitar la vida de los SOC, CSIRT, CERT y cualquier profesional de la seguridad de la información que se ocupe de incidentes de seguridad que deben investigarse y resolverse con rapidez. Es el complemento perfecto para [MISP](http://www.misp-project.org/). 
 
-[MITRE ATT&CK®](https://attack.mitre.org/) is a global knowledge base of adversary tactics and techniques based on real-world security observations. It is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.
+[MITRE ATT&CK®](https://attack.mitre.org/) es una base de conocimientos global sobre tácticas y técnicas adversarias basada en observaciones de seguridad del mundo real. Se utiliza como base para el desarrollo de modelos y metodologías de amenazas específicos en el sector privado, en el gobierno y en la comunidad de productos y servicios de ciberseguridad.
 
-[CALDERA™](https://caldera.mitre.org/) is a cyber security platform designed to easily automate adversary emulation, assist manual red-teams, and automate incident response.
+[CALDERA™](https://caldera.mitre.org/) es una plataforma de ciberseguridad diseñada para automatizar fácilmente la emulación de adversarios, ayudar a los equipos rojos manuales y automatizar la respuesta a incidentes.
 
-[Atomic Red Team™](https://github.com/redcanaryco/atomic-red-team) is a library of tests mapped to the [MITRE ATT&CK®](https://attack.mitre.org/) framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments.
+[Atomic Red Team™](https://github.com/redcanaryco/atomic-red-team) es una biblioteca de pruebas mapeadas al marco [MITRE ATT&CK®](https://attack.mitre.org/). Los equipos de seguridad pueden utilizar Atomic Red Team para probar sus entornos de forma rápida, portátil y reproducible.
 
-[OpenCTI](https://www.opencti.io/) is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats.
+[OpenCTI](https://www.opencti.io/) es una plataforma de código abierto que permite a las organizaciones gestionar sus conocimientos y observaciones sobre amenazas cibernéticas. Se ha creado con el fin de estructurar, almacenar, organizar y visualizar información técnica y no técnica sobre amenazas cibernéticas.
 
-[Amass](https://owasp.org/www-project-amass/) is an OWASP Project that performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
+[Amass](https://owasp.org/www-project-amass/) es un proyecto de OWASP que realiza el mapeo de redes de superficies de ataque y el descubrimiento de activos externos utilizando técnicas de recopilación de información de código abierto y reconocimiento activo.
 
-[IVRE](https://ivre.rocks/) is a network recon framework. That let's you build your own, self-hosted and fully-controlled alternatives to Shodan, ZoomEye, Censys, and GreyNoise. IVRE can run your Passive DNS service, collect and analyse network intelligence from your sensors, and much more.
+[IVRE](https://ivre.rocks/) es un marco de reconocimiento de redes. Le permite crear sus propias alternativas autohospedadas y totalmente controladas a Shodan, ZoomEye, Censys y GreyNoise. IVRE puede ejecutar su servicio DNS pasivo, recopilar y analizar información de red de sus sensores y mucho más.
 
-[MISP](https://www.misp-project.org/) is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threats about cyber security incidents analysis and malware analysis. MISP is designed by and for incident analysts, security and ICT professionals or malware reversers to support their day-to-day operations to share structured information efficiently.
+[MISP](https://www.misp-project.org/) es una solución de software de código abierto para recopilar, almacenar, distribuir y compartir indicadores de ciberseguridad y amenazas sobre el análisis de incidentes de ciberseguridad y el análisis de malware. MISP está diseñado por y para analistas de incidentes, profesionales de la seguridad y las TIC o reversores de malware para apoyar sus operaciones diarias y compartir información estructurada de manera eficiente.
 
-[Nikto](https://github.com/sullo/nikto) is an Open Source web server scanner which performs comprehensive tests against web servers for multiple items, including over 6400 potentially dangerous files/CGIs, checks for outdated versions of over 1200 servers, and version specific problems on over 270 servers.
+[Nikto](https://github.com/sullo/nikto) es un escáner de servidores web de código abierto que realiza pruebas exhaustivas en servidores web para detectar múltiples elementos, incluyendo más de 6400 archivos/CGI potencialmente peligrosos, comprueba si hay versiones obsoletas en más de 1200 servidores y problemas específicos de versión en más de 270 servidores.
 
-[eBPF](https://ebpf.io/) is a technology that can run sandboxed programs in the Linux kernel without changing kernel source code or loading kernel modules. By making the Linux kernel programmable, infrastructure software can leverage existing layers, making them more intelligent and feature-rich without continuing to add additional layers of complexity to the system.
+[eBPF](https://ebpf.io/) es una tecnología que permite ejecutar programas en entornos aislados en el kernel de Linux sin cambiar el código fuente del kernel ni cargar módulos del kernel. Al hacer que el kernel de Linux sea programable, el software de infraestructura puede aprovechar las capas existentes, haciéndolas más inteligentes y con más funciones sin seguir añadiendo capas adicionales de complejidad al sistema.
 
-[Cilium](https://cilium.io/) uses eBPF to accelerate getting data in and out of L7 proxies such as Envoy, enabling efficient visibility into API protocols like HTTP, gRPC, and Kafka. 
+[Cilium](https://cilium.io/) utiliza eBPF para acelerar la entrada y salida de datos en proxies L7 como Envoy, lo que permite una visibilidad eficiente de protocolos API como HTTP, gRPC y Kafka.
 
-[Hubble](https://github.com/cilium/hubble) is a Network, Service & Security Observability for Kubernetes using eBPF.
+[Hubble](https://github.com/cilium/hubble) es una herramienta de observabilidad de redes, servicios y seguridad para Kubernetes que utiliza eBPF.
 
-[Patchwork](https://github.com/getpatchwork/patchwork) is a web-based patch tracking system designed to facilitate the contribution and management of contributions to an open-source project. 
+[Patchwork](https://github.com/getpatchwork/patchwork) es un sistema de seguimiento de parches basado en la web diseñado para facilitar la contribución y la gestión de las contribuciones a un proyecto de código abierto.
 
-[pfSense](https://www.pfsense.org/) is a free and open source firewall and router that also features unified threat management, load balancing, multi WAN, and more.
+[pfSense](https://www.pfsense.org/) es un firewall y enrutador gratuito y de código abierto que también ofrece gestión unificada de amenazas, equilibrio de carga, multi WAN y mucho más.
 
-[Emissary](https://github.com/NationalSecurityAgency/emissary) is a P2P based data-driven workflow engine that runs in a heterogeneous possibly widely dispersed, multi-tiered P2P network of compute resources. Workflow itineraries are not pre-planned as in conventional workflow engines, but are discovered as more information is discovered about the data.
+[Emissary](https://github.com/NationalSecurityAgency/emissary) es un motor de flujo de trabajo basado en datos P2P que se ejecuta en una red P2P heterogénea, posiblemente muy dispersa y de varios niveles, de recursos informáticos. Los itinerarios del flujo de trabajo no se planifican de antemano como en los motores de flujo de trabajo convencionales, sino que se descubren a medida que se descubre más información sobre los datos.
 
-[MADCert](https://github.com/NationalSecurityAgency/MADCert) is a cross-platform tool that consists of a certificate generator, a file system certificate manager, and a command line interface for the purposes of testing.
+[MADCert](https://github.com/NationalSecurityAgency/MADCert) es una herramienta multiplataforma que consta de un generador de certificados, un administrador de certificados del sistema de archivos y una interfaz de línea de comandos con fines de prueba.
 
-[Priam](https://github.com/Netflix/Priam) is a tool/process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
+[Priam](https://github.com/Netflix/Priam) es una herramienta/proceso para la copia de seguridad/recuperación, la gestión de tokens y la gestión centralizada de la configuración para Cassandra.
 
 
-## File systems
+## Sistemas de archivos
 
 [Volver al Inicio](#tabla-de-contenidos)
 
-[GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
+[GlusterFS](https://www.gluster.org/) es un sistema de archivos de red escalable, gratuito y de código abierto. Gluster es un sistema de archivos de red escalable. Utilizando hardware común disponible en el mercado, puede crear soluciones de almacenamiento distribuido de gran tamaño para la transmisión de medios, el análisis de datos y otras tareas que requieren un uso intensivo de datos y ancho de banda.
 
-[Ceph](https://ceph.io/) is a software-defined storage solution designed to address the object, block, and file storage needs of data centers adopting open source as the new norm for high-growth block storage, object stores and data lakes. Ceph provides enterprise scalable storage while keeping [CAPEX](https://corporatefinanceinstitute.com/resources/knowledge/modeling/how-to-calculate-capex-formula/) and [OPEX](https://www.investopedia.com/terms/o/operating_expense.asp) costs in line with underlying bulk commodity disk prices.
+[Ceph](https://ceph.io/) es una solución de almacenamiento definida por software diseñada para satisfacer las necesidades de almacenamiento de objetos, bloques y archivos de los centros de datos que adoptan el código abierto como la nueva norma para el almacenamiento en bloques, los almacenes de objetos y los lagos de datos de alto crecimiento. Ceph proporciona almacenamiento escalable para empresas, al tiempo que mantiene los costos de CAPEX (https://corporatefinanceinstitute.com/resources/knowledge/modeling/how-to-calculate-capex-formula/) y OPEX (https://www.investopedia.com/terms/o/operating_expense.asp) en línea con los precios de los discos básicos.
 
-[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) es un sistema de archivos distribuido que maneja grandes conjuntos de datos que se ejecutan en hardware básico. Se utiliza para escalar un único clúster Apache Hadoop a cientos (e incluso miles) de nodos. HDFS es uno de los componentes principales de Apache Hadoop, junto con [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) y [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
-[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
+[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) es un sistema de archivos y gestor de volúmenes de código abierto listo para su uso en empresas, con una flexibilidad sin precedentes y un compromiso inquebrantable con la integridad de los datos.
 
-[OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
+[OpenZFS](https://openzfs.org/wiki/Main_Page ) es una plataforma de almacenamiento de código abierto. Incluye la funcionalidad tanto de los sistemas de archivos tradicionales como del gestor de volúmenes. Cuenta con muchas características avanzadas, entre las que se incluyen:
 
-  - Protection against data corruption.
-  - Integrity checking for both data and metadata.
-  - Continuous integrity verification and automatic "self-healing" repair.
+- Protección contra la corrupción de datos.
+  - Comprobación de la integridad tanto de los datos como de los metadatos.
+- Verificación continua de la integridad y reparación automática «autocorrectiva».
 
-[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) es un moderno sistema de archivos de copia en escritura (CoW) para Linux destinado a implementar características avanzadas, al tiempo que se centra en la tolerancia a fallos, la reparación y la facilidad de administración. Sus principales características y ventajas son:
 
-  - Snapshots which do not make the full copy of files
-  - RAID - support for software-based RAID 0, RAID 1, RAID 10
-  - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
+- Instantáneas que no realizan una copia completa de los archivos.
+- RAID: compatibilidad con RAID 0, RAID 1 y RAID 10 basados en software.
+- Autorreparación: sumas de comprobación para datos y metadatos, detección automática de corrupciones silenciosas de datos.
   
-[MergerFS](https://github.com/trapexit/mergerfs) is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
+[MergerFS](https://github.com/trapexit/mergerfs) es un sistema de archivos de unión orientado a simplificar el almacenamiento y la gestión de archivos en numerosos dispositivos de almacenamiento básicos. Es similar a mhddfs, unionfs y aufs.
 
-**MergerFS Features**
 
-  - Configurable behaviors / file placement
-  - Ability to add or remove filesystems at will
-  - Resistance to individual filesystem failure
-  - Support for extended attributes (xattrs)
-  - Support for file attributes (chattr)
-  - Runtime configurable (via xattrs)
-  - Works with heterogeneous filesystem types
-  - Moving of file when filesystem runs out of space while writing
-  - Ignore read-only filesystems when creating files
-  - Turn read-only files into symlinks to underlying file
-  - Hard link copy-on-write / CoW
-  - Support for POSIX ACLs
+**Características de MergerFS**
+
+  - Comportamientos configurables / ubicación de archivos
+  - Posibilidad de añadir o eliminar sistemas de archivos a voluntad
+  - Resistencia al fallo de sistemas de archivos individuales
+  - Compatibilidad con atributos extendidos (xattrs)
+  - Compatibilidad con atributos de archivo (chattr)
+  - Configurable en tiempo de ejecución (a través de xattrs)
+  - Funciona con tipos de sistemas de archivos heterogéneos
+- Traslado de archivos cuando el sistema de archivos se queda sin espacio durante la escritura
+- Ignora los sistemas de archivos de solo lectura al crear archivos
+- Convierte los archivos de solo lectura en enlaces simbólicos al archivo subyacente
+- Copia en escritura de enlaces duros / CoW
+- Compatibilidad con ACL POSIX
   
-[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
+[Bcachefs](https://bcachefs.org/) es un nuevo y avanzado sistema de archivos para Linux, que hace hincapié en la fiabilidad y la robustez y cuenta con el conjunto completo de características que se esperan de un sistema de archivos moderno. Se ha probado su escalabilidad hasta más de 50 TB, y con el tiempo se podrá escalar mucho más. 
 
-[Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
+[Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) es un sistema de archivos comprimido de solo lectura para Linux. Utiliza compresión zlib, lz4, lzo o xz para comprimir archivos, inodos y directorios. Los inodos del sistema son muy pequeños y todos los bloques se comprimen para minimizar la sobrecarga de datos.
 
 #  Debian
  [Volver al Inicio](#tabla-de-contenidos)
@@ -2357,9 +2358,9 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
   <br /> 
 </p>
 
-## Getting Started with Debian
+## Introducción a Debian
 
-[Debian](https://www.debian.org/) is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.
+[Debian](https://www.debian.org/) es un sistema operativo y una distribución de software libre. Se mantiene y actualiza gracias al trabajo de muchos usuarios que dedican su tiempo y esfuerzo de forma voluntaria.
 
 [Debian GitLab](https://salsa.debian.org/explore/projects)
 
@@ -2371,7 +2372,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 [Debian Wiki](https://wiki.debian.org/NetworkConfiguration)
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
  
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/129622953-4b379400-9145-4d5b-9572-bcda571894f4.png">
@@ -2389,11 +2390,11 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
  
 </p>
 
-## Getting Started with Ubuntu
+## Introducción a Ubuntu
 
-[Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical. Also, checkout the new [Ubuntu Desktop Installer](https://discourse.ubuntu.com/t/refreshing-the-ubuntu-desktop-installer/20659), which will be available to test in the 21.10 release (October 2021).
+[Ubuntu](https://ubuntu.com/) es un moderno sistema operativo de código abierto basado en Linux para servidores empresariales, equipos de escritorio, nube e IoT desarrollado por Canonical. Además, echa un vistazo al nuevo [Ubuntu Desktop Installer](https://discourse.ubuntu.com/t/refreshing-the-ubuntu-desktop-installer/20659), que estará disponible para probar en la versión 21.10 (octubre de 2021).
 
-[Ubuntu Flavours](https://www.ubuntu.com/download/flavours) is for those that prefer an alternative desktop environment such as [KDE Plasma Desktop](https://kubuntu.org/), [MATE](https://ubuntu-mate.org/), [Xfce](https://xubuntu.org/), [LXQt](https://lubuntu.me/), [Budgie](https://ubuntubudgie.org/), and [UKUI](https://www.ubuntukylin.com/) you can download a Flavour for your preferred desktop environment and use that to install Ubuntu, pre-configured for the desktop environment of your choice.
+[Ubuntu Flavours](https://www.ubuntu.com/download/flavours) es para aquellos que prefieren un entorno de escritorio alternativo, como [KDE Plasma Desktop](https://kubuntu.org/), [MATE](https://ubuntu-mate.org/), [Xfce](https://xubuntu.org/), [LXQt](https://lubuntu.me/), [Budgie](https://ubuntubudgie.org/) y [UKUI](https://www.ubuntukylin.com/). Puede descargar una variante para su entorno de escritorio preferido y utilizarla para instalar Ubuntu, preconfigurado para el entorno de escritorio que elija.
  
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/164793005-67371e3c-d74d-4b40-9fd1-b9a71bd4172a.png">
@@ -2401,7 +2402,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
   Ubuntu Desktop
 </h3>
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350348-e43ea5a2-2346-4b0b-acc0-fc3352c3d820.png">
@@ -2409,41 +2410,41 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
   Etcher UI
 </h2>
 
-## Additional Ubuntu Tools & Resources for Enterprise & Small Businesses
+## Herramientas y recursos adicionales de Ubuntu para empresas y pequeñas empresas
 
 [Ubuntu Community Hub](https://discourse.ubuntu.com/)
 
 [Ubuntu Tutorials](https://ubuntu.com/tutorials)
 
-[FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) es una biblioteca y clientes gratuitos de protocolo de escritorio remoto.
 
-[apt-get](https://github.com/wimpysworld/deb-get) is a tool that provides functionality for .debs published in 3rd party repositories or via direct download. It works on Ubuntu and derivative distributions. 
+[apt-get](https://github.com/wimpysworld/deb-get) es una herramienta que proporciona funcionalidad para los archivos .deb publicados en repositorios de terceros o mediante descarga directa. Funciona en Ubuntu y distribuciones derivadas. 
 
-[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
+[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) es un sistema de archivos y gestor de volúmenes de código abierto listo para empresas con una flexibilidad sin precedentes y un compromiso inquebrantable con la integridad de los datos.
 
-[OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
+[OpenZFS](https://openzfs.org/wiki/Main_Page ) es una plataforma de almacenamiento de código abierto. Incluye la funcionalidad tanto de los sistemas de archivos tradicionales como del administrador de volúmenes. Cuenta con muchas características avanzadas, entre las que se incluyen:
 
-  - Protection against data corruption.
-  - Integrity checking for both data and metadata.
-  - Continuous integrity verification and automatic "self-healing" repair.
+- Protección contra la corrupción de datos.
+- Comprobación de la integridad tanto de los datos como de los metadatos.
+- Verificación continua de la integridad y reparación automática «autocorrectiva».
 
-[Multipass](https://multipass.run/) is a command line interface to launch, manage and generally test with instances of Linux(Ubuntu) in  a VM. It works on Linux, Windows and macOS.
+[Multipass](https://multipass.run/) es una interfaz de línea de comandos para iniciar, administrar y, en general, realizar pruebas con instancias de Linux (Ubuntu) en una máquina virtual. Funciona en Linux, Windows y macOS.
 
-[LXD](https://linuxcontainers.org/lxd/) is a next generation system container manager. It offers a user experience similar to virtual machines but using Linux containers instead. It's image based with pre-made images available for a wide number of Linux distributions and is built around a very powerful, yet pretty simple, REST API.
+[LXD](https://linuxcontainers.org/lxd/) es un gestor de contenedores de sistemas de última generación. Ofrece una experiencia de usuario similar a la de las máquinas virtuales, pero utilizando contenedores Linux en su lugar. Se basa en imágenes prefabricadas disponibles para un gran número de distribuciones Linux y está construido en torno a una API REST muy potente, pero bastante sencilla.
 
-[MAAS](https://maas.io/) is an open source SDDC solution used by telcos, financial institutions, media companies and supercomputer admins to take care of all the low-level details. PXE, IPMI, ILO and all the custom protocols needed for diverse vendor hardware support come together in one clean REST API with Python bindings for easy integration and automation.
+[MAAS](https://maas.io/) es una solución SDDC de código abierto utilizada por empresas de telecomunicaciones, instituciones financieras, empresas de medios de comunicación y administradores de supercomputadoras para ocuparse de todos los detalles de bajo nivel. PXE, IPMI, ILO y todos los protocolos personalizados necesarios para la compatibilidad con hardware de diversos proveedores se unen en una API REST limpia con enlaces Python para facilitar la integración y la automatización.
 
-[JuJu](https://juju.is/) is an open source application modeling tool for public and private clouds. It forms part of Ubuntu's cloud portfolio, together with Ubuntu Server, Ubuntu OpenStack, MAAS for bare-metal provisioning, and Landscape for systems management and monitoring.
+[JuJu](https://juju.is/) es una herramienta de modelado de aplicaciones de código abierto para nubes públicas y privadas. Forma parte de la cartera de productos en la nube de Ubuntu, junto con Ubuntu Server, Ubuntu OpenStack, MAAS para el aprovisionamiento de bare metal y Landscape para la gestión y supervisión de sistemas.
 
-[JAAS (Juju as a Service)](https://jaas.ai/)  is a service that makes it easy to deploy [OpenStack](https://www.openstack.org/) at scale. Where you quickly and reliably build an enterprise-scale cloud running on Ubuntu.
+[JAAS (Juju as a Service)](https://jaas.ai/) es un servicio que facilita la implementación de [OpenStack](https://www.openstack.org/) a gran escala. Permite crear de forma rápida y fiable una nube a escala empresarial que se ejecuta en Ubuntu.
 
-[Ubuntu OpenStack](https://ubuntu.com/openstack)is the #1 platform for [OpenStack](https://www.openstack.org/) and the #1 platform for public cloud operations on [AWS](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) and [Google Cloud](https://cloud.google.com/).
+[Ubuntu OpenStack](https://ubuntu.com/openstack) es la plataforma n.º 1 para [OpenStack](https://www.openstack.org/) y la plataforma n.º 1 para operaciones en la nube pública en [AWS](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) y [Google Cloud](https://cloud.google.com/).
 
-[Ubuntu is the reference platform for Kubernetes](https://ubuntu.com/kubernetes) on all major public clouds, including official support in Google's GKE, Microsoft's AKS and Amazon's EKS CAAS offerings. 
+[Ubuntu es la plataforma de referencia para Kubernetes](https://ubuntu.com/kubernetes) en todas las principales nubes públicas, incluido el soporte oficial en las ofertas CAAS de GKE de Google, AKS de Microsoft y EKS de Amazon. 
 
-[Ubuntu on WSL](https://wiki.ubuntu.com/WSL) is a wiki guide on getting started with the latest version of Ubuntu installed and setup on WSL for Windows 10.
+[Ubuntu on WSL](https://wiki.ubuntu.com/WSL) iEs una guía wiki sobre cómo empezar a utilizar la última versión de Ubuntu instalada y configurada en WSL para Windows 10.
 
-[Ubuntu Pro for Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/canonical.0001-com-ubuntu-pro-focal?tab=Overview) is a premium image designed by Canonical optimized for production environments running on Azure. It includes security and compliance services, enabled by default, in a form suitable for small to large-scale Linux enterprise operations with no contract needed. 
+[Ubuntu Pro para Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/canonical.0001-com-ubuntu-pro-focal?tab=Overview) es una imagen premium diseñada por Canonical y optimizada para entornos de producción que se ejecutan en Azure. Incluye servicios de seguridad y cumplimiento, habilitados de forma predeterminada, en un formato adecuado para operaciones empresariales Linux a pequeña y gran escala sin necesidad de contrato. 
 
 [Ubuntu on AWS](https://ubuntu.com/aws)
 
@@ -2451,59 +2452,59 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 [Active Directory Integration on Ubuntu](https://github.com/VanitasuShieda/Perfect-Ubuntu-Guide/files/6064814/Active_Directory_Integration_Ubuntu_Desktop_Final.pdf)
 
-## Removing Snap and adding Flatpak support
+## Eliminar Snap y añadir compatibilidad con Flatpak
 
-[Unsnap](https://github.com/popey/unsnap) is a tool to quickly migrate from using snap packages to flatpaks.
+[Unsnap](https://github.com/popey/unsnap) es una herramienta para migrar rápidamente del uso de paquetes snap a flatpaks.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/167506753-17c62a29-ce7e-4556-a90f-9996aa73a92e.png">
   <br />
 </p>
 
-Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
+Ejecuta unsnap en la terminal. Crédito: [Alan Pope](https://github.com/popey/)
 
-## Setting up PipeWire for Ubuntu/Debian
+## Configuración de PipeWire para Ubuntu/Debian
 
-**Note:** For those using Pop!_OS 22.04 or later PipeWire is already setup by default.
+**Nota:** Para aquellos que utilicen Pop!_OS 22.04 o posterior, PipeWire ya está configurado por defecto.
 
-**Add PipeWire PPA**
+**Añadir PipeWire PPA**
 
 ```$ sudo add-apt-repository ppa:pipewire-debian/pipewire-upstream```
 
-**Install the pipewire-audio-client-libraries and additional libraries to use Bluetooth, GStreamer, or JACK devices with your Ubuntu/Debian system.**
+**Instala pipewire-audio-client-libraries y las bibliotecas adicionales para utilizar dispositivos Bluetooth, GStreamer o JACK con tu sistema Ubuntu/Debian.**
  
  ```$ sudo apt update```
   ```  $ sudo apt install pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
 
-**After installation has completed, run the following command to reload the daemon in systemd.**
+**Una vez completada la instalación, ejecute el siguiente comando para volver a cargar el demonio en systemd.**
 
 ```$ systemctl --user daemon-reload```
 
-**Disable PulseAudio in Ubuntu. It will no longer be needed, since we are using PipeWire.**
+**Desactiva PulseAudio en Ubuntu. Ya no será necesario, ya que estamos utilizando PipeWire.**
 
 ```$ systemctl --user --now disable pulseaudio.service pulseaudio.socket```
 
-**PulseAudio is disabled, we can start PipeWire and enable it to run automatically upon system boot.**
+**PulseAudio está desactivado, podemos iniciar PipeWire y habilitarlo para que se ejecute automáticamente al arrancar el sistema.**
 
 ```$ systemctl --user --now enable pipewire pipewire-pulse```
 
-**Run the following command to ensure that PipeWire is running.**
+**Ejecute el siguiente comando para asegurarse de que PipeWire se está ejecutando.**
 
 ```$ pactl info```
 
-### Reverting Changes
+### Revertir cambios
 
 ```$ sudo apt remove pipewire pipewire-audio-client-libraries gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}```
 
-**Reload the daemon in systemd.**
+**Recargue el demonio en systemd.**
 
 ```$ systemctl --user daemon-reload```
 
-**Re-enables the PulseAudio service after you do a system reboot.**
+**Vuelve a habilitar el servicio PulseAudio después de reiniciar el sistema.**
 
 ```$ systemctl --user --now enable pulseaudio.service pulseaudio.socket```
 
-**Ensure that PulseAudio has been completely restored.**
+**Asegúrate de que PulseAudio se haya restaurado por completo.**
  
 ```$ pactl info```
 
@@ -2517,15 +2518,16 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
   
 </p>
 
-## Getting Started with Pop!_OS
+## Introducción a Pop!_OS
 
-[Pop!_OS](https://pop.system76.com/) is an operating system(based on [Ubuntu](https://ubuntu.com/)) for STEM and creative professionals who use their computer as a tool to discover and create developed by [System76](https://system76.com/).
+[Pop!_OS](https://pop.system76.com/) es un sistema operativo (basado en [Ubuntu](https://ubuntu.com/)) para profesionales creativos y del ámbito STEM que utilizan su computadora como herramienta para descubrir y crear, desarrollado por [System76](https://system76.com/).
 
-[Pop!_OS COSMIC (Computer Operating System Main Interface Components)](https://blog.system76.com/post/655369428109869056/popos-2104-a-release-of-cosmic-proportions) is a custom desktop environment developed by [System76](https://system76.com/). This makes navigating your desktop workflow via your mouse, keyboard, and/or trackpad much simpler and more efficient. 
+[Pop!_OS COSMIC (Componentes principales de la interfaz del sistema operativo informático)](https://blog.system76.com/post/655369428109869056/popos-2104-a-release-of-cosmic-proportions) es un entorno de escritorio personalizado desarrollado por [System76](https://system76.com/). Esto hace que navegar por el escritorio con el ratón, el teclado o el trackpad sea mucho más sencillo y eficiente.
 
-[PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines. It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing.
+[PipeWire](https://pipewire.org) es una API de servidor y espacio de usuario para gestionar canalizaciones multimedia. Proporciona un motor de procesamiento basado en gráficos y de baja latencia sobre dispositivos de audio y vídeo que se puede utilizar para dar soporte a los casos de uso que actualmente gestionan tanto pulseaudio como JACK. PipeWire se diseñó con un potente modelo de seguridad que facilita la interacción con dispositivos de audio y vídeo desde aplicaciones en contenedores. Los nodos del gráfico se pueden implementar como procesos independientes, que se comunican con sockets e intercambian contenido multimedia mediante el paso de fd.
 
-- [Differences between Pop!_OS and Ubuntu](https://support.system76.com/articles/difference-between-pop-ubuntu/)
+
+- [Diferencias entre Pop!_OS y Ubuntu](https://support.system76.com/articles/difference-between-pop-ubuntu/)
 
 - [System76 Support (Ask a question/submit a ticket)](https://support.system76.com/)
 
@@ -2539,7 +2541,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
 
 - [Pop!_OS reddit](https://www.reddit.com/r/pop_os/)
 
-[Popsicle](https://github.com/pop-os/popsicle) is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
+[Popsicle](https://github.com/pop-os/popsicle) es una utilidad de Linux para flashear varios dispositivos USB en paralelo, escrita en Rust.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/172025606-a1b6638d-34b0-44a0-ae3f-97cd70446521.png">
@@ -2547,7 +2549,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
   Popsicle UI
 </p>
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350348-e43ea5a2-2346-4b0b-acc0-fc3352c3d820.png">
@@ -2575,10 +2577,10 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
  
 </p>
 
-### Getting Started with Linux Mint
-[Back to the Top](https://github.com/VanitasuShieda/Linux-Mint-Guide#table-of-contents)
+### Primeros pasos con Linux Mint
+[Volver al inicio](https://github.com/VanitasuShieda/Linux-Mint-Guide#table-of-contents)
 
-[Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similiar to Windows 7.
+[Linux Mint](https://linuxmint.com/) es un sistema operativo de código abierto moderno, elegante y cómodo (basado en Debian y Ubuntu), potente y fácil de usar tanto para usuarios nuevos como avanzados. La versión insignia de Linux Mint utiliza el [entorno de escritorio Cinnamon](https://cinnamon-spices.linuxmint.com/), similar a Windows 7.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350295-4c6b8ab5-17d2-4e2f-91ca-a111bcdb2a34.png">
@@ -2602,7 +2604,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
   Linux Mint Desktop with Xfce
 </h2>
 
-[Linux Mint Debian Edition (LMDE)](https://www.linuxmint.com/download_lmde.php) uses [Debian Bullseye](https://www.debian.org/) as the base for a very stable and rock solid user experience with the Cinnamon desktop.
+[Linux Mint Debian Edition (LMDE)](https://www.linuxmint.com/download_lmde.php) uses [Debian Bullseye](https://www.debian.org/) como base para una experiencia de usuario muy estable y sólida con el escritorio Cinnamon.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350295-4c6b8ab5-17d2-4e2f-91ca-a111bcdb2a34.png">
@@ -2610,7 +2612,7 @@ Unsnap running in the terminal. Credit: [Alan Pope](https://github.com/popey/)
   Linux Mint Debian Edition (LMDE)
 </h2>
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
 <h2 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157350348-e43ea5a2-2346-4b0b-acc0-fc3352c3d820.png">
@@ -2647,9 +2649,9 @@ sudo systemctl start ufw
 
 <img src="https://user-images.githubusercontent.com/45159366/157350978-ecce979a-7a59-43e2-a014-4ff8bd02d1b2.png">
 
-**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+Nota 1: Todo este software también está disponible en otras distribuciones populares de Linux, como [Debian](https://www.debian.org/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) y [Arch Linux](https://archlinux.org/).
 
-**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+**Nota 2: Los nuevos usuarios que no se sientan cómodos utilizando la línea de comandos pueden consultar la sección Aplicaciones esenciales para empezar. Además, si se desplaza hacia abajo, verá otras formas sencillas de obtener aplicaciones de software a través de Flathub, Snap Store y AppImages.**
 
 
 # Fedora/CentOS Stream/RHEL
@@ -2661,44 +2663,45 @@ sudo systemctl start ufw
   <br />
 </p>
 
-## Getting Started with FedoraCentOS Stream/RHEL
+# Introducción a FedoraCentOS Stream/RHEL
 
-[Fedora](https://getfedora.org/) is a polished, easy to use operating system for laptop & desktop computers, with a complete set of tools for developers and makers of all kinds. The Fedora OS base is used to build/develop new versions of [Red Hat® Enterprise Linux® (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) the world's leading enterprise Linux platform. The OS serves as the foundation for which you can scale existing apps and roll out emerging technologies across bare-metal, virtual, container, and all types of cloud environments.
+[Fedora](https://getfedora.org/) es un sistema operativo pulido y fácil de usar para computadoras portátiles y de escritorio, con un conjunto completo de herramientas para desarrolladores y creadores de todo tipo. La base del sistema operativo Fedora se utiliza para crear y desarrollar nuevas versiones de [Red Hat® Enterprise Linux® (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), la plataforma Linux empresarial líder en el mundo. El sistema operativo sirve de base para ampliar las aplicaciones existentes e implementar tecnologías emergentes en entornos bare metal, virtuales, contenedores y todo tipo de entornos en la nube.
 
-[Fedora Server](https://getfedora.org/) is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services.
+[Fedora Server](https://getfedora.org/) es un sistema operativo potente y flexible que incluye las mejores y más recientes tecnologías para centros de datos. Le permite controlar toda su infraestructura y sus servicios.
 
-[Fedora ARM](https://arm.fedoraproject.org/) is an initiative to bring versions of Fedora tailored for running on ARM-based systems.
+[Fedora ARM](https://arm.fedoraproject.org/) es una iniciativa para ofrecer versiones de Fedora adaptadas para ejecutarse en sistemas basados en ARM.
 
-[Fedora Silverblue](https://silverblue.fedoraproject.org/) is a variant of the Fedora Workstation that uses rpm-ostree to provide an immutable OS image with reliable updates and easy rollbacks.
+[Fedora Silverblue](https://silverblue.fedoraproject.org/) es una variante de Fedora Workstation que utiliza rpm-ostree para proporcionar una imagen de sistema operativo inmutable con actualizaciones fiables y reversiones sencillas.
 
-[Fedora Kinoite](https://kinoite.fedoraproject.org/) is an immutable desktop operating system. It aims to be extremely stable and reliable. It also aims to be an excellent platform for developers and for those using container-focused workflows. Kinoite is a variant of the Fedora KDE Spin.
+[Fedora Kinoite](https://kinoite.fedoraproject.org/) es un sistema operativo de escritorio inmutable. Su objetivo es ser extremadamente estable y confiable. También pretende ser una excelente plataforma para desarrolladores y para aquellos que utilizan flujos de trabajo centrados en contenedores. Kinoite es una variante de Fedora KDE Spin.
 
-[Fedora CoreOS](https://getfedora.org/coreos?stream=stable) is an automatically-updating, minimal operating system for running containerized workloads securely and at scale.
+[Fedora CoreOS](https://getfedora.org/coreos?stream=stable) es un sistema operativo mínimo que se actualiza automáticamente para ejecutar cargas de trabajo en contenedores de forma segura y a gran escala.
 
-[Fedora Spins](https://spins.fedoraproject.org/) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
+[Fedora Spins](https://spins.fedoraproject.org/) es para aquellos que prefieren un entorno de escritorio alternativo, como KDE Plasma Desktop, MATE o Xfce. Puede descargar una versión para su entorno de escritorio preferido y utilizarla para instalar Fedora, preconfigurado para el entorno de escritorio que elija.
 
-[CentOS Stream](https://www.centos.org/centos-stream/) is a continuously delivered distro(uses the Fedora OS base) that tracks just ahead of Red Hat Enterprise Linux (RHEL) development, positioned as a midstream between Fedora Linux and RHEL.
+[CentOS Stream](https://www.centos.org/centos-stream/) es una distribución de entrega continua (utiliza la base del sistema operativo Fedora) que se mantiene a la vanguardia del desarrollo de Red Hat Enterprise Linux (RHEL) y se posiciona como un punto intermedio entre Fedora Linux y RHEL.
 
-[Red Hat Enterprise Linux CoreOS](https://ostreedev.github.io/ostree/#operating-systems-and-distributions-using-ostree) is a derivative of Fedora CoreOS, used in [OpenShift 4](https://try.openshift.com/). The [machine-config-operator](https://github.com/openshift/machine-config-operator/blob/master/docs/OSUpgrades.md) manages upgrades. RHEL CoreOS is also the successor to RHEL Atomic Host, which uses rpm-ostree as well.
+[Red Hat Enterprise Linux CoreOS](https://ostreedev.github.io/ostree/#operating-systems-and-distributions-using-ostree) es un derivado de Fedora CoreOS, utilizado en [OpenShift 4](https://try.openshift.com/). El [machine-config-operator](https://github.com/openshift/machine-config-operator/blob/master/docs/OSUpgrades.md) gestiona las actualizaciones. RHEL CoreOS es también el sucesor de RHEL Atomic Host, que también utiliza rpm-ostree.
 
-[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) is an free and open source community-based repository project from the Fedora team which provides 100% high-quality add-on software packages for Linux distribution including RHEL (Red Hat Enterprise Linux) and CentOS Stream.
+[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) es un proyecto de repositorio gratuito y de código abierto basado en la comunidad del equipo de Fedora que proporciona paquetes de software complementarios de alta calidad para la distribución de Linux, incluidos RHEL (Red Hat Enterprise Linux) y CentOS Stream.
 
-[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) is a software package manager that installs, updates, and removes packages on Fedora and is the successor to YUM (Yellow-Dog Updater Modified). DNF makes it easy to maintain packages by automatically checking for dependencies and determines the actions required to install packages.
+[DNF (Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) es un gestor de paquetes de software que instala, actualiza y elimina paquetes en Fedora y es el sucesor de YUM (Yellow-Dog Updater Modified). DNF facilita el mantenimiento de los paquetes al comprobar automáticamente las dependencias y determinar las acciones necesarias para instalar los paquetes.
 
-[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf) is a lightweight C implementation of DNF, designed to be used for doing simple packaging actions when you don't need full-blown DNF and you want the tiniest useful environments possible. Checkout the [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
+[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf) es una implementación ligera en C de DNF, diseñada para realizar acciones de empaquetado sencillas cuando no se necesita un DNF completo y se desea disponer del entorno más pequeño posible. Echa un vistazo a [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
 
-[Fedora Updates System](https://bodhi.fedoraproject.org/) is a place to create, test, and publish package updates for Fedora.
+[Fedora Updates System](https://bodhi.fedoraproject.org/) es un lugar para crear, probar y publicar actualizaciones de paquetes para Fedora.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168177134-85efb869-c2d5-4d7a-9a53-a3f61a2d74e2.png">
 <br />
 </p>
 
-[BuildStream](https://gitlab.com/BuildStream/buildstream) is a flexible and extensible framework for the modelling of build pipelines in a declarative YAML format, written in python.
+[BuildStream](https://gitlab.com/BuildStream/buildstream) es un marco flexible y extensible para el modelado de canalizaciones de compilación en formato YAML declarativo, escrito en Python.
 
-[CoreOS Assembler (COSA)](https://github.com/coreos/coreos-assembler) is a collection of various tools used to build Fedora CoreOS style systems, including RHEL CoreOS. The goal is that everything needed to build and test the OS comes encapsulated in one (admittedly large) container.
+[CoreOS Assembler (COSA)](https://github.com/coreos/coreos-assembler) es una colección de diversas herramientas que se utilizan para compilar sistemas del estilo Fedora CoreOS, incluido RHEL CoreOS. El objetivo es que todo lo necesario para compilar y probar el sistema operativo quede encapsulado en un único contenedor (ciertamente grande).
 
-[OSTree](https://ostreedev.github.io/ostree/) is an upgrade system for Linux-based operating systems that performs atomic upgrades of complete filesystem trees. It is not a package system; rather, it is intended to complement them. Checkout the [OSTree GitHub](https://github.com/ostreedev/ostree). 
+[OSTree](https://ostreedev.github.io/ostree/) es un sistema de actualización para sistemas operativos basados en Linux que realiza actualizaciones atómicas de árboles completos del sistema de archivos. No es un sistema de paquetes, sino que está pensado para complementarlos. Echa un vistazo a [OSTree GitHub](https://github.com/ostreedev/ostree). 
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/167503492-1d768b22-4044-4093-a8ee-61a5df9613b8.png">
@@ -2706,9 +2709,9 @@ sudo systemctl start ufw
 OSTree
 </p>
 
-[rpm-ostree](https://coreos.github.io/rpm-ostree/) is a hybrid image/package system. It combines [libostree](https://ostreedev.github.io/ostree/) as a base image format, and accepts RPM on both the client and server side, sharing code with the [dnf](https://en.wikipedia.org/wiki/DNF_(software)) project; specifically [libdnf](https://github.com/rpm-software-management/libdnf). Thus bringing many of the benefits of both projects together.
+[rpm-ostree](https://coreos.github.io/rpm-ostree/) es un sistema híbrido de imágenes y paquetes. Combina [libostree](https://ostreedev.github.io/ostree/) como formato de imagen base y acepta RPM tanto en el lado del cliente como en el del servidor, compartiendo código con el proyecto [dnf](https://en.wikipedia.org/wiki/DNF_(software)); concretamente [libdnf](https://github.com/rpm-software-management/libdnf) . De este modo, se combinan muchas de las ventajas de ambos proyectos.
 
-[Pulp](https://pulpproject.org/) is a software repository platform for Fetching, Uploading, Organizing, and Distributing Software Packages.
+[Pulp](https://pulpproject.org/) es una plataforma de repositorio de software para obtener, cargar, organizar y distribuir paquetes de software.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/167503480-792b4842-1371-4c4e-b8ea-5e135292663c.png">
@@ -2716,31 +2719,31 @@ OSTree
 Pulp Platform
 </p>
 
-[Pulp OSTree Plugin](https://github.com/pulp/pulp_ostree) is a Pulp plugin to support hosting your own OSTree content.
+[Pulp OSTree Plugin](https://github.com/pulp/pulp_ostree) es un complemento de Pulp que permite alojar su propio contenido OSTree.
 
-[RPM Package Manager (RPM)](https://rpm.org/) is a powerful package management system capable of building computer software from source into easily distributable packages installing, updating and uninstalling packaged software querying detailed information about the packaged software, whether installed or not.
+[RPM Package Manager (RPM)](https://rpm.org/) es un potente sistema de gestión de paquetes capaz de compilar software informático a partir del código fuente en paquetes fácilmente distribuibles, instalar, actualizar y desinstalar software empaquetado, y consultar información detallada sobre el software empaquetado, esté instalado o no.
 
-[RPM Fusion](https://rpmfusion.org) is a software repository provides software that the Fedora Project or Red Hat doesn't want to ship. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
+[RPM Fusion](https://rpmfusion.org) es un repositorio de software que proporciona software que el Proyecto Fedora o Red Hat no quieren distribuir. Ese software se proporciona como RPM precompilados para todas las versiones actuales de Fedora y las versiones actuales de Red Hat Enterprise Linux o clones; puede utilizar los repositorios de RPM Fusion con herramientas como yum y PackageKit.
 
-[PipeWire](https://pipewire.org) is a server and user space API to deal with multimedia pipelines.It provides a low-latency, graph based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both pulseaudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy. Nodes in the graph can be implemented as separate processes, communicating with sockets and exchanging multimedia content using fd passing.
+[PipeWire](https://pipewire.org) es una API de servidor y espacio de usuario para gestionar canalizaciones multimedia. Proporciona un motor de procesamiento basado en gráficos y de baja latencia sobre dispositivos de audio y vídeo que se puede utilizar para dar soporte a los casos de uso que actualmente gestionan tanto pulseaudio como JACK. PipeWire se diseñó con un potente modelo de seguridad que facilita la interacción con dispositivos de audio y vídeo desde aplicaciones en contenedores. Los nodos del gráfico se pueden implementar como procesos independientes, que se comunican con sockets e intercambian contenido multimedia mediante el paso de fd.
 
-[WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. The WirePlumber daemon implements the session & policy management service. It follows a modular design, having plugins that implement the actual management functionality.
+[WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) es un administrador modular de sesiones y políticas para [PipeWire](https://pipewire.org/) y una biblioteca de alto nivel basada en GObject que envuelve la API de PipeWire, lo que facilita la escritura de los módulos del demonio, así como de herramientas externas para administrar PipeWire. El demonio WirePlumber implementa el servicio de gestión de sesiones y políticas. Sigue un diseño modular, con complementos que implementan la funcionalidad de gestión real.
 
-[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) es un moderno sistema de archivos de copia en escritura (CoW) para Linux destinado a implementar funciones avanzadas, al tiempo que se centra en la tolerancia a fallos, la reparación y la facilidad de administración. Sus principales características y ventajas son:
 
-  - Snapshots which do not make the full copy of files.
-  - RAID - support for software-based RAID 0, RAID 1, RAID 10.
-  - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions.
+- Instantáneas que no realizan una copia completa de los archivos.
+- RAID: compatibilidad con RAID 0, RAID 1 y RAID 10 basados en software.
+- Autorreparación: sumas de comprobación para datos y metadatos, detección automática de corrupciones silenciosas de datos.
 
-[Anaconda](http://fedoraproject.org/wiki/Anaconda) is an OS installer used by Fedora, Red Hat Enterprise Linux (RHEL), CentOS Stream and other Linux distributions.
+[Anaconda](http://fedoraproject.org/wiki/Anaconda) es un instalador de sistemas operativos utilizado por Fedora, Red Hat Enterprise Linux (RHEL), CentOS Stream y otras distribuciones de Linux.
 
-[Fedora Labs](https://labs.fedoraproject.org/) is a selection of curated bundles of purpose-driven software and content as curated and maintained by members of the Fedora Community. These may be installed as standalone full versions of Fedora or as add-ons to existing Fedora installations. 
+[Fedora Labs](https://labs.fedoraproject.org/) es una selección de paquetes de software y contenido con fines específicos, seleccionados y mantenidos por miembros de la comunidad Fedora. Estos pueden instalarse como versiones completas independientes de Fedora o como complementos de instalaciones existentes de Fedora. 
 
-[Fedora Special Interest Groups (SIGs)](https://fedoraproject.org/wiki/Category:SIGs?rd=SIGs) are teams within the Fedora Project that are less formal than official subprojects. The SIGs are sometimes a first stage in the development of new projects within the Fedora Project.  
+Los [Grupos de Interés Especial (SIG) de Fedora](https://fedoraproject.org/wiki/Category:SIGs?rd=SIGs) son equipos dentro del Proyecto Fedora que son menos formales que los subproyectos oficiales. Los SIG son a veces la primera etapa en el desarrollo de nuevos proyectos dentro del Proyecto Fedora.  
 
-[Fedora Media Writer](https://fedoramagazine.org/make-fedora-usb-stick/) is a tool in Fedora that will set up your flash drive to run a "Live" version of Fedora Workstation, meaning that you can boot it from your flash drive and try it out right away without making any permanent changes to your computer.
+[Fedora Media Writer](https://fedoramagazine.org/make-fedora-usb-stick/) es una herramienta de Fedora que configura su unidad flash para ejecutar una versión «en vivo» de Fedora Workstation, lo que significa que puede arrancarla desde su unidad flash y probarla de inmediato sin realizar cambios permanentes en su computadora.
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
 [Using Fedora with Microsoft’s WSL2](https://fedoramagazine.org/wsl-fedora-33/)
 
@@ -2780,41 +2783,41 @@ Red Hat Enterprise Linux Desktop
   <br />
 </p>
 
-### Getting Started with SUSE/openSUSE
+### Introducción a SUSE/openSUSE
 
-[SUSE](https://www.suse.com/) is a leading Linux OS most adaptable Linux operating system and the only open Kubernetes management platform thanks to their acquistion of [Rancher](https://rancher.com/). They also developer of [SUSE Linux Enterprise](https://www.suse.com/download/) and the primary sponsor of the community-supported [openSUSE Project](https://software.opensuse.org/), which develops the openSUSE Linux distribution.
+[SUSE](https://www.suse.com/) es un sistema operativo Linux líder, el más adaptable y la única plataforma de gestión Kubernetes abierta gracias a la adquisición de [Rancher](https://rancher.com/). También es desarrollador de [SUSE Linux Enterprise](https://www.suse.com/download/) y el principal patrocinador del [proyecto openSUSE](https://software.opensuse.org/), respaldado por la comunidad, que desarrolla la distribución Linux openSUSE.
 
-[openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available. 
+[openSUSE Leap](https://en.opensuse.org/Portal:Leap) es una forma totalmente nueva de crear openSUSE y es un nuevo tipo de distribución híbrida de Linux. Leap utiliza el código fuente de SUSE Linux Enterprise (SLE), lo que le confiere un nivel de estabilidad inigualable por otras distribuciones de Linux, y lo combina con los desarrollos de la comunidad para ofrecer a los usuarios, desarrolladores y administradores de sistemas la mejor experiencia Linux estable disponible. 
 
-[openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) is a pure rolling release version of openSUSE containing the latest "stable" versions of all software instead of relying on rigid periodic release cycles. The project does this for users that want the newest stable software. 
+[openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) es una versión pura de openSUSE con lanzamiento continuo que contiene las últimas versiones «estables» de todo el software, en lugar de depender de ciclos de lanzamiento periódicos rígidos. El proyecto hace esto para los usuarios que desean el software estable más reciente. 
 
-[openSUSE Kubic](https://get.opensuse.org/kubic/) is a multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS. Kubic uses kubeadm to provide an easy way of configuring a Kubernetes cluster across multiple machines, while our MicroOS base keeps your operating system updated automatically, with fully atomic rollbacks if required.
+[openSUSE Kubic](https://get.opensuse.org/kubic/) es un sistema operativo independiente y para contenedores Kubernetes polivalente basado en openSUSE MicroOS. Kubic utiliza kubeadm para proporcionar una forma sencilla de configurar un clúster Kubernetes en varias máquinas, mientras que nuestra base MicroOS mantiene su sistema operativo actualizado automáticamente, con reversiones totalmente atómicas si es necesario.
 
-[openSUSE MicroOS](https://get.opensuse.org/microos/) is a M icro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem. It's designed to host container workloads with automated administration & patching.
+[openSUSE MicroOS](https://get.opensuse.org/microos/) es un sistema operativo de microservicios que proporciona actualizaciones transaccionales (atómicas) en un sistema de archivos raíz btrfs de solo lectura. Está diseñado para alojar cargas de trabajo de contenedores con administración y parches automatizados.
 
-[openSUSE Build Service](https://build.opensuse.org/) is the public instance of the Open Build Service (OBS) used for development of the openSUSE distribution and to offer packages from same source for Fedora, Debian, Ubuntu, SUSE Linux Enterprise and other distributions.
+[openSUSE Build Service](https://build.opensuse.org/) es la instancia pública del Open Build Service (OBS) que se utiliza para el desarrollo de la distribución openSUSE y para ofrecer paquetes de la misma fuente para Fedora, Debian, Ubuntu, SUSE Linux Enterprise y otras distribuciones.
 
-[YaST](https://yast.opensuse.org/) is a installation and configuration tool for openSUSE and the SUSE Linux Enterprise distributions. It features an easy-to-use interface and powerful configuration capabilities.
+[YaST](https://yast.opensuse.org/) es una herramienta de instalación y configuración para openSUSE y las distribuciones SUSE Linux Enterprise. Cuenta con una interfaz fácil de usar y potentes capacidades de configuración.
 
-[Zypper](https://software.opensuse.org/package/zypper) is a command line package manager which makes use of libzypp. It provides functions like repository access, dependency solving, package installation, etc. Zypper repositories are similar to the ones used in YaST, which also makes use of libzypp.
+[Zypper](https://software.opensuse.org/package/zypper) es un administrador de paquetes de línea de comandos que utiliza libzypp. Proporciona funciones como acceso a repositorios, resolución de dependencias, instalación de paquetes, etc. Los repositorios de Zypper son similares a los utilizados en YaST, que también utiliza libzypp.
 
-[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) iEs un moderno sistema de archivos de copia en escritura (CoW) para Linux destinado a implementar funciones avanzadas, al tiempo que se centra en la tolerancia a fallos, la reparación y la facilidad de administración. Sus principales características y ventajas son:
 
-  - Snapshots which do not make the full copy of files.
-  - RAID - support for software-based RAID 0, RAID 1, RAID 10.
-  - Self-healing - checksums for data and metadata, automatic detection of silent data corruptions.
+- Instantáneas que no realizan una copia completa de los archivos.
+- RAID: compatibilidad con RAID 0, RAID 1 y RAID 10 basados en software.
+  - Autorreparación: sumas de comprobación para datos y metadatos, detección automática de corrupciones silenciosas de datos.
 
-[KIWI Next Generation (KIWI NG)](https://osinside.github.io/kiwi/) is a command line utility to build Linux system appliances.
+[KIWI Next Generation (KIWI NG)](https://osinside.github.io/kiwi/) es una utilidad de línea de comandos para crear dispositivos del sistema Linux.
 
 [openSUSE for WSL (Windows Subsystem for Linux)](https://en.opensuse.org/openSUSE:WSL)
 
 [SUSE Linux Enterprise Server for WSL (Windows Subsystem for Linux)](https://www.microsoft.com/en-us/p/suse-linux-enterprise-server-15-sp1/9pn498vpmf3z?activetab=pivot:overviewtab)
 
-[Rancher](https://rancher.com) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads. They were [acquired by SUSE in July 2020](https://rancher.com/blog/2020/suse-to-acquire-rancher/).
+[Rancher](https://rancher.com) es una pila de software completa para equipos que adoptan contenedores. Aborda los retos operativos y de seguridad que plantea la gestión de múltiples clústeres de Kubernetes, al tiempo que proporciona a los equipos de DevOps herramientas integradas para ejecutar cargas de trabajo en contenedores. Fueron adquiridos por SUSE en julio de 2020 (https://rancher.com/blog/2020/suse-to-acquire-rancher/).
 
-[openSUSE Wiki](https://en.opensuse.org/Main_Page)  is the source of information about the openSUSE project and distribution. The goal is to provide high quality documentation and a place for collaboration on all parts of the project.
+[openSUSE Wiki](https://en.opensuse.org/Main_Page) es la fuente de información sobre el proyecto y la distribución openSUSE. El objetivo es proporcionar documentación de alta calidad y un lugar para la colaboración en todas las partes del proyecto.
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
 
  <h1 align="center">
@@ -2838,19 +2841,19 @@ Red Hat Enterprise Linux Desktop
   <br />
 </p>
 
-## Getting Started Arch Linux
+## Introduccion a Arch Linux
 
-[Arch Linux](https://archlinux.org/) is an independently developed, x86-64 general purpose GNU/Linux distribution versatile enough to suit any role. Development focuses on simplicity, minimalism, and code elegance. Arch is installed as a minimal base system, configured by the user upon which their own ideal environment is assembled by installing only what is required or desired for their unique purposes.
+[Arch Linux](https://archlinux.org/) iEs una distribución GNU/Linux de propósito general x86-64 desarrollada de forma independiente y lo suficientemente versátil como para adaptarse a cualquier función. Su desarrollo se centra en la simplicidad, el minimalismo y la elegancia del código. Arch se instala como un sistema base mínimo, configurado por el usuario, sobre el que se monta su propio entorno ideal instalando solo lo necesario o deseado para sus fines específicos.
 
-[ArchWiki](https://wiki.archlinux.org) is the best source for Arch Linux documentation on the web.
+[ArchWiki](https://wiki.archlinux.org) es la mejor fuente de documentación sobre Arch Linux en la web.
 
 [Arch Linux on WSL(Windows Subsystem for Linux)](https://github.com/yuk7/ArchWSL)
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+[Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
-### Arch Linux User Repository (AUR)
+### Repositorio de usuarios de Arch Linux (AUR)
 
-[Arch Linux User Repository (AUR)](https://aur.archlinux.org/) contains thousands build scripts, for compiling nearly 68,000 installable packages from source using the Arch Linux makepkg application.
+[Repositorio de usuarios de Arch Linux (AUR)](https://aur.archlinux.org/) contiene miles de scripts de compilación para compilar casi 68 000 paquetes instalables desde el código fuente utilizando la aplicación makepkg de Arch Linux.
 
 ### Good Arch Linux Desktops for everyday use.
 
@@ -2887,7 +2890,7 @@ Red Hat Enterprise Linux Desktop
 ArcoLinux Desktop
 </h3>
 
-[Steam OS 3.0](https://store.steampowered.com/steamdeck) is an [immutable](https://en.wikipedia.org/wiki/Immutable_object) Operating System(OS) using the [KDE Plasma](https://kde.org/plasma-desktop) desktop. This allows you to install applications in containers using [Flatpak](https://flatpak.org/), rather than onto the root filesystem. This means not only that the installation of applications is isolated from the core filesystem, but also that the ability for malicious applications to compromise/break your system is significantly reduced.
+[Steam OS 3.0](https://store.steampowered.com/steamdeck) es un sistema operativo (SO) [inmutable](https://en.wikipedia.org/wiki/Immutable_object) que utiliza el escritorio [KDE Plasma](https://kde.org/plasma-desktop). Esto le permite instalar aplicaciones en contenedores utilizando [Flatpak](https://flatpak.org/), en lugar de hacerlo en el sistema de archivos raíz. Esto significa no solo que la instalación de aplicaciones está aislada del sistema de archivos central, sino también que se reduce significativamente la posibilidad de que aplicaciones maliciosas comprometan o dañen su sistema.
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157353163-6f5c4c1a-a89f-4ee5-9ffe-1d9f991c773c.png">
@@ -2904,19 +2907,19 @@ ArcoLinux Desktop
 </p>
 
 
-## Getting Started NixOS
+## Introducción a NixOS
 
-[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks.
+[NixOS](https://nixos.org/) es una distribución de Linux basada en el [gestor de paquetes Nix](https://nixos.wiki/wiki/Nix). Cuenta con herramientas específicas para tareas de DevOps e implementación.
 
-[Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
+[Nix Tour](https://nixcloud.io/tour/) es un recorrido interactivo que utiliza el gestor de paquetes real para enseñarle el lenguaje con ejemplos, en el navegador.
 
-[Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+[Nix](https://nixos.wiki/wiki/Nix) es un gestor de paquetes y un sistema de compilación que analiza instrucciones de compilación reproducibles especificadas en el [lenguaje de expresiones Nix](https://nixos.wiki/wiki/Nix_Expression_Language), un lenguaje funcional puro con evaluación perezosa. Las expresiones Nix son funciones puras que toman dependencias como argumentos y producen derivaciones que especifican un entorno de compilación reproducible para el paquete. Nix almacena los resultados de la compilación en direcciones únicas especificadas por un hash del árbol de dependencias completo, creando un almacén de paquetes inmutable que permite actualizaciones atómicas, reversiones e instalaciones simultáneas de diferentes versiones de un paquete, eliminando esencialmente el [infierno de las dependencias](https://en.wikipedia.org/wiki/Dependency_hell).
 
-[Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
+[Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) es un lenguaje funcional puro y perezoso. La pureza significa que las operaciones en el lenguaje no tienen efectos secundarios (por ejemplo, no hay asignación de variables). El lenguaje no es un lenguaje completo y de propósito general. Su función principal es describir paquetes, composiciones de paquetes y la variabilidad dentro de los paquetes.
 
-[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) es el mayor repositorio de paquetes [Nix](https://nixos.wiki/wiki/Nix) (más de 80 000 paquetes) y módulos [NixOS](https://nixos.wiki/wiki/NixOS). El repositorio está alojado en GitHub (https://github.com/nixos/nixpkgs) y es mantenido por la comunidad, con el respaldo oficial de la Fundación NixOS (https://nixos.org/). Además, consulte los [ayudantes de paquetes específicos de cada lenguaje](https://nixos.wiki/wiki/Language-specific_package_helpers) y los [conjuntos de paquetes alternativos](https://nixos.wiki/wiki/Alternative_Package_Sets).
 
-[NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
+[NixOS Packages Search](https://search.nixos.org/packages) es una herramienta para buscar paquetes NixOS.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/173939766-8972583c-855e-4a9b-b9f1-761b60ea255e.png">
@@ -2970,158 +2973,159 @@ ArcoLinux Desktop
 ## NixOS Tools and Modules
 [Back to the Top](https://github.com/VanitasuShieda/NixOS-Guide#table-of-contents)
 
- - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
+ - [Hydra](https://github.com/nixos/hydra) es el sistema oficial de integración continua y compilación de Nix.
 
- - [Kubenix](https://github.com/xtruder/kubenix) is a Kubernetes resource builder written in Nix.
+- [Kubenix](https://github.com/xtruder/kubenix) es un generador de recursos de Kubernetes escrito en Nix.
 
- - [Nix-kubernetes](https://github.com/xtruder/nix-kubernetes) is a Kubernetes deployment manager written in nix.
+ - [Nix-kubernetes](https://github.com/xtruder/nix-kubernetes) es un gestor de implementación de Kubernetes escrito en Nix.
 
- - [Disnix](https://github.com/svanderburg/disnix) is a microservice architecture built with Nix.
+ - [Disnix](https://github.com/svanderburg/disnix) es una arquitectura de microservicios creada con Nix.
 
- - [Hail](https://github.com/TaktInc/hail) is a service for pull-based continuous deployment.
+ - [Hail](https://github.com/TaktInc/hail) es un servicio para la implementación continua basada en pull.
 
- - [Morph](https://github.com/DBCDK/morph) is a NixOS deployment tool.
+ - [Morph](https://github.com/DBCDK/morph) es una herramienta de implementación de NixOS.
 
- - [Nixery](https://nixery.dev/) is a ad-hoc container images from Nix.
+ - [Nixery](https://nixery.dev/) es una imagen de contenedor ad hoc de Nix.
 
- - [Home Manager](https://github.com/nix-community/home-manager) is a tool to manage your user configuration just like NixOS.s.
+ - [Home Manager](https://github.com/nix-community/home-manager) es una herramienta para administrar la configuración de usuario al igual que NixOS.s.
 
- - [NixVim](https://github.com/pta2002/nixvim) is a NeoVim distribution built with Nix modules and Nixpkgs.
+ - [NixVim](https://github.com/pta2002/nixvim) es una distribución NeoVim creada con módulos Nix y Nixpkgs.
 
- - [Simple Nixos Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) is a complete mailserver, managed with NixOS modules.
+ - [Simple Nixos Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) es un servidor de correo completo, gestionado con módulos NixOS.
 
- - [Stylix](https://github.com/danth/stylix) is a system-wide colorscheming and typography for NixOS.
+ - [Stylix](https://github.com/danth/stylix) es un esquema de colores y tipografía para todo el sistema NixOS.
 
- - [Awesome-Nix-HPC](https://github.com/freuk/awesome-nix-hpc) is a High Performance Computing package sets.
+ - [Awesome-Nix-HPC](https://github.com/freuk/awesome-nix-hpc) es un conjunto de paquetes de computación de alto rendimiento.
 
- - [Nix-darwin](https://github.com/LnL7/nix-darwin) is a tool to manage macOS configuration just like on NixOS.
+- [Nix-darwin](https://github.com/LnL7/nix-darwin) es una herramienta para administrar la configuración de macOS igual que en NixOS.
+  
+ - [Nixpkgs-firefox-darwin](https://github.com/bandithedoge/nixpkgs-firefox-darwin) es un nikpkg para actualizar automáticamente los paquetes binarios de Firefox para macOS.
 
- - [Nixpkgs-firefox-darwin](https://github.com/bandithedoge/nixpkgs-firefox-darwin) is a nikpkg to automatically updated Firefox binary packages for macOS.
+- [Nixpkgs-wayland](https://github.com/nix-community/nixpkgs-wayland) es un paquete Wayland de última generación.
 
- - [Nixpkgs-wayland](https://github.com/nix-community/nixpkgs-wayland) is a bleeding-edge Wayland packages.
+ - [NUR (Nix User Repositories)](https://github.com/nix-community/NUR/) es la madre de todas las superposiciones, ya que permite acceder a los repositorios de los usuarios e instalar paquetes a través de atributos.
 
- - [NUR(Nix User Repositories)](https://github.com/nix-community/NUR/) is the mother of all overlays, allowing access to user repositories and installing packages via attributes.
+- [Alejandra](https://github.com/kamadorueda/alejandra) es un formateador de código Nix optimizado para la velocidad y la coherencia.
 
- - [Alejandra](https://github.com/kamadorueda/alejandra) is a opinionated Nix code formatter optimized for speed and consistency.
+ - [Comma](https://github.com/Shopify/comma) es una herramienta que ejecuta rápidamente cualquier binario; combina `nix run` y `nix-index`.
 
- - [Comma](https://github.com/Shopify/comma) is a tool that quickly runs any binary; wraps together `nix run` and `nix-index`
+ - [Colmena](https://github.com/zhaofengli/colmena) es una herramienta de implementación de NixOS sencilla y sin estado, inspirada en NixOps y morph.
 
- - [Colmena](https://github.com/zhaofengli/colmena) is a simple, stateless NixOS deployment tool modeled after NixOps and morph.
+ - [Krops](https://cgit.krebsco.de/krops/about/) es un kit de herramientas ligero para implementar sistemas NixOS, de forma remota o local.
 
- - [Krops](https://cgit.krebsco.de/krops/about/) is a lightweight toolkit to deploy NixOS systems, remotely or locally.
+ - [KuberNix](https://github.com/saschagrunert/kubernix) es un clúster de Kubernetes de dependencia única a través de paquetes Nix.
 
- - [KuberNix](https://github.com/saschagrunert/kubernix) is a single-dependency Kubernetes clusters via Nix packages.
+ - [Terraform-nixos](https://github.com/tweag/terraform-nixos) es un conjunto de módulos Terraform diseñados para implementar NixOS.
 
- - [Terraform-nixos](https://github.com/tweag/terraform-nixos) is a set of Terraform modules designed to deploy NixOS.
+ - [Terranix](https://terranix.org) es una herramienta para utilizar Nix y el sistema de módulos NixOS para escribir código Terraform.
 
- - [Terranix](https://terranix.org) is a tool to use Nix and the NixOS module system to write your Terraform code.
+ - [Arion](https://github.com/hercules-ci/arion#readme) es una configuración de Docker Compose con módulos Nix.
 
- - [Arion](https://github.com/hercules-ci/arion#readme) is a configure Docker Compose with Nix modules.
+- [Deploy-rs](https://github.com/serokell/deploy-rs) es una sencilla herramienta de implementación Nix-flake con múltiples perfiles.
 
- - [Deploy-rs](https://github.com/serokell/deploy-rs) is a simple multi-profile Nix-flake deploy tool.
+ - [Fractalide](https://github.com/fractalide/fractalide) es un software reutilizable, reproducible y componible.
 
- - [Fractalide](https://github.com/fractalide/fractalide) is a reusable Reproducible Composable Software.
+- [Nixos-shell](https://github.com/Mic92/nixos-shell) es una sencilla configuración de máquina virtual sin interfaz gráfica que utiliza Nix (similar a Vagrant).
 
- - [Nixos-shell](https://github.com/Mic92/nixos-shell) is a simple headless VM configuration using Nix (similar to Vagrant).
+ - [Pushnix](https://github.com/arnarg/pushnix) es una sencilla utilidad de línea de comandos que envía la configuración de NixOS y activa una reconstrucción mediante ssh.
 
- - [Pushnix](https://github.com/arnarg/pushnix) is a simple cli utility that pushes NixOS configuration and triggers a rebuild using ssh.
+- [Musnix](https://github.com/musnix/musnix) es un módulo de audio en tiempo real para NixOS.
 
- - [Musnix](https://github.com/musnix/musnix) is a real-time audio modules for NixOS.
+ - [Nix-bundle](https://github.com/matthewbauer/nix-bundle) es un paquete que atribuye Nix a ejecutables de un solo archivo.
 
- - [Nix-bundle](https://github.com/matthewbauer/nix-bundle) is a package Nix attributes into single-file executables.
+- [Extra-container](https://github.com/erikarvstedt/extra-container) es un contenedor NixOS declarativo que se ejecuta desde la línea de comandos. Similar a nixos-shell (chrisfarms).
 
- - [Extra-container](https://github.com/erikarvstedt/extra-container) is a run declarative NixOS containers from the command line. Similar to nixos-shell (chrisfarms).
+- [Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) es un conjunto de extensiones nixpkgs para tecnologías relacionadas con la web.
 
- - [Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) is a set of nixpkgs extension for web-related technologies.
+ - [Krops](https://cgit.krebsco.de/krops/about/) es una alternativa sin estado a nixops con una gestión de secretos mejorada.
 
- - [Krops](https://cgit.krebsco.de/krops/about/) is a stateless alternative to nixops with improved secret management.
-
- - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool that makes it easy to create and share reproducible python environments or packages. Existing tools for python package management often suffer from reproducibility and complexity issues, requiring a multitude of tools and additional virtualization layers to work sufficiently. 
+ - [Mach-nix](https://github.com/DavHau/mach-nix) es una herramienta que facilita la creación y el intercambio de entornos o paquetes Python reproducibles. Las herramientas existentes para la gestión de paquetes Python suelen adolecer de problemas de reproducibilidad y complejidad, lo que requiere una multitud de herramientas y capas de virtualización adicionales para funcionar correctamente.
  
-  - [Digga](https://github.com/divnix/digga) is a flake utility library that helps you declaratively craft and manage all three layers of your system environment within a single nix flakes repository:
+- [Digga](https://github.com/divnix/digga) es una biblioteca de utilidades flake que le ayuda a crear y gestionar de forma declarativa las tres capas de su entorno de sistema dentro de un único repositorio nix flakes:
 
-    * Development shells (via numtide/devshell).
-    * Home environments (via nix-community/home-manager).
-    * Host configurations (via NixOS/nixpkgs/nixos).
+  * Entornos de desarrollo (a través de numtide/devshell).
+  * Entornos domésticos (a través de nix-community/home-manager).
+  * Configuraciones de host (a través de NixOS/nixpkgs/nixos).
 
- - [Impermanence](https://github.com/nix-community/impermanence) is a set of modules to help you handle persistent state on systems with ephemeral root storage.
+ - [Impermanence](https://github.com/nix-community/impermanence) es un conjunto de módulos que le ayudan a gestionar el estado persistente en sistemas con almacenamiento raíz efímero.
  
- - [NixOS Vagrant Plugin](https://github.com/nix-community/vagrant-nixos-plugin) is a plugin that adds nix provisioning for [NixOS](https://nixos.org/) guests to [Vagrant](https://www.vagrantup.com/).
+ - [NixOS Vagrant Plugin](https://github.com/nix-community/vagrant-nixos-plugin) es un complemento que añade el aprovisionamiento de Nix para invitados [NixOS](https://nixos.org/) a [Vagrant](https://www.vagrantup.com/).
  
- - [Fenix](https://github.com/nix-community/fenix) is a Rust toolchains and Rust analyzer nightly for nix.
+ - [Fenix](https://github.com/nix-community/fenix) es un conjunto de herramientas Rust y un analizador Rust nocturno para Nix.
 
- - [NixOS-WSL](https://github.com/nix-community/NixOS-WSL) is a minimal root filesystem for running NixOS on WSL. It can be used with DistroLauncher as ```install.tar.gz``` or as input to ```wsl --import --version 2```.
+ - [NixOS-WSL](https://github.com/nix-community/NixOS-WSL) es un sistema de archivos raíz mínimo para ejecutar NixOS en WSL. Se puede utilizar con DistroLauncher como ```install.tar.gz``` o como entrada para ```wsl --import --version 2```
 
- - [Nix-bitcoin](https://github.com/nixbitcoin/nix-bitcoin/) is a set of NixOS modules to install a bitcoin node with emphasis on security.
+ - [Nix-bitcoin](https://github.com/nixbitcoin/nix-bitcoin/) es un conjunto de módulos NixOS para instalar un nodo bitcoin con énfasis en la seguridad.
 
- - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) is a review nixpkgs pull requests.
+ - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) revisa las solicitudes de extracción de nixpkgs.
 
- - [Nix-update](https://github.com/Mic92/nix-update) is a swiss army knife for updating nix packages.
+ - [Nix-update](https://github.com/Mic92/nix-update) es una navaja suiza para actualizar paquetes Nix.
 
- - [Nox](https://github.com/madjar/nox) is a set of tools to make Nix easier to use.
+ - [Nox](https://github.com/madjar/nox) es un conjunto de herramientas para facilitar el uso de Nix.
 
- - [Nix-diff](https://github.com/Gabriel439/nix-diff) is a tool to compare Nix derivations.
+ - [Nix-diff](https://github.com/Gabriel439/nix-diff) es una herramienta para comparar derivaciones de Nix.
 
- - [Niff](https://github.com/FRidh/niff) is a tool to compare two Nix expressions to determine what attributes changes.
+- [Niff](https://github.com/FRidh/niff) es una herramienta para comparar dos expresiones de Nix y determinar qué atributos cambian.
 
- - [Nix-upgrade-scripts](https://github.com/peterhoeg/nix-upgrade-scripts)  is a set of tools for Nixpkgs maintainers to upgrade packages.
+ - [Nix-upgrade-scripts](https://github.com/peterhoeg/nix-upgrade-scripts)  Es un conjunto de herramientas para que los administradores de Nixpkgs actualicen paquetes.
 
- - [Nixops-manager](https://github.com/grafted-in/nixops-manager) is a NixOps wrapper for Git repositories.
+- [Nixops-manager](https://github.com/grafted-in/nixops-manager) es un envoltorio NixOps para repositorios Git.
 
- - [Narfuse](https://github.com/taktoa/narfuse) is a FUSE filesystem for mounting Nix archive (NAR) files as a virtual Nix store.
+ - [Narfuse](https://github.com/taktoa/narfuse) es un sistema de archivos FUSE para montar archivos de archivo Nix (NAR) como un almacén Nix virtual.
 
- - [Nix-visualize](https://github.com/craigmbooth/nix-visualize) is a tool to visualize the dependencies of a given package.
+ - [Nix-visualize](https://github.com/craigmbooth/nix-visualize) es una herramienta para visualizar las dependencias de un paquete determinado.
 
- - [Home-manager](https://github.com/rycee/home-manager) is a system for managing a user environment using Nix.
+ - [Home-manager](https://github.com/rycee/home-manager) es un sistema para administrar el entorno de un usuario utilizando Nix.
 
- - [NixGl](https://github.com/guibou/nixGL) is a wrapper to run OpenGL applications outside of NixOS.
+ - [NixGl](https://github.com/guibou/nixGL) es un envoltorio para ejecutar aplicaciones OpenGL fuera de NixOS.
 
- - [Nixfmt](https://github.com/serokell/nixfmt) is a formatter for Nix code.
+- [Nixfmt](https://github.com/serokell/nixfmt) es un formateador para código Nix.
 
- - [Nix-index](https://github.com/bennofs/nix-index) is a tool that quickly locate Nix packages with specific files.
+ - [Nix-index](https://github.com/bennofs/nix-index) es una herramienta que localiza rápidamente paquetes Nix con archivos específicos.
 
- - [Nix-prefetch](https://github.com/msteen/nix-prefetch) is a universal tool for updating source checksums.
+ - [Nix-prefetch](https://github.com/msteen/nix-prefetch) es una herramienta universal para actualizar sumas de comprobación de fuentes.
 
- - [Nix-tree](https://github.com/utdemir/nix-tree) is a tool that let's you interactively browse the dependency graph of Nix derivations.
+ - [Nix-tree](https://github.com/utdemir/nix-tree) es una herramienta que permite explorar de forma interactiva el gráfico de dependencias de las derivaciones Nix.
 
- - [Statix](https://github.com/nerdypepper/statix) is a linter/fixer to check for and fix antipatterns in Nix code.
+- [Statix](https://github.com/nerdypepper/statix) es un linter/fixer para comprobar y corregir antipatrones en el código Nix.
 
- - [Cached-nix-shell](https://github.com/xzfc/cached-nix-shell) is a `nix-shell` replacement that uses caching to open subsequent shells quickly.
+ - [Cached-nix-shell](https://github.com/xzfc/cached-nix-shell) es un sustituto de `nix-shell` que utiliza el almacenamiento en caché para abrir rápidamente los shells posteriores.
 
- - [Cachix](https://cachix.org/) is a hosted binary cache service; free for open-source projects.
+- [Cachix](https://cachix.org/) es un servicio de caché binario alojado; gratuito para proyectos de código abierto.
 
- - [Devshell](https://github.com/numtide/devshell) is a `mkShell` with extra bits and a toml config option to be able to onboard non-nix users.
+ - [Devshell](https://github.com/numtide/devshell) es un `mkShell` con elementos adicionales y una opción de configuración toml para poder incorporar a usuarios que no utilizan Nix.
 
- - [Flake-utils](https://github.com/numtide/flake-utils) - Pure Nix flake utility functions to help with writing flakes.
+ - [Flake-utils](https://github.com/numtide/flake-utils): funciones utilitarias flake de Nix puro para ayudar a escribir flakes.
 
- - [Gitignore.nix](https://github.com/hercules-ci/gitignore.nix) - The most feature-complete and easy-to-use `.gitignore` integration.
+- [Gitignore.nix](https://github.com/hercules-ci/gitignore.nix): la integración `.gitignore` más completa y fácil de usar.
 
- - [Lorri](https://github.com/target/lorri/) is a much better `nix-shell` for development that augments direnv.
+ - [Lorri](https://github.com/target/lorri/) es un `nix-shell` mucho mejor para el desarrollo que mejora direnv.
 
- - [Makes](https://github.com/fluidattacks/makes) is a Nix-based CI/CD pipeline framework for building, testing, and releasing projects in any language, from anywhere. 
+- [Makes](https://github.com/fluidattacks/makes) es un marco de trabajo de CI/CD basado en Nix para crear, probar y lanzar proyectos en cualquier lenguaje, desde cualquier lugar. 
 
- - [Niv](https://github.com/nmattia/niv/) is a easy dependency management for Nix projects with package pinning.
+ - [Niv](https://github.com/nmattia/niv/) es una sencilla herramienta de gestión de dependencias para proyectos Nix con fijación de paquetes.
 
- - [Nix-direnv](https://github.com/nix-community/nix-direnv) is a fast loader and flake-compliant configuration for the direnv environment auto-loader.
+- [Nix-direnv](https://github.com/nix-community/nix-direnv) es un cargador rápido y una configuración compatible con flake para el autocargador del entorno direnv.
 
- - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) is the best tool to verify that a pull-request in Nixpkgs is building properly.
+ - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) es la mejor herramienta para verificar que una solicitud de extracción en Nixpkgs se está compilando correctamente.
 
- - [Pre-commit-hooks.nix](https://github.com/cachix/pre-commit-hooks.nix) is a tool to run linters/formatters at commit time and on your CI.
+ - [Pre-commit-hooks.nix](https://github.com/cachix/pre-commit-hooks.nix) es una herramienta para ejecutar linters/formateadores en el momento de la confirmación y en su CI.
 
- - [Robotnix](https://github.com/danielfullmer/robotnix) is a declarative and reproducible build system for Android (AOSP) images.
+ - [Robotnix](https://github.com/danielfullmer/robotnix) es un sistema de compilación declarativo y reproducible para imágenes de Android (AOSP).
 
- - [Nixpkgs-hammering](https://github.com/jtojnar/nixpkgs-hammering) is a nixpkg to beat your package expressions into a shape.
+- [Nixpkgs-hammering](https://github.com/jtojnar/nixpkgs-hammering) es un nixpkg para dar forma a las expresiones de los paquetes.
 
  - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
 
 ## NixOS Desktop
 [Back to the Top](https://github.com/VanitasuShieda/NixOS-Guide#table-of-contents)
 
- - [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+ - [Etcher](https://www.balena.io/etcher/) es un software de código abierto y multiplataforma que facilita la grabación de imágenes del sistema operativo en una tarjeta microSD o un dispositivo USB.
 
- - [nixos-generators](https://github.com/nix-community/nixos-generators) is a NixOS config and build multiple different images types including VirtualBox VMs, Azure images, and installation ISOs.
+ - [nixos-generators](https://github.com/nix-community/nixos-generators) es una configuración de NixOS y crea múltiples tipos de imágenes diferentes, incluyendo máquinas virtuales VirtualBox, imágenes Azure e ISO de instalación.
  
- - [nixos-up](https://github.com/samuela/nixos-up) is a super easy NixOS installer that can be used from the installation ISO.
+- [nixos-up](https://github.com/samuela/nixos-up) es un instalador de NixOS muy fácil de usar que se puede utilizar desde la ISO de instalación.
+
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/173939768-31847173-88ab-45f0-8501-0980d1a2a29e.png">
