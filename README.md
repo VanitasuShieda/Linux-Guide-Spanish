@@ -42,7 +42,7 @@ https://github.com/mikeroyal/Linux-Guide-Spanish
  # Tabla de Contenidos
  
 - [≽ܫ≼](#ܫ)
-      - [Una guía traducida sobre Linux que incluye sus múltiples entornos de escritorio, gestores de ventanas, herramientas y aplicaciones que te convertirán en un usuario de Linux mejor y más eficiente.](#una-guía-traducida-sobre-linux-que-incluye-sus-múltiples-entornos-de-escritorio-gestores-de-ventanas-herramientas-y-aplicaciones-que-te-convertirán-en-un-usuario-de-linux-mejor-y-más-eficiente)
+      - [Introducción](#Introducción)
 - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Recursos para aprender Linux](#recursos-para-aprender-linux)
     - [Repositorios de software y gestores de paquetes de Linux](#repositorios-de-software-y-gestores-de-paquetes-de-linux)
@@ -431,7 +431,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 # Entornos de escritorio Linux
 
- [Volver al Inicio](#tabla-de-contenidos)
+[Volver al Inicio](#tabla-de-contenidos)
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/189545533-4621b1a6-15c2-406a-9b89-b3ed43e47762.png">
@@ -535,7 +535,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
 ![unity-desktop](https://user-images.githubusercontent.com/45159366/62761607-e9ceed00-ba3b-11e9-900a-591c53152e1f.png?raw=true "unity-desktop")
 
-# Gestores de ventanas de Linux
+## Gestores de ventanas de Linux
 
  [Volver al Inicio](#tabla-de-contenidos)
 
