@@ -429,7 +429,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  
  * [Linux Game Cast](https://www.youtube.com/c/linuxgamecast)
 
-# Entornos de escritorio Linux
+ # Entornos de escritorio Linux
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -624,7 +624,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 ![Hyprland](https://camo.githubusercontent.com/14fcfb6512ea7aaa45f6381268e34802a234418664c4dfe7a86e1ab99a0f1ca7/68747470733a2f2f692e6962622e636f2f433179546230722f66616c662e706e67 "image")
 
 
-# Empresas Linux
+ # Empresas Linux
 
  [Volver al Inicio](#tabla-de-contenidos)
 
@@ -638,7 +638,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  * [System76](https://system76.com) creadores de [Pop!_OS](https://pop.system76.com/)
 
-# Proveedores de hardware para Linux
+ # Proveedores de hardware para Linux
 
 [Volver al Inicio](#tabla-de-contenidos)
 
@@ -664,7 +664,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
  
  * [Framework Laptop](https://frame.work/), Tenga en cuenta que deberá instalar Linux en su dispositivo, ya que no viene incluido con el portátil.
 
-# Linux en la nube
+ # Linux en la nube
 
  [Volver al Inicio](#tabla-de-contenidos)
 
@@ -708,7 +708,7 @@ Nota Personal: estos son algunos de los creadores de contenido que me gustan por
 
  * [Linode](https://linode.com/)
 
-# Obtener software
+ # Obtener software
 
  [Volver al Inicio](#tabla-de-contenidos)
 
