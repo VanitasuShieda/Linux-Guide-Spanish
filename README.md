@@ -10,7 +10,7 @@
 
 <br>
 
-# ≽ܫ≼
+#≽ܫ≼
 
 <a href="https://github.com/VanitasuShieda/Meowrch/tree/Meowrch-vanitasu"><img src="https://github.com/VanitasuShieda/Meowrch/blob/Meowrch-vanitasu/.meta/logocircle.png" width="280px" alt="Meowrch Logo"></a>
 
@@ -41,8 +41,6 @@ https://github.com/mikeroyal/Linux-Guide-Spanish
  
  # Tabla de Contenidos
  
-- [≽ܫ≼](#ܫ)
-  - [Introducción](#introducción)
 - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Recursos para aprender Linux](#recursos-para-aprender-linux)
     - [Repositorios de software y gestores de paquetes de Linux](#repositorios-de-software-y-gestores-de-paquetes-de-linux)
@@ -304,17 +302,17 @@ Linux kernel layout
 
 **Núcleos actuales de versión a largo plazo**
  
-|Versión |Responsable del mantenimiento |    Fecha de lanzamiento |Fecha prevista de fin de vida útil|
-|------|------|-----|-----|
-|6.18 |Greg Kroah-Hartman & Sasha Levin |2025-11-30 |Dec, 2026|
-|6.12 |Greg Kroah-Hartman & Sasha Levin |2024-11-17 |Dec, 2026|
-|6.6 |Greg Kroah-Hartman & Sasha Levin |2023-10-30 |Dec, 2026|
-|6.1 |Greg Kroah-Hartman & Sasha Levin |2022-12-11 |Dec, 2027|
-|5.15 |Greg Kroah-Hartman & Sasha Levin |2021-10-31 |Oct, 2026|
-|5.10 |Greg Kroah-Hartman & Sasha Levin |2020-12-13 |Dec, 2026|
-|5.4 |Greg Kroah-Hartman & Sasha Levin 	|2019-11-24 |Dec, 2025|
-|4.19 |Greg Kroah-Hartman & Sasha Levin |2018-10-22 |Dec, 2024|
-|4.14 |Greg Kroah-Hartman & Sasha Levin |2017-11-12 |Jan, 2024|
+| Versión | Responsable del mantenimiento    | Fecha de lanzamiento | Fecha prevista de fin de vida útil |
+| ------- | -------------------------------- | -------------------- | ---------------------------------- |
+| 6.18    | Greg Kroah-Hartman & Sasha Levin | 2025-11-30           | Dec, 2026                          |
+| 6.12    | Greg Kroah-Hartman & Sasha Levin | 2024-11-17           | Dec, 2026                          |
+| 6.6     | Greg Kroah-Hartman & Sasha Levin | 2023-10-30           | Dec, 2026                          |
+| 6.1     | Greg Kroah-Hartman & Sasha Levin | 2022-12-11           | Dec, 2027                          |
+| 5.15    | Greg Kroah-Hartman & Sasha Levin | 2021-10-31           | Oct, 2026                          |
+| 5.10    | Greg Kroah-Hartman & Sasha Levin | 2020-12-13           | Dec, 2026                          |
+| 5.4     | Greg Kroah-Hartman & Sasha Levin | 2019-11-24           | Dec, 2025                          |
+| 4.19    | Greg Kroah-Hartman & Sasha Levin | 2018-10-22           | Dec, 2024                          |
+| 4.14    | Greg Kroah-Hartman & Sasha Levin | 2017-11-12           | Jan, 2024                          |
 
 ### Systemd
 [Volver al Inicio](#tabla-de-contenidos)
@@ -1345,44 +1343,44 @@ TLPUI
  
  ### Complementos y temas útiles de terceros para OBS Studio.
 
-|  Tipo  | Nombre  | Descripcion |
-|------|------|-----|
-| Complemento  | **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** |  un cambiador de escenas automatizado. | 
-  | Complemento | **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** | controla la panoramización estéreo de la fuente de audio. |
-  | Complemento | **[Browser](https://github.com/obsproject/obs-browser)** | complemento del navegador OBS Studio basado en CEF.|
-  | Complemento | **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)** | filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.|
-  | Complemento | **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** | añade un muelle Downstream Keyer.|
-  | Complemento | **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** | filtro para retrasar dinámicamente una fuente de vídeo.|
-  | Complemento | **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** | congela una fuente utilizando un filtro.|
-  | Complemento | **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** | añade degradados como fuente.|
-  | Complementos | **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** | alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.|
-  | Complemento | **[Move Transition](https://github.com/exeldro/obs-move-transition)** | mueve la fuente a una nueva posición durante la transición de escena.|
-  | Complemento | **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** | proporciona un efecto personalizado para renderizar múltiples fuentes.|
-  | Complemento | **[NDI](https://github.com/Palakis/obs-ndi)** | red A/V a través de NDI de NewTek.|
-  | Complemento | **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** | captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo.|
-  | Complemento | **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture)** | captura el audio de la aplicación desde PulseAudio.|
-  | Complemento | **[Soundboard](https://github.com/cg2121/obs-soundboard)** | añade un panel de sonido.|
-  | Complemento | **[Source Copy](https://github.com/exeldro/obs-source-copy)** | añade opciones de copiar y pegar al menú de herramientas.|
-  | Complemento | **[Source Dock](https://github.com/exeldro/obs-source-dock)** | crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios. |
-  | Complemento | **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** | filtro de efecto de recursividad.|
-  | Complemento | **[Replay Source](https://github.com/exeldro/obs-replay-source)** | reproducción a cámara lenta de fuentes asíncronas desde la memoria.|
-  | Complemento | **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** | filtro sencillo para ajustar los niveles RGB.|
-  | Complemento | **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)** | codifica y publica en una transmisión RTSP.|
-  | Complemento | **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)** | añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.|
-  | Complemento | **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** | filtra, realiza copias de seguridad y restaura colecciones de escenas.|
-  | Complemento | **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)** | crea un Dock para mostrar y editar notas de la escena activa actual.|
-  | Complemento | **[Source Record](https://github.com/exeldro/obs-source-record)** | permite grabar fuentes a través de un filtro.|
-  | Complemento | **[Source Switcher](https://github.com/exeldro/obs-source-switcher)** | para cambiar entre una lista de fuentes.|
-  | Complemento | **[Spectralizer](https://github.com/univrsal/spectralizer)** | visualización de audio mediante fftw.|
-  | Complemento | **[StreamFX](https://github.com/Xaymar/obs-StreamFX)** | colección de filtros y transiciones de efectos modernos.|
-  | Complemento | **[Teleport](https://github.com/fzwoch/obs-teleport)** | sustituto abierto similar a NDI.|
-  | Complemento | **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)** | proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.|
-  | Complemento | **[Text PThread](https://github.com/norihiro/obs-text-pthread)** | complemento de fuente de texto enriquecido con muchas funciones avanzadas.|
-  | Complemento | **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)** | filtro de escaneo con distorsión temporal.|
-  | Complemento | **[Transition Table](https://github.com/exeldro/obs-transition-table)** | personaliza las transiciones entre escenas.|
-  | Complemento | **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** | permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.|
-  | Complemento | **[VNC Source](https://github.com/norihiro/obs-vnc)** | visor VNC que funciona como fuente.|
-  | Complemento | **[Websockets](https://github.com/Palakis/obs-websocket)** | controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).|
+| Tipo         | Nombre                                                                                  | Descripcion                                                                                                                                                            |
+| ------------ | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Complemento  | **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)**              | un cambiador de escenas automatizado.                                                                                                                                  |
+| Complemento  | **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)**                       | controla la panoramización estéreo de la fuente de audio.                                                                                                              |
+| Complemento  | **[Browser](https://github.com/obsproject/obs-browser)**                                | complemento del navegador OBS Studio basado en CEF.                                                                                                                    |
+| Complemento  | **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)**             | filtro que se puede añadir a la fuente multimedia para cargar el archivo más antiguo o más reciente de un directorio.                                                  |
+| Complemento  | **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)**                 | añade un muelle Downstream Keyer.                                                                                                                                      |
+| Complemento  | **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)**                       | filtro para retrasar dinámicamente una fuente de vídeo.                                                                                                                |
+| Complemento  | **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)**                       | congela una fuente utilizando un filtro.                                                                                                                               |
+| Complemento  | **[Gradient Source](https://github.com/exeldro/obs-gradient-source)**                   | añade degradados como fuente.                                                                                                                                          |
+| Complementos | **[GStreamer](https://github.com/fzwoch/obs-gstreamer)**                                | alimenta los canales de lanzamiento de GStreamer en OBS Studio y utiliza elementos codificadores de GStreamer.                                                         |
+| Complemento  | **[Move Transition](https://github.com/exeldro/obs-move-transition)**                   | mueve la fuente a una nueva posición durante la transición de escena.                                                                                                  |
+| Complemento  | **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)**           | proporciona un efecto personalizado para renderizar múltiples fuentes.                                                                                                 |
+| Complemento  | **[NDI](https://github.com/Palakis/obs-ndi)**                                           | red A/V a través de NDI de NewTek.                                                                                                                                     |
+| Complemento  | **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)**                                        | captura de pantalla a través de la API FBC de NVIDIA. Requiere [parches NvFBC para controladores Nvidia](https://github.com/keylase/nvidia-patch) para GPU de consumo. |
+| Complemento  | **[Pulse App Capture](https://github.com/jbwong05/obs-pulseaudio-app-capture)**         | captura el audio de la aplicación desde PulseAudio.                                                                                                                    |
+| Complemento  | **[Soundboard](https://github.com/cg2121/obs-soundboard)**                              | añade un panel de sonido.                                                                                                                                              |
+| Complemento  | **[Source Copy](https://github.com/exeldro/obs-source-copy)**                           | añade opciones de copiar y pegar al menú de herramientas.                                                                                                              |
+| Complemento  | **[Source Dock](https://github.com/exeldro/obs-source-dock)**                           | crea un Dock para una fuente, que te permite ver los niveles de audio, cambiar el volumen y controlar los medios.                                                      |
+| Complemento  | **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)**                 | filtro de efecto de recursividad.                                                                                                                                      |
+| Complemento  | **[Replay Source](https://github.com/exeldro/obs-replay-source)**                       | reproducción a cámara lenta de fuentes asíncronas desde la memoria.                                                                                                    |
+| Complemento  | **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)**             | filtro sencillo para ajustar los niveles RGB.                                                                                                                          |
+| Complemento  | **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)**                         | codifica y publica en una transmisión RTSP.                                                                                                                            |
+| Complemento  | **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)**                       | añade un filtro que escala una fuente en función de los niveles de audio de cualquier fuente de audio que elijas.                                                      |
+| Complemento  | **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** | filtra, realiza copias de seguridad y restaura colecciones de escenas.                                                                                                 |
+| Complemento  | **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)**                 | crea un Dock para mostrar y editar notas de la escena activa actual.                                                                                                   |
+| Complemento  | **[Source Record](https://github.com/exeldro/obs-source-record)**                       | permite grabar fuentes a través de un filtro.                                                                                                                          |
+| Complemento  | **[Source Switcher](https://github.com/exeldro/obs-source-switcher)**                   | para cambiar entre una lista de fuentes.                                                                                                                               |
+| Complemento  | **[Spectralizer](https://github.com/univrsal/spectralizer)**                            | visualización de audio mediante fftw.                                                                                                                                  |
+| Complemento  | **[StreamFX](https://github.com/Xaymar/obs-StreamFX)**                                  | colección de filtros y transiciones de efectos modernos.                                                                                                               |
+| Complemento  | **[Teleport](https://github.com/fzwoch/obs-teleport)**                                  | sustituto abierto similar a NDI.                                                                                                                                       |
+| Complemento  | **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)**                         | proporciona una fuente de texto renderizada con Pango con soporte multilingüe, soporte para emojis, renderización vertical y soporte RTL.                              |
+| Complemento  | **[Text PThread](https://github.com/norihiro/obs-text-pthread)**                        | complemento de fuente de texto enriquecido con muchas funciones avanzadas.                                                                                             |
+| Complemento  | **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)**                     | filtro de escaneo con distorsión temporal.                                                                                                                             |
+| Complemento  | **[Transition Table](https://github.com/exeldro/obs-transition-table)**                 | personaliza las transiciones entre escenas.                                                                                                                            |
+| Complemento  | **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)**             | permite que las fuentes estén disponibles para la cámara virtual a través de un filtro.                                                                                |
+| Complemento  | **[VNC Source](https://github.com/norihiro/obs-vnc)**                                   | visor VNC que funciona como fuente.                                                                                                                                    |
+| Complemento  | **[Websockets](https://github.com/Palakis/obs-websocket)**                              | controla OBS Studio de forma remota a través de WebSockets, compatible con [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).  |
   
 # Gaming
 [Volver al Inicio](#tabla-de-contenidos)
