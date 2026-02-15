@@ -19,7 +19,7 @@
 
 <br> 
 
-[![README ES](https://img.shields.io/badge/README-RU-blue?color=cba6f7&labelColor=1C2325&style=for-the-badge)](./README.md)
+[![README ES](https://img.shields.io/badge/README-ES-blue?color=cba6f7&labelColor=1C2325&style=for-the-badge)](./README.md)
 [![README ENG](https://img.shields.io/badge/README-ENG-blue?color=C9CBFF&labelColor=C9CBFF&style=for-the-badge)](./README.en.md)
 
 ---
